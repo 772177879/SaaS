@@ -62,7 +62,7 @@ class TestShare(MyTest, Login, New, Delete, Share):
         self.assertIn('创建副本', limit_list)
         self.assertIn('下载', limit_list)
         self.assertIn('查看详情', limit_list)
-        self.assertIn('移除', limit_list)
+        self.assertIn('退出共享', limit_list)
         self.assertNotIn('重命名', limit_list)
 
     def test_TestShare_02(self):
@@ -110,7 +110,7 @@ class TestShare(MyTest, Login, New, Delete, Share):
         self.assertIn('创建副本', limit_list)
         self.assertIn('下载', limit_list)
         self.assertIn('查看详情', limit_list)
-        self.assertIn('移除', limit_list)
+        self.assertIn('退出共享', limit_list)
         self.assertIn('重命名', limit_list)
         self.assertNotIn('删除', limit_list)
 
@@ -159,7 +159,7 @@ class TestShare(MyTest, Login, New, Delete, Share):
         self.assertNotIn('创建副本', limit_list)
         self.assertNotIn('下载', limit_list)
         self.assertIn('查看详情', limit_list)
-        self.assertIn('移除', limit_list)
+        self.assertIn('退出共享', limit_list)
         self.assertNotIn('重命名', limit_list)
         self.click_file('仅上传权限文件夹')     # 进入文件夹中
         self.verify_file_none_exist('wp共享文件.docx')      # 验证里面的文件看不见
@@ -209,7 +209,7 @@ class TestShare(MyTest, Login, New, Delete, Share):
         self.assertNotIn('创建副本', limit_list)
         self.assertNotIn('下载', limit_list)
         self.assertIn('查看详情', limit_list)
-        self.assertIn('移除', limit_list)
+        self.assertIn('退出共享', limit_list)
         self.assertNotIn('重命名', limit_list)
         self.click_file('查看权限文件夹')  # 进入文件夹中
         limit_list = self.get_file_limit('pg共享文件.pptx')  # 获取右击菜单的权限
@@ -221,7 +221,7 @@ class TestShare(MyTest, Login, New, Delete, Share):
         self.assertNotIn('创建副本', limit_list)
         self.assertNotIn('下载', limit_list)
         self.assertIn('查看详情', limit_list)
-        self.assertNotIn('移除', limit_list)
+        self.assertNotIn('退出共享', limit_list)
         self.assertNotIn('重命名', limit_list)
 
     def test_TestShare_05(self):
@@ -269,7 +269,7 @@ class TestShare(MyTest, Login, New, Delete, Share):
         self.assertIn('创建副本', limit_list)
         self.assertIn('下载', limit_list)
         self.assertIn('查看详情', limit_list)
-        self.assertIn('移除', limit_list)
+        self.assertIn('退出共享', limit_list)
         self.assertIn('重命名', limit_list)
         self.click_file('编辑权限文件夹')  # 进入文件夹中
         limit_list = self.get_file_limit('pg共享文件.pptx')  # 获取右击菜单的权限
@@ -282,6 +282,6 @@ class TestShare(MyTest, Login, New, Delete, Share):
         self.assertIn('移动到', limit_list)
         self.assertIn('下载', limit_list)
         self.assertIn('查看详情', limit_list)
-        self.assertNotIn('移除', limit_list)
+        self.assertNotIn('退出共享', limit_list)
         self.assertIn('重命名', limit_list)
         self.assertIn('放入回收站', limit_list)

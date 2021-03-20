@@ -8757,3 +8757,207 @@ selenium.common.exceptions.NoSuchElementException: Message: no such element: Una
 2021-03-15 10:45:42,511 - Logconfig.py - INFO - 关闭通知/公告界面
 2021-03-15 10:45:47,346 - Logconfig.py - INFO - stop monitor
 2021-03-15 10:45:49,505 - Logconfig.py - INFO - -----------------------------------test_Person_TestGroupLimit_04测试结束-------------------------------
+2021-03-20 13:56:16,197 - Logconfig.py - INFO - --------------------------test_TestCooperate_01测试开始----------------------------------------
+2021-03-20 13:56:19,727 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-03-20 13:56:19,841 - Logconfig.py - INFO - start monitor!
+2021-03-20 13:56:27,753 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-03-20 13:56:31,136 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-03-20 13:56:34,388 - Logconfig.py - INFO - 删除所有文件
+2021-03-20 13:56:43,003 - Logconfig.py - INFO - 新建文件:pg,pg协作文件,协作(查看权限)
+2021-03-20 13:56:52,816 - Logconfig.py - INFO - 编辑文件: pg, 协作(查看权限)
+2021-03-20 13:56:52,861 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/b/third.html?fileId=7868600792698281&version=-1&method=2&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E7%25A9%25BA%25E7%2599%25BD%25E7%25AE%2580%25E6%258A%25A5.pptx&uuid=ERxou6TQ
+2021-03-20 13:57:06,973 - Logconfig.py - INFO - 开启协作，并且选择权限:pg协作文件,单李冬, 查看
+2021-03-20 13:57:18,971 - Logconfig.py - INFO - 以下为退出登录操作
+2021-03-20 13:57:20,474 - Logconfig.py - INFO - 以下为登录操作:18870008000@0U7TX93.yozocloud.cn,zsy123
+2021-03-20 13:57:26,327 - Logconfig.py - INFO - 进入通知
+2021-03-20 13:57:26,395 - Logconfig.py - INFO - 进入通知里的协作
+2021-03-20 13:57:26,948 - Logconfig.py - INFO - 获取邀请协作的通知
+2021-03-20 13:57:27,482 - Logconfig.py - INFO - 关闭通知/公告界面
+2021-03-20 13:57:32,619 - Logconfig.py - INFO - stop monitor
+2021-03-20 13:57:35,143 - Logconfig.py - INFO - -----------------------------------test_TestCooperate_01测试结束-------------------------------
+2021-03-20 13:59:20,454 - Logconfig.py - INFO - --------------------------test_TestCooperate_01测试开始----------------------------------------
+2021-03-20 13:59:23,430 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-03-20 13:59:23,456 - Logconfig.py - INFO - start monitor!
+2021-03-20 13:59:31,103 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-03-20 13:59:34,461 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-03-20 13:59:37,686 - Logconfig.py - INFO - 删除所有文件
+2021-03-20 13:59:46,271 - Logconfig.py - INFO - 新建文件:pg,pg协作文件,协作(查看权限)
+2021-03-20 13:59:56,600 - Logconfig.py - INFO - 编辑文件: pg, 协作(查看权限)
+2021-03-20 13:59:56,641 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/b/third.html?fileId=1005173976833976&version=-1&method=2&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E7%25A9%25BA%25E7%2599%25BD%25E7%25AE%2580%25E6%258A%25A5.pptx&uuid=vb37M6Hx
+2021-03-20 14:00:10,774 - Logconfig.py - INFO - 开启协作，并且选择权限:pg协作文件,单李冬, 查看
+2021-03-20 14:00:22,851 - Logconfig.py - INFO - 以下为退出登录操作
+2021-03-20 14:00:24,310 - Logconfig.py - INFO - 以下为登录操作:18870008000@0U7TX93.yozocloud.cn,zsy123
+2021-03-20 14:00:30,107 - Logconfig.py - INFO - 进入通知
+2021-03-20 14:00:30,197 - Logconfig.py - INFO - 进入通知里的协作
+2021-03-20 14:00:30,771 - Logconfig.py - INFO - 获取邀请协作的通知
+2021-03-20 14:00:31,277 - Logconfig.py - INFO - 关闭通知/公告界面
+2021-03-20 14:00:36,358 - Logconfig.py - INFO - stop monitor
+2021-03-20 14:00:38,505 - Logconfig.py - INFO - -----------------------------------test_TestCooperate_01测试结束-------------------------------
+2021-03-20 14:00:38,507 - Logconfig.py - INFO - --------------------------test_TestCooperate_02测试开始----------------------------------------
+2021-03-20 14:00:41,760 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-03-20 14:00:41,772 - Logconfig.py - INFO - start monitor!
+2021-03-20 14:00:49,916 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-03-20 14:00:53,232 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-03-20 14:00:56,500 - Logconfig.py - INFO - 删除所有文件
+2021-03-20 14:01:05,026 - Logconfig.py - INFO - 新建文件:pg,pg协作文件,协作(查看权限)
+2021-03-20 14:01:15,250 - Logconfig.py - INFO - 编辑文件: pg, 协作(查看权限)
+2021-03-20 14:01:15,292 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/b/third.html?fileId=3770867937137745&version=-1&method=2&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E7%25A9%25BA%25E7%2599%25BD%25E7%25AE%2580%25E6%258A%25A5.pptx&uuid=tMdPfiYj
+2021-03-20 14:01:29,307 - Logconfig.py - INFO - 开启协作，并且选择权限:pg协作文件,单李冬, 查看
+2021-03-20 14:01:41,349 - Logconfig.py - INFO - 以下为退出登录操作
+2021-03-20 14:01:42,855 - Logconfig.py - INFO - 以下为登录操作:18870008000@0U7TX93.yozocloud.cn,zsy123
+2021-03-20 14:01:48,823 - Logconfig.py - INFO - 进入通知
+2021-03-20 14:01:48,896 - Logconfig.py - INFO - 进入通知里的协作
+2021-03-20 14:01:49,499 - Logconfig.py - INFO - 获取邀请协作的通知
+2021-03-20 14:01:49,915 - Logconfig.py - INFO - 关闭通知/公告界面
+2021-03-20 14:01:54,943 - Logconfig.py - INFO - stop monitor
+2021-03-20 14:01:57,027 - Logconfig.py - INFO - -----------------------------------test_TestCooperate_02测试结束-------------------------------
+2021-03-20 14:01:57,027 - Logconfig.py - INFO - --------------------------test_TestCooperate_03测试开始----------------------------------------
+2021-03-20 14:02:00,053 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-03-20 14:02:00,066 - Logconfig.py - INFO - start monitor!
+2021-03-20 14:02:07,920 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-03-20 14:02:11,257 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-03-20 14:02:14,526 - Logconfig.py - INFO - 删除所有文件
+2021-03-20 14:02:23,050 - Logconfig.py - INFO - 新建文件:wp,wp协作文件,协作(编辑权限)
+2021-03-20 14:02:32,350 - Logconfig.py - INFO - 编辑文件: wp, 协作(编辑权限)
+2021-03-20 14:02:32,446 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=4427234142031700&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E6%2596%2587%25E5%25AD%2597%25E6%2596%2587%25E6%25A1%25A3.docx&version=-1&method=2&uuid=ym1616220144035
+2021-03-20 14:02:44,588 - Logconfig.py - INFO - 开启协作，并且选择权限:wp协作文件,单李冬, 编辑
+2021-03-20 14:02:56,625 - Logconfig.py - INFO - 以下为退出登录操作
+2021-03-20 14:02:58,092 - Logconfig.py - INFO - 以下为登录操作:18870008000@0U7TX93.yozocloud.cn,zsy123
+2021-03-20 14:03:03,918 - Logconfig.py - INFO - 进入通知
+2021-03-20 14:03:03,991 - Logconfig.py - INFO - 进入通知里的协作
+2021-03-20 14:03:04,832 - Logconfig.py - INFO - 获取邀请协作的通知
+2021-03-20 14:03:05,133 - Logconfig.py - INFO - 关闭通知/公告界面
+2021-03-20 14:03:13,429 - Logconfig.py - INFO - stop monitor
+2021-03-20 14:03:15,561 - Logconfig.py - INFO - -----------------------------------test_TestCooperate_03测试结束-------------------------------
+2021-03-20 14:03:15,562 - Logconfig.py - INFO - --------------------------test_TestCooperate_04测试开始----------------------------------------
+2021-03-20 14:03:18,762 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-03-20 14:03:18,778 - Logconfig.py - INFO - start monitor!
+2021-03-20 14:03:26,412 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-03-20 14:03:29,772 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-03-20 14:03:32,991 - Logconfig.py - INFO - 删除所有文件
+2021-03-20 14:03:41,581 - Logconfig.py - INFO - 新建文件:wp,wp协作文件,协作(编辑权限)
+2021-03-20 14:03:50,708 - Logconfig.py - INFO - 编辑文件: wp, 协作(编辑权限)
+2021-03-20 14:03:50,747 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=5615656911581543&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E6%2596%2587%25E5%25AD%2597%25E6%2596%2587%25E6%25A1%25A3.docx&version=-1&method=2&uuid=ym1616220222901
+2021-03-20 14:04:02,872 - Logconfig.py - INFO - 开启协作，并且选择权限:wp协作文件,单李冬, 编辑
+2021-03-20 14:04:14,908 - Logconfig.py - INFO - 以下为退出登录操作
+2021-03-20 14:04:16,398 - Logconfig.py - INFO - 以下为登录操作:18870008000@0U7TX93.yozocloud.cn,zsy123
+2021-03-20 14:04:22,282 - Logconfig.py - INFO - 进入通知
+2021-03-20 14:04:22,356 - Logconfig.py - INFO - 进入通知里的协作
+2021-03-20 14:04:22,910 - Logconfig.py - INFO - 获取邀请协作的通知
+2021-03-20 14:04:23,378 - Logconfig.py - INFO - 关闭通知/公告界面
+2021-03-20 14:04:31,560 - Logconfig.py - INFO - stop monitor
+2021-03-20 14:04:33,729 - Logconfig.py - INFO - -----------------------------------test_TestCooperate_04测试结束-------------------------------
+2021-03-20 14:07:12,710 - Logconfig.py - INFO - --------------------------test_TestShare_01测试开始----------------------------------------
+2021-03-20 14:07:15,953 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-03-20 14:07:15,976 - Logconfig.py - INFO - start monitor!
+2021-03-20 14:07:24,379 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-03-20 14:07:27,718 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-03-20 14:07:30,954 - Logconfig.py - INFO - 删除所有文件
+2021-03-20 14:07:39,493 - Logconfig.py - INFO - 新建文件:ss,ss共享文件,共享(查看权限)
+2021-03-20 14:07:49,041 - Logconfig.py - INFO - 编辑文件: ss, 共享(查看权限)
+2021-03-20 14:07:49,083 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=2851245304764980&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1616220460773
+2021-03-20 14:08:01,247 - Logconfig.py - INFO - 开启共享:ss共享文件,查看
+2021-03-20 14:08:08,735 - Logconfig.py - INFO - 获取共享链接
+2021-03-20 14:08:08,762 - Logconfig.py - INFO - 获取共享的密码
+2021-03-20 14:08:10,856 - Logconfig.py - INFO - 以下为退出登录操作
+2021-03-20 14:08:16,566 - Logconfig.py - INFO - 获取链接共享界面的文件列表
+2021-03-20 14:08:16,814 - Logconfig.py - INFO - 以下为登录操作:18870008000@0U7TX93.yozocloud.cn,zsy123
+2021-03-20 14:08:25,486 - Logconfig.py - INFO - 获取链接共享界面的文件列表
+2021-03-20 14:08:35,003 - Logconfig.py - INFO - stop monitor
+2021-03-20 14:08:37,140 - Logconfig.py - INFO - -----------------------------------test_TestShare_01测试结束-------------------------------
+2021-03-20 14:08:37,142 - Logconfig.py - INFO - --------------------------test_TestShare_02测试开始----------------------------------------
+2021-03-20 14:08:40,170 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-03-20 14:08:40,187 - Logconfig.py - INFO - start monitor!
+2021-03-20 14:08:48,030 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-03-20 14:08:51,403 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-03-20 14:08:54,606 - Logconfig.py - INFO - 删除所有文件
+2021-03-20 14:09:03,222 - Logconfig.py - INFO - 新建文件:ss,ss共享文件,共享(编辑权限)
+2021-03-20 14:09:13,192 - Logconfig.py - INFO - 编辑文件: ss, 共享(编辑权限)
+2021-03-20 14:09:13,229 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=6523398077648506&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1616220544765
+2021-03-20 14:09:25,805 - Logconfig.py - INFO - 开启共享:ss共享文件,编辑
+2021-03-20 14:09:33,075 - Logconfig.py - INFO - 获取共享链接
+2021-03-20 14:09:35,206 - Logconfig.py - INFO - 以下为退出登录操作
+2021-03-20 14:09:39,426 - Logconfig.py - INFO - 获取链接共享界面的文件列表
+2021-03-20 14:09:39,668 - Logconfig.py - INFO - 以下为登录操作:18870008000@0U7TX93.yozocloud.cn,zsy123
+2021-03-20 14:09:45,118 - Logconfig.py - INFO - 获取链接共享界面的文件列表
+2021-03-20 14:09:55,196 - Logconfig.py - INFO - stop monitor
+2021-03-20 14:09:57,371 - Logconfig.py - INFO - -----------------------------------test_TestShare_02测试结束-------------------------------
+2021-03-20 14:09:57,372 - Logconfig.py - INFO - --------------------------test_TestShare_03测试开始----------------------------------------
+2021-03-20 14:10:00,497 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-03-20 14:10:00,510 - Logconfig.py - INFO - start monitor!
+2021-03-20 14:10:08,967 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-03-20 14:10:12,355 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-03-20 14:10:15,613 - Logconfig.py - INFO - 删除所有文件
+2021-03-20 14:10:24,132 - Logconfig.py - INFO - 新建文件夹:仅上传权限文件夹
+2021-03-20 14:10:29,552 - Logconfig.py - INFO - 新建文件:wp,wp共享文件,共享(仅上传)
+2021-03-20 14:10:39,598 - Logconfig.py - INFO - 编辑文件: wp, 共享(仅上传)
+2021-03-20 14:10:39,638 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=524516847908653&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E6%2596%2587%25E5%25AD%2597%25E6%2596%2587%25E6%25A1%25A3.docx&version=-1&method=2&uuid=ym1616220631150
+2021-03-20 14:10:52,024 - Logconfig.py - INFO - 开启共享:仅上传权限文件夹,仅上传
+2021-03-20 14:10:59,259 - Logconfig.py - INFO - 获取共享链接
+2021-03-20 14:11:01,377 - Logconfig.py - INFO - 以下为退出登录操作
+2021-03-20 14:11:02,864 - Logconfig.py - INFO - 以下为登录操作:18870008000@0U7TX93.yozocloud.cn,zsy123
+2021-03-20 14:11:12,038 - Logconfig.py - INFO - 获取链接共享界面的文件列表
+2021-03-20 14:12:04,168 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),"wp共享文件.docx")]"}
+  (Session info: chrome=89.0.4389.90)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),"wp共享文件.docx")]"}
+  (Session info: chrome=89.0.4389.90)
+
+2021-03-20 14:12:04,224 - Logconfig.py - INFO - stop monitor
+2021-03-20 14:12:06,360 - Logconfig.py - INFO - -----------------------------------test_TestShare_03测试结束-------------------------------
+2021-03-20 14:12:06,361 - Logconfig.py - INFO - --------------------------test_TestShare_04测试开始----------------------------------------
+2021-03-20 14:12:09,354 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-03-20 14:12:09,367 - Logconfig.py - INFO - start monitor!
+2021-03-20 14:12:17,267 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-03-20 14:12:20,675 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-03-20 14:12:23,911 - Logconfig.py - INFO - 删除所有文件
+2021-03-20 14:12:32,510 - Logconfig.py - INFO - 新建文件夹:查看权限文件夹
+2021-03-20 14:12:37,957 - Logconfig.py - INFO - 新建文件:pg,pg共享文件,共享(查看)
+2021-03-20 14:12:48,155 - Logconfig.py - INFO - 编辑文件: pg, 共享(查看)
+2021-03-20 14:12:48,238 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/b/third.html?fileId=5651435951289247&version=-1&method=2&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E7%25A9%25BA%25E7%2599%25BD%25E7%25AE%2580%25E6%258A%25A5.pptx&uuid=g0oFrqE2
+2021-03-20 14:13:02,498 - Logconfig.py - INFO - 开启共享:查看权限文件夹,查看
+2021-03-20 14:13:10,001 - Logconfig.py - INFO - 获取共享链接
+2021-03-20 14:13:12,088 - Logconfig.py - INFO - 以下为退出登录操作
+2021-03-20 14:13:13,553 - Logconfig.py - INFO - 以下为登录操作:18870008000@0U7TX93.yozocloud.cn,zsy123
+2021-03-20 14:13:23,098 - Logconfig.py - INFO - 获取链接共享界面的文件列表
+2021-03-20 14:13:36,693 - Logconfig.py - INFO - stop monitor
+2021-03-20 14:13:38,853 - Logconfig.py - INFO - -----------------------------------test_TestShare_04测试结束-------------------------------
+2021-03-20 14:13:38,853 - Logconfig.py - INFO - --------------------------test_TestShare_05测试开始----------------------------------------
+2021-03-20 14:13:41,830 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-03-20 14:13:41,843 - Logconfig.py - INFO - start monitor!
+2021-03-20 14:13:49,709 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-03-20 14:13:53,104 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-03-20 14:13:56,418 - Logconfig.py - INFO - 删除所有文件
+2021-03-20 14:14:05,007 - Logconfig.py - INFO - 新建文件夹:编辑权限文件夹
+2021-03-20 14:14:10,382 - Logconfig.py - INFO - 新建文件:pg,pg共享文件,共享(编辑)
+2021-03-20 14:14:20,381 - Logconfig.py - INFO - 编辑文件: pg, 共享(编辑)
+2021-03-20 14:14:20,463 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/b/third.html?fileId=1000287708797169&version=-1&method=2&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E7%25A9%25BA%25E7%2599%25BD%25E7%25AE%2580%25E6%258A%25A5.pptx&uuid=ydRCk8xG
+2021-03-20 14:14:34,656 - Logconfig.py - INFO - 开启共享:编辑权限文件夹,编辑
+2021-03-20 14:14:42,141 - Logconfig.py - INFO - 获取共享链接
+2021-03-20 14:14:44,262 - Logconfig.py - INFO - 以下为退出登录操作
+2021-03-20 14:14:45,680 - Logconfig.py - INFO - 以下为登录操作:18870008000@0U7TX93.yozocloud.cn,zsy123
+2021-03-20 14:14:55,420 - Logconfig.py - INFO - 获取链接共享界面的文件列表
+2021-03-20 14:15:09,120 - Logconfig.py - INFO - stop monitor
+2021-03-20 14:15:11,286 - Logconfig.py - INFO - -----------------------------------test_TestShare_05测试结束-------------------------------

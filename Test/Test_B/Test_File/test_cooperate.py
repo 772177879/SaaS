@@ -47,7 +47,7 @@ class TestCooperate(MyTest, Login, New, Delete, Cooperate, Notice):
         self.assertIn('创建副本', limit_list)
         self.assertIn('下载', limit_list)
         self.assertIn('查看详情', limit_list)
-        self.assertIn('移除', limit_list)
+        self.assertIn('退出共享', limit_list)
         self.assertNotIn('重命名', limit_list)
 
     def test_TestCooperate_02(self):
@@ -86,7 +86,7 @@ class TestCooperate(MyTest, Login, New, Delete, Cooperate, Notice):
         self.assertNotIn('创建副本', limit_list)
         self.assertNotIn('下载', limit_list)
         self.assertIn('查看详情', limit_list)
-        self.assertIn('移除', limit_list)
+        self.assertIn('退出共享', limit_list)
         self.assertNotIn('重命名', limit_list)
 
     def test_TestCooperate_03(self):
@@ -126,7 +126,7 @@ class TestCooperate(MyTest, Login, New, Delete, Cooperate, Notice):
         self.assertIn('创建副本', limit_list)
         self.assertIn('下载', limit_list)
         self.assertIn('查看详情', limit_list)
-        self.assertIn('移除', limit_list)
+        self.assertIn('退出共享', limit_list)
         self.assertIn('重命名', limit_list)
         self.element_click(self.cooperate_loc)      # 点击协作
         time.sleep(3)
@@ -169,7 +169,7 @@ class TestCooperate(MyTest, Login, New, Delete, Cooperate, Notice):
         self.assertIn('创建副本', limit_list)
         self.assertIn('下载', limit_list)
         self.assertIn('查看详情', limit_list)
-        self.assertIn('移除', limit_list)
+        self.assertIn('退出共享', limit_list)
         self.assertIn('重命名', limit_list)
         self.element_click(self.cooperate_loc)  # 点击协作
         time.sleep(3)
