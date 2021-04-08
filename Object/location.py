@@ -210,6 +210,9 @@ class Loc:
     add_jobNo_loc = "//div[@class='ant-modal-body']//input[@id='jobNo']"  # 工号输入
     add_comment_loc = "//div[@class='ant-modal-body']//textarea[@id='comment']"  # 备注输入
     add_submit_loc = "//button[@type='submit']"  # 确定
+    """导入成员界面元素定位"""
+    bulk_add_loc = "//span[text()='批量导入']"  # 批量导入
+
     """部门文档管理"""
     part_doc_manage_loc = "//a[@href='/epadmin/files/department']"     # 部门文档管理
     all_select_checkbox_loc = "//input[@type='checkbox']"       # 全选框
@@ -239,12 +242,12 @@ class Loc:
     app_frame_loc = "//iframe[@id='appFrame']"  # pdf的frame
     """日历应用相关"""
     calendar_loc = "//label[@title='日历']/i"      # 日历按钮
-    new_calendar_loc = "//span[text()='新 建']"    # 新建
-    new_date_loc = "//div[text()='日程']"    # 新建日程
-    date_title_loc = "//textarea[@id='basic_title']"   # 标题
-    new_date_submit_loc = "//span[text()=' 新建']"    # 点击新建提交
-    date_cancel_loc = "//span[@class='cancel___2E9YN btn___3M41i']"  # 取消日程
-    date_delete_loc = "//span[@class='delete___3zXlD btn___3M41i']"  # 删除日程
+    new_calendar_loc = "//span[text()='新建日程']"    # 新建
+    new_date_loc = "//div/h3[text()='日程']"    # 新建日程
+    date_title_loc = "//textarea[@id='title']"   # 标题
+    new_date_submit_loc = "//span[text()='新 建']"    # 点击新建提交
+    date_cancel_loc = "//div[@class='header']/div[@class='class-3e5907bd']/div[2]//*[name()='svg']"  # 取消日程
+    date_delete_loc = "//div[@class='header']/div[@class='class-3e5907bd']/div[2]//*[name()='svg']"  # 删除日程
     date_delete_sure_loc = "//span[text()='确 认']"   # 确认删除
     """表单应用相关"""
     form_loc = "//label[@title='表单']/i"      # 表单按钮
