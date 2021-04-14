@@ -50,3 +50,19 @@ class Organization(Action, Loc):
         self.element_click(self.delete_member_loc)      # 点击删除
         sleep(2)
         self.element_click(self.delete_sure_loc)  # 点击确认
+
+    def delete_part(self, part_name):  # 删除部门按钮
+        log.info('删除部门:%s' % part_name)
+        self.element_click("//td[text()='%s']/..//input[@type='checkbox']" % part_name)  # 先勾选
+        self.element_click(self.delete_part_loc)  # 点击删除
+        sleep(2)
+        self.element_click(self.part_sure_loc)  # 点击确认
+
+    def set_member_pwd(self):  # 设置随机密码
+        log.info('设置随机密码')
+        self.element_click(self.btn_member_pwd_loc)
+
+    def get_member_pwd(self):  # 获取随机密码
+        log.info('获取随机密码')
+        casual = self.find_element(self.member_pwd_loc).get_attribute('value')
+        return casual

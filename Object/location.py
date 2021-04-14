@@ -193,10 +193,12 @@ class Loc:
     add_member_loc = "//div[text()='部门人员']/..//span[text()='添 加']"  # 新增成员
     delete_member_loc = "//div[text()='部门人员']/..//span[text()='删 除']"      # 删除成员
     delete_sure_loc = "//button[@class='ant-btn ant-btn-primary']/span"  # 删除成员时的确认
-    forbid_member_loc = "//div[text()='部门人员']/..//span[text()='禁 用']"  # 删除成员
+    forbid_member_loc = "//div[text()='部门人员']/..//span[text()='禁 用']"  # 禁用成员
     # add_part_loc = "//span[text()='增加部门']"      # 新增部门
     forbid_sure_loc = "//div[contains(text(),'禁用')]/../..//span[text()='确 定']"  # 禁用成员时的确认
     # add_part_name_loc = "//input[@placeholder='部门名称']"      # 部门名称
+    delete_part_loc = "//button[@class='ant-btn ant-btn-danger ant-btn-background-ghost']/span[text()='删 除']"  # 删除部门
+    part_sure_loc = "//button[@class='ant-btn ant-btn-primary ant-btn-sm']/span[text()='确 定']"  # 删除部门时的确认
 
     """新增成员界面元素定位"""
     add_account_loc = "//input[@id='account']"  # 账号输入
@@ -212,6 +214,12 @@ class Loc:
     add_submit_loc = "//button[@type='submit']"  # 确定
     """导入成员界面元素定位"""
     bulk_add_loc = "//span[text()='批量导入']"  # 批量导入
+    bulk_title_loc = "//div[@class='ant-modal-title']"  # 批量导入title
+    add_step_loc = "//span[text()='下一步']"  # 下一步
+    add_member_file_loc = "//div[@class='ant-upload-drag-container']"  # 选择文件上传
+    btn_member_pwd_loc = "//span[text()='随机密码']"  # 设置随机密码按钮
+    member_pwd_loc = "//div[@class='steps-content content___35hvi']/div/input[@class='ant-input']"  # 获取初始密码
+    member_bulk_loc = "//span[text()='执行导入']"  # 执行导入按钮
 
     """部门文档管理"""
     part_doc_manage_loc = "//a[@href='/epadmin/files/department']"     # 部门文档管理
@@ -284,25 +292,3 @@ class Loc:
     wd_admin_loc = "//div[@title='文档管理员']"  # 文档管理员
     pt_admin_loc = "//div[@title='普通管理员']"  # 普通管理员
     admin_sure_loc = "//span[text()='确 定']"     # 确定
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
