@@ -5,7 +5,7 @@ class Loc:
     """登录界面的元素定位"""
     company_login_loc = "//span[text()='企业账号']"    # 企业账号登录
     username_loc = "//input[@name='id']"   # 登录界面的用户名输入位置
-    password_loc = "//input[@name='password']"  # 登录界面的密码输入位置
+    password_loc = "//input[@name='pwd']"  # 登录界面的密码输入位置
     submit_loc = "//button[@id='account-login-btn']"   # 登录界面的登录按钮
     new_password_loc = "//input[@placeholder='新密码']"    # 新账号登录的新密码位置
     new_password_confirm_loc = "//input[@placeholder='确认新密码']"      # 新账号密码登录的新密码确认密码位置
