@@ -251,7 +251,7 @@ class Loc:
     """日历应用相关"""
     calendar_loc = "//label[@title='日历']/i"      # 日历按钮
     new_calendar_loc = "//span[text()='新建日程']"    # 新建
-    new_date_loc = "//div/h3[text()='日程']"    # 新建日程
+    new_date_loc = "//div[text()='日程']"    # 新建日程
     date_title_loc = "//textarea[@id='title']"   # 标题
     new_date_submit_loc = "//span[text()='新 建']"    # 点击新建提交
     date_cancel_loc = "//div[@class='header']/div[@class='class-3e5907bd']/div[2]//*[name()='svg']"  # 取消日程

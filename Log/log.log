@@ -4,3 +4,519 @@
 2021-04-15 13:05:43,066 - Logconfig.py - INFO - 以下为退出登录操作
 2021-04-15 13:05:45,482 - Logconfig.py - INFO - stop monitor
 2021-04-15 13:05:47,589 - Logconfig.py - INFO - -----------------------------------test_TestLogin_01测试结束-------------------------------
+2021-04-22 09:22:49,054 - Logconfig.py - INFO - --------------------------test_TestDownload_02测试开始----------------------------------------
+2021-04-22 09:22:52,120 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-04-22 09:22:52,139 - Logconfig.py - INFO - start monitor!
+2021-04-22 09:23:02,142 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-04-22 09:23:05,559 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-04-22 09:23:08,776 - Logconfig.py - INFO - 删除所有文件
+2021-04-22 09:23:17,312 - Logconfig.py - INFO - 新建文件夹:被下载的文件夹
+2021-04-22 09:23:22,633 - Logconfig.py - INFO - 新建文件:ss,ss下载的文件,下载
+2021-04-22 09:23:35,854 - Logconfig.py - INFO - 编辑文件: ss, 下载
+2021-04-22 09:23:35,933 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=1061595821576370&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1619054604430
+2021-04-22 09:23:49,039 - Logconfig.py - INFO - 新建文件:wp,wp下载的文件,下载
+2021-04-22 09:24:00,566 - Logconfig.py - INFO - 编辑文件: wp, 下载
+2021-04-22 09:24:00,659 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=3099188305943981&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E6%2596%2587%25E5%25AD%2597%25E6%2596%2587%25E6%25A1%25A3.docx&version=-1&method=2&uuid=ym1619054629354
+2021-04-22 09:24:15,261 - Logconfig.py - INFO - 新建文件:pg,pg下载的文件,下载
+2021-04-22 09:24:30,316 - Logconfig.py - INFO - 编辑文件: pg, 下载
+2021-04-22 09:24:30,402 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/b/third.html?fileId=177791116700840&version=-1&method=2&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E7%25A9%25BA%25E7%2599%25BD%25E7%25AE%2580%25E6%258A%25A5.pptx&uuid=esY4FYGu
+2021-04-22 09:24:44,574 - Logconfig.py - INFO - 下载文件被下载的文件夹
+2021-04-22 09:24:55,600 - Logconfig.py - INFO - stop monitor
+2021-04-22 09:24:57,782 - Logconfig.py - INFO - -----------------------------------test_TestDownload_02测试结束-------------------------------
+2021-04-26 18:42:46,220 - Logconfig.py - INFO - --------------------------test_TestForm_01测试开始----------------------------------------
+2021-04-26 18:42:49,870 - Logconfig.py - INFO - 以下为登录操作:18850009000@0U7TX93.yozocloud.cn,zsy123
+2021-04-26 18:42:50,025 - Logconfig.py - INFO - start monitor!
+2021-04-26 18:43:00,149 - Logconfig.py - INFO - 删除所有表单
+2021-04-26 18:43:08,837 - Logconfig.py - INFO - 新建表单:问题是：你的名字
+2021-04-26 18:43:13,087 - Logconfig.py - INFO - stop monitor
+2021-04-26 18:43:15,263 - Logconfig.py - INFO - -----------------------------------test_TestForm_01测试结束-------------------------------
+2021-04-26 18:43:15,273 - Logconfig.py - INFO - --------------------------test_TestForm_02测试开始----------------------------------------
+2021-04-26 18:43:17,973 - Logconfig.py - INFO - start monitor!
+2021-04-26 18:43:19,174 - Logconfig.py - INFO - 填写表单：答案是：周杰伦
+2021-04-26 18:43:40,345 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='text']"}
+  (Session info: chrome=90.0.4430.85)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='text']"}
+  (Session info: chrome=90.0.4430.85)
+
+2021-04-26 18:43:40,363 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 43, in element_input
+    self.find_element(loc).send_keys(value)    # 再输入
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='text']"}
+  (Session info: chrome=90.0.4430.85)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 43, in element_input
+    self.find_element(loc).send_keys(value)    # 再输入
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='text']"}
+  (Session info: chrome=90.0.4430.85)
+
+2021-04-26 18:43:40,424 - Logconfig.py - INFO - stop monitor
+2021-04-26 18:43:42,731 - Logconfig.py - INFO - -----------------------------------test_TestForm_02测试结束-------------------------------
+2021-04-26 18:43:42,737 - Logconfig.py - INFO - --------------------------test_TestForm_03测试开始----------------------------------------
+2021-04-26 18:43:45,059 - Logconfig.py - INFO - 以下为登录操作:18850009000@0U7TX93.yozocloud.cn,zsy123
+2021-04-26 18:43:45,074 - Logconfig.py - INFO - start monitor!
+2021-04-26 18:43:54,288 - Logconfig.py - INFO - 填写表单：答案是：周杰伦
+2021-04-26 18:44:16,996 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='周杰伦']"}
+  (Session info: chrome=90.0.4430.85)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='周杰伦']"}
+  (Session info: chrome=90.0.4430.85)
+
+2021-04-26 18:44:17,012 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 97, in verify_element_exist
+    self.find_element(loc)
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='周杰伦']"}
+  (Session info: chrome=90.0.4430.85)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 97, in verify_element_exist
+    self.find_element(loc)
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='周杰伦']"}
+  (Session info: chrome=90.0.4430.85)
+
+2021-04-26 18:44:17,054 - Logconfig.py - INFO - stop monitor
+2021-04-26 18:44:19,413 - Logconfig.py - INFO - -----------------------------------test_TestForm_03测试结束-------------------------------
+2021-04-30 09:13:38,152 - Logconfig.py - INFO - --------------------------test_TestCalendar_01测试开始----------------------------------------
+2021-04-30 09:13:40,858 - Logconfig.py - INFO - 以下为登录操作:18850009000@0U7TX93.yozocloud.cn,zsy123
+2021-04-30 09:13:41,014 - Logconfig.py - INFO - start monitor!
+2021-04-30 09:13:53,759 - Logconfig.py - INFO - 清空日程:新建的日程
+2021-04-30 09:14:15,858 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='新建的日程']"}
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='新建的日程']"}
+  (Session info: chrome=90.0.4430.93)
+
+2021-04-30 09:14:15,892 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='新建的日程']"}
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='新建的日程']"}
+  (Session info: chrome=90.0.4430.93)
+
+2021-04-30 09:14:20,895 - Logconfig.py - INFO - 新建日程:新建的日程
+2021-04-30 09:14:41,948 - Logconfig.py - INFO - stop monitor
+2021-04-30 09:14:44,341 - Logconfig.py - INFO - -----------------------------------test_TestCalendar_01测试结束-------------------------------
+2021-04-30 09:18:10,655 - Logconfig.py - INFO - --------------------------test_TestCalendar_01测试开始----------------------------------------
+2021-04-30 09:18:13,450 - Logconfig.py - INFO - 以下为登录操作:18850009000@0U7TX93.yozocloud.cn,zsy123
+2021-04-30 09:18:13,483 - Logconfig.py - INFO - start monitor!
+2021-04-30 09:18:26,095 - Logconfig.py - INFO - 清空日程:新建的日程
+2021-04-30 09:18:48,203 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='新建的日程']"}
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='新建的日程']"}
+  (Session info: chrome=90.0.4430.93)
+
+2021-04-30 09:18:48,209 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='新建的日程']"}
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='新建的日程']"}
+  (Session info: chrome=90.0.4430.93)
+
+2021-04-30 09:18:53,279 - Logconfig.py - INFO - 新建日程:新建的日程
+2021-04-30 09:18:59,021 - Logconfig.py - INFO - 取消日程:新建的日程
+2021-04-30 09:19:06,427 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class="tui-full-calendar-weekday-schedule-title" data-title="..." title="新建的日程">新建的日程</span> is not clickable at point (1627, 711). Other element would receive the click: <div tabindex="-1" class="ant-modal-wrap" role="dialog" style="z-index: 3100;">...</div>
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class="tui-full-calendar-weekday-schedule-title" data-title="..." title="新建的日程">新建的日程</span> is not clickable at point (1627, 711). Other element would receive the click: <div tabindex="-1" class="ant-modal-wrap" role="dialog" style="z-index: 3100;">...</div>
+  (Session info: chrome=90.0.4430.93)
+
+2021-04-30 09:19:06,489 - Logconfig.py - INFO - stop monitor
+2021-04-30 09:19:08,859 - Logconfig.py - INFO - -----------------------------------test_TestCalendar_01测试结束-------------------------------
+2021-04-30 09:19:42,985 - Logconfig.py - INFO - --------------------------test_TestCalendar_01测试开始----------------------------------------
+2021-04-30 09:19:45,399 - Logconfig.py - INFO - 以下为登录操作:18850009000@0U7TX93.yozocloud.cn,zsy123
+2021-04-30 09:19:45,422 - Logconfig.py - INFO - start monitor!
+2021-04-30 09:19:54,697 - Logconfig.py - INFO - 清空日程:新建的日程
+2021-04-30 09:19:56,816 - Logconfig.py - INFO - 取消日程:新建的日程
+2021-04-30 09:20:01,109 - Logconfig.py - INFO - 清空日程:新建的日程
+2021-04-30 09:20:23,197 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='新建的日程']"}
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='新建的日程']"}
+  (Session info: chrome=90.0.4430.93)
+
+2021-04-30 09:20:23,198 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='新建的日程']"}
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='新建的日程']"}
+  (Session info: chrome=90.0.4430.93)
+
+2021-04-30 09:20:28,240 - Logconfig.py - INFO - 新建日程:新建的日程
+2021-04-30 09:20:34,197 - Logconfig.py - INFO - 取消日程:新建的日程
+2021-04-30 09:20:40,443 - Logconfig.py - INFO - 删除日程:新建的日程
+2021-04-30 09:21:07,793 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),"新建的日程")]"}
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),"新建的日程")]"}
+  (Session info: chrome=90.0.4430.93)
+
+2021-04-30 09:21:07,870 - Logconfig.py - INFO - stop monitor
+2021-04-30 09:21:09,981 - Logconfig.py - INFO - -----------------------------------test_TestCalendar_01测试结束-------------------------------
+2021-04-30 09:45:02,556 - Logconfig.py - INFO - --------------------------test_TestCalendar_01测试开始----------------------------------------
+2021-04-30 09:45:05,127 - Logconfig.py - INFO - 以下为登录操作:18850009000@0U7TX93.yozocloud.cn,zsy123
+2021-04-30 09:45:05,158 - Logconfig.py - INFO - start monitor!
+2021-04-30 09:45:16,913 - Logconfig.py - INFO - 清空日程:新建的日程
+2021-04-30 09:45:39,019 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='新建的日程']"}
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='新建的日程']"}
+  (Session info: chrome=90.0.4430.93)
+
+2021-04-30 09:45:39,019 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='新建的日程']"}
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='新建的日程']"}
+  (Session info: chrome=90.0.4430.93)
+
+2021-04-30 09:45:44,037 - Logconfig.py - INFO - 新建日程:新建的日程
+2021-04-30 09:45:49,464 - Logconfig.py - INFO - 取消日程:新建的日程
+2021-04-30 09:45:55,766 - Logconfig.py - INFO - 删除日程:新建的日程
+2021-04-30 09:46:23,018 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),"新建的日程")]"}
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),"新建的日程")]"}
+  (Session info: chrome=90.0.4430.93)
+
+2021-04-30 09:46:23,054 - Logconfig.py - INFO - stop monitor
+2021-04-30 09:46:25,208 - Logconfig.py - INFO - -----------------------------------test_TestCalendar_01测试结束-------------------------------

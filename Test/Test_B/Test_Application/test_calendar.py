@@ -28,7 +28,7 @@ class TestCalendar(MyTest, Login, Delete, Calendar, New):
         self.element_click("//span[text()='%s']" % date_name)  # 点击该日程
         self.cancel_date(date_name)  # 取消日程
         time.sleep(2)
-        self.element_click("//span[text()='%s']" % date_name)  # 点击该日程
+        # self.element_click("//span[text()='%s']" % date_name)  # 点击该日程
         self.delete_date(date_name)     # 删除日程
         time.sleep(2)
         self.verify_file_none_exist(date_name)      # 验证日程不存在
