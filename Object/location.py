@@ -279,10 +279,11 @@ class Loc:
     person_notice_invite_message_loc = "//div[@class='activity-content']/div[2]/div"   # 个人版消息里的邀请消息内容
     person_agree_loc = "//span[contains(text(),'同意')]"  # 个人版点同意
     person_refuse_loc = "//span[contains(text(),'拒绝')]"     # 个人版点拒绝
-    notice_cooperation_loc = "//span[text()='协作']"      # 协作通知
+    notice_cooperation_loc = "//span[text()='邀请']"      # 企业版邀请通知
     notice_notice_loc = "//span[text()='协作']"  # 通知的通知
     notice_message_loc = "//section/div/div[2]/div/div[2]/div[1]/div[2]/div/div[2]/div"    # 通知的文本固定内容
-    cooperate_message_loc = "//section/div/div[1]/div[2]/div[1]/div/div[2]/div[2]/div"     # 协作的文本固定内容
+    cooperate_message_name_loc = "//div[@class='activity-name']/span[@class='name']"     # 协作的发起者昵称
+    cooperate_message_txt_loc = "//div[@class='activity-message']/div"  # 协作的文本内容
     """管理员管理相关"""
     admin_manage_loc = "//li[@class='ant-menu-submenu ant-menu-submenu-inline']//span[text()='管理员管理']"  # 管理员管理
     admin_manage_inner_loc = "//a[@href='/epadmin/admin/manage']"   # 管理员管理里的管理员管理

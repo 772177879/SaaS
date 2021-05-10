@@ -225,19 +225,3 @@ class Action(Loc):
             self.element_click("//a[contains(text(),'%s')]" % file_name)
         else:
             self.element_click("//span[contains(text(),'%s')]" % file_name)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

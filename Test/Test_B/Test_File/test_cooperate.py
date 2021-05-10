@@ -30,7 +30,7 @@ class TestCooperate(MyTest, Login, New, Delete, Cooperate, Notice):
         self.wait_element(self.my_file_loc)
         self.into_notice_cooperation()      # 进入通知的协作通知中
         text = self.invite_cooperate()      # 获取被协作的通知
-        invite_message = "%s 邀请您加入协作【pg协作文件.pptx】" % account['name']
+        invite_message = "%s邀请您加入协作【pg协作文件.pptx】\n立即查看" % account['name']
         self.assertEqual(invite_message, text)
         self.close_notice()  # 关闭界面
         self.element_click(self.share_file_loc)  # 点击共享文件
@@ -69,7 +69,7 @@ class TestCooperate(MyTest, Login, New, Delete, Cooperate, Notice):
         self.wait_element(self.my_file_loc)
         self.into_notice_cooperation()      # 进入通知的协作通知中
         text = self.invite_cooperate()      # 获取被协作的通知
-        invite_message = "%s 邀请您加入协作【pg协作文件.pptx】" % account['name']
+        invite_message = "%s邀请您加入协作【pg协作文件.pptx】\n立即查看" % account['name']
         self.assertEqual(invite_message, text)
         self.close_notice()  # 关闭界面
         self.element_click(self.share_file_loc)  # 点击共享文件
@@ -109,7 +109,7 @@ class TestCooperate(MyTest, Login, New, Delete, Cooperate, Notice):
         self.wait_element(self.my_file_loc)
         self.into_notice_cooperation()      # 进入通知的协作通知中
         text = self.invite_cooperate()      # 获取被协作的通知
-        invite_message = "%s 邀请您加入协作【wp协作文件.docx】" % account['name']
+        invite_message = "%s邀请您加入协作【wp协作文件.docx】\n立即查看" % account['name']
         self.assertEqual(invite_message, text)
         self.close_notice()  # 关闭界面
         self.element_click(self.share_file_loc)  # 点击共享文件
@@ -152,7 +152,7 @@ class TestCooperate(MyTest, Login, New, Delete, Cooperate, Notice):
         self.wait_element(self.my_file_loc)
         self.into_notice_cooperation()      # 进入通知的协作通知中
         text = self.invite_cooperate()      # 获取被协作的通知
-        invite_message = "%s 邀请您加入协作【wp协作文件.docx】" % account['name']
+        invite_message = "%s邀请您加入协作【wp协作文件.docx】\n立即查看" % account['name']
         self.assertEqual(invite_message, text)
         self.close_notice()  # 关闭界面
         self.element_click(self.share_file_loc)  # 点击共享文件

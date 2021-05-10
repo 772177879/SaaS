@@ -520,3 +520,2043 @@ selenium.common.exceptions.NoSuchElementException: Message: no such element: Una
 
 2021-04-30 09:46:23,054 - Logconfig.py - INFO - stop monitor
 2021-04-30 09:46:25,208 - Logconfig.py - INFO - -----------------------------------test_TestCalendar_01测试结束-------------------------------
+2021-05-08 10:42:58,713 - Logconfig.py - INFO - --------------------------test_TestCalendar_01测试开始----------------------------------------
+2021-05-08 10:43:01,910 - Logconfig.py - INFO - 以下为登录操作:18850009000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 10:43:02,075 - Logconfig.py - INFO - start monitor!
+2021-05-08 10:43:11,949 - Logconfig.py - INFO - 清空日程:新建的日程
+2021-05-08 10:43:34,031 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='新建的日程']"}
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='新建的日程']"}
+  (Session info: chrome=90.0.4430.93)
+
+2021-05-08 10:43:34,032 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='新建的日程']"}
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='新建的日程']"}
+  (Session info: chrome=90.0.4430.93)
+
+2021-05-08 10:43:39,084 - Logconfig.py - INFO - 新建日程:新建的日程
+2021-05-08 10:43:44,487 - Logconfig.py - INFO - 取消日程:新建的日程
+2021-05-08 10:43:50,686 - Logconfig.py - INFO - 删除日程:新建的日程
+2021-05-08 10:44:17,985 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),"新建的日程")]"}
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),"新建的日程")]"}
+  (Session info: chrome=90.0.4430.93)
+
+2021-05-08 10:44:18,059 - Logconfig.py - INFO - stop monitor
+2021-05-08 10:44:20,168 - Logconfig.py - INFO - -----------------------------------test_TestCalendar_01测试结束-------------------------------
+2021-05-08 10:44:46,012 - Logconfig.py - INFO - --------------------------test_TestForm_01测试开始----------------------------------------
+2021-05-08 10:44:48,623 - Logconfig.py - INFO - 以下为登录操作:18850009000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 10:44:48,642 - Logconfig.py - INFO - start monitor!
+2021-05-08 10:44:56,779 - Logconfig.py - INFO - 删除所有表单
+2021-05-08 10:45:18,830 - Logconfig.py - INFO - 新建表单:问题是：你的名字
+2021-05-08 10:50:32,887 - Logconfig.py - INFO - --------------------------test_TestCompanyShareDocManage_01测试开始----------------------------------------
+2021-05-08 10:50:35,541 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 10:50:35,576 - Logconfig.py - INFO - start monitor!
+2021-05-08 10:50:44,600 - Logconfig.py - INFO - 以下为进入企业控制台
+2021-05-08 10:50:50,411 - Logconfig.py - INFO - 搜索：企业共享文件夹的文档
+2021-05-08 10:50:57,264 - Logconfig.py - INFO - 删除后端所有文件
+2021-05-08 10:50:59,431 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button disabled="" type="button" class="ant-btn ant-btn-primary ant-btn-dangerous" style="pointer-events: none;">...</button> is not clickable at point (327, 469). Other element would receive the click: <span class="ant-popover-disabled-compatible-wrapper" style="display: inline-block; cursor: not-allowed;">...</span>
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button disabled="" type="button" class="ant-btn ant-btn-primary ant-btn-dangerous" style="pointer-events: none;">...</button> is not clickable at point (327, 469). Other element would receive the click: <span class="ant-popover-disabled-compatible-wrapper" style="display: inline-block; cursor: not-allowed;">...</span>
+  (Session info: chrome=90.0.4430.93)
+
+2021-05-08 10:50:59,532 - Logconfig.py - INFO - 搜索：企业共享文件夹的文件夹
+2021-05-08 10:51:06,421 - Logconfig.py - INFO - 删除后端所有文件
+2021-05-08 10:51:08,617 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button disabled="" type="button" class="ant-btn ant-btn-primary ant-btn-dangerous" style="pointer-events: none;">...</button> is not clickable at point (327, 469). Other element would receive the click: <span class="ant-popover-disabled-compatible-wrapper" style="display: inline-block; cursor: not-allowed;">...</span>
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button disabled="" type="button" class="ant-btn ant-btn-primary ant-btn-dangerous" style="pointer-events: none;">...</button> is not clickable at point (327, 469). Other element would receive the click: <span class="ant-popover-disabled-compatible-wrapper" style="display: inline-block; cursor: not-allowed;">...</span>
+  (Session info: chrome=90.0.4430.93)
+
+2021-05-08 10:51:12,955 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 10:51:21,483 - Logconfig.py - INFO - 新建文件夹:企业共享文件夹的文件夹
+2021-05-08 10:51:24,881 - Logconfig.py - INFO - 新建文件:ss,企业共享文件夹的文档,企业共享文件夹的文档的内容
+2021-05-08 10:51:37,981 - Logconfig.py - INFO - 编辑文件: ss, 企业共享文件夹的文档的内容
+2021-05-08 10:51:38,064 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=3630310886171541&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1620442285439
+2021-05-08 10:51:47,750 - Logconfig.py - INFO - 以下为进入企业控制台
+2021-05-08 10:51:53,476 - Logconfig.py - INFO - 搜索：企业共享文件夹的文档
+2021-05-08 10:52:01,277 - Logconfig.py - INFO - 获取文件的当前状态：企业共享文件夹的文档
+2021-05-08 10:52:02,479 - Logconfig.py - INFO - 搜索：企业共享文件夹的文件夹
+2021-05-08 10:52:10,255 - Logconfig.py - INFO - 获取文件的当前状态：企业共享文件夹的文件夹
+2021-05-08 10:52:10,378 - Logconfig.py - INFO - stop monitor
+2021-05-08 10:52:12,561 - Logconfig.py - INFO - -----------------------------------test_TestCompanyShareDocManage_01测试结束-------------------------------
+2021-05-08 10:52:12,561 - Logconfig.py - INFO - --------------------------test_TestCompanyShareDocManage_02测试开始----------------------------------------
+2021-05-08 10:52:15,510 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 10:52:15,517 - Logconfig.py - INFO - start monitor!
+2021-05-08 10:52:26,887 - Logconfig.py - INFO - 以下为进入企业控制台
+2021-05-08 10:52:32,555 - Logconfig.py - INFO - 搜索：企业共享文件夹的文档
+2021-05-08 10:52:39,527 - Logconfig.py - INFO - 删除后端所有文件
+2021-05-08 10:52:42,998 - Logconfig.py - INFO - 搜索：企业共享文件夹的文件夹
+2021-05-08 10:52:49,913 - Logconfig.py - INFO - 删除后端所有文件
+2021-05-08 10:52:57,512 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 10:53:06,100 - Logconfig.py - INFO - 新建文件夹:企业共享文件夹的文件夹
+2021-05-08 10:53:09,404 - Logconfig.py - INFO - 新建文件:ss,企业共享文件夹的文档,企业共享文件夹的文档的内容
+2021-05-08 10:53:24,068 - Logconfig.py - INFO - 编辑文件: ss, 企业共享文件夹的文档的内容
+2021-05-08 10:53:24,154 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=4598597840136723&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1620442391585
+2021-05-08 10:53:33,889 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 10:53:57,090 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=90.0.4430.93)
+
+2021-05-08 10:53:57,130 - Logconfig.py - INFO - stop monitor
+2021-05-08 10:53:59,534 - Logconfig.py - INFO - -----------------------------------test_TestCompanyShareDocManage_02测试结束-------------------------------
+2021-05-08 10:53:59,550 - Logconfig.py - INFO - --------------------------test_TestCompanyShareDocManage_03测试开始----------------------------------------
+2021-05-08 10:54:02,004 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 10:54:02,013 - Logconfig.py - INFO - start monitor!
+2021-05-08 10:54:10,168 - Logconfig.py - INFO - 以下为进入企业控制台
+2021-05-08 10:54:15,777 - Logconfig.py - INFO - 搜索：企业共享文件夹的文档
+2021-05-08 10:54:19,093 - Logconfig.py - INFO - 删除后端所有文件
+2021-05-08 10:54:22,549 - Logconfig.py - INFO - 搜索：企业共享文件夹的文件夹
+2021-05-08 10:54:25,871 - Logconfig.py - INFO - 删除后端所有文件
+2021-05-08 10:54:33,474 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 10:54:41,986 - Logconfig.py - INFO - 新建文件夹:企业共享文件夹的文件夹
+2021-05-08 10:54:45,379 - Logconfig.py - INFO - 新建文件:ss,企业共享文件夹的文档,企业共享文件夹的文档的内容
+2021-05-08 10:54:58,081 - Logconfig.py - INFO - 编辑文件: ss, 企业共享文件夹的文档的内容
+2021-05-08 10:54:58,162 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=807524005718941&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1620442487435
+2021-05-08 10:55:27,587 - Logconfig.py - INFO - stop monitor
+2021-05-08 10:55:29,951 - Logconfig.py - INFO - -----------------------------------test_TestCompanyShareDocManage_03测试结束-------------------------------
+2021-05-08 10:56:36,696 - Logconfig.py - INFO - --------------------------test_TestCompanyShareDocManage_02测试开始----------------------------------------
+2021-05-08 10:56:40,158 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 10:56:40,179 - Logconfig.py - INFO - start monitor!
+2021-05-08 10:56:48,882 - Logconfig.py - INFO - 以下为进入企业控制台
+2021-05-08 10:56:54,505 - Logconfig.py - INFO - 搜索：企业共享文件夹的文档
+2021-05-08 10:57:01,278 - Logconfig.py - INFO - 删除后端所有文件
+2021-05-08 10:57:04,716 - Logconfig.py - INFO - 搜索：企业共享文件夹的文件夹
+2021-05-08 10:57:11,441 - Logconfig.py - INFO - 删除后端所有文件
+2021-05-08 10:57:19,051 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 10:57:27,646 - Logconfig.py - INFO - 新建文件夹:企业共享文件夹的文件夹
+2021-05-08 10:57:31,032 - Logconfig.py - INFO - 新建文件:ss,企业共享文件夹的文档,企业共享文件夹的文档的内容
+2021-05-08 10:57:40,173 - Logconfig.py - INFO - 编辑文件: ss, 企业共享文件夹的文档的内容
+2021-05-08 10:57:40,261 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=7970523822868527&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1620442651895
+2021-05-08 10:57:50,209 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 10:58:13,370 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=90.0.4430.93)
+
+2021-05-08 10:58:13,410 - Logconfig.py - INFO - stop monitor
+2021-05-08 10:58:15,776 - Logconfig.py - INFO - -----------------------------------test_TestCompanyShareDocManage_02测试结束-------------------------------
+2021-05-08 11:08:11,745 - Logconfig.py - INFO - --------------------------test_TestCompanyShareDocManage_02测试开始----------------------------------------
+2021-05-08 11:08:14,511 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 11:08:15,004 - Logconfig.py - INFO - start monitor!
+2021-05-08 11:08:23,874 - Logconfig.py - INFO - 以下为进入企业控制台
+2021-05-08 11:08:29,644 - Logconfig.py - INFO - 搜索：企业共享文件夹的文档
+2021-05-08 11:08:36,511 - Logconfig.py - INFO - 删除后端所有文件
+2021-05-08 11:08:38,702 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button disabled="" type="button" class="ant-btn ant-btn-primary ant-btn-dangerous" style="pointer-events: none;">...</button> is not clickable at point (327, 813). Other element would receive the click: <span class="ant-popover-disabled-compatible-wrapper" style="display: inline-block; cursor: not-allowed;">...</span>
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button disabled="" type="button" class="ant-btn ant-btn-primary ant-btn-dangerous" style="pointer-events: none;">...</button> is not clickable at point (327, 813). Other element would receive the click: <span class="ant-popover-disabled-compatible-wrapper" style="display: inline-block; cursor: not-allowed;">...</span>
+  (Session info: chrome=90.0.4430.93)
+
+2021-05-08 11:08:38,794 - Logconfig.py - INFO - 搜索：企业共享文件夹的文件夹
+2021-05-08 11:08:45,723 - Logconfig.py - INFO - 删除后端所有文件
+2021-05-08 11:08:47,858 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button disabled="" type="button" class="ant-btn ant-btn-primary ant-btn-dangerous" style="pointer-events: none;">...</button> is not clickable at point (327, 813). Other element would receive the click: <span class="ant-popover-disabled-compatible-wrapper" style="display: inline-block; cursor: not-allowed;">...</span>
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button disabled="" type="button" class="ant-btn ant-btn-primary ant-btn-dangerous" style="pointer-events: none;">...</button> is not clickable at point (327, 813). Other element would receive the click: <span class="ant-popover-disabled-compatible-wrapper" style="display: inline-block; cursor: not-allowed;">...</span>
+  (Session info: chrome=90.0.4430.93)
+
+2021-05-08 11:08:52,130 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 11:09:17,315 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=90.0.4430.93)
+
+2021-05-08 11:09:17,315 - Logconfig.py - INFO - 新建文件夹:企业共享文件夹的文件夹
+2021-05-08 11:09:20,743 - Logconfig.py - INFO - 新建文件:ss,企业共享文件夹的文档,企业共享文件夹的文档的内容
+2021-05-08 11:09:34,987 - Logconfig.py - INFO - 编辑文件: ss, 企业共享文件夹的文档的内容
+2021-05-08 11:09:35,066 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=674499544513674&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1620443361683
+2021-05-08 11:09:44,789 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 11:09:55,383 - Logconfig.py - INFO - 以下为进入企业控制台
+2021-05-08 11:10:01,102 - Logconfig.py - INFO - 搜索：企业共享文件夹的文档
+2021-05-08 11:10:08,913 - Logconfig.py - INFO - 获取文件的当前状态：企业共享文件夹的文档
+2021-05-08 11:10:08,936 - Logconfig.py - INFO - stop monitor
+2021-05-08 11:10:11,394 - Logconfig.py - INFO - -----------------------------------test_TestCompanyShareDocManage_02测试结束-------------------------------
+2021-05-08 11:12:44,808 - Logconfig.py - INFO - --------------------------test_TestCompanyShareDocManage_02测试开始----------------------------------------
+2021-05-08 11:12:47,427 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 11:12:47,537 - Logconfig.py - INFO - start monitor!
+2021-05-08 11:12:55,049 - Logconfig.py - INFO - 以下为进入企业控制台
+2021-05-08 11:13:00,771 - Logconfig.py - INFO - 搜索：企业共享文件夹的文档
+2021-05-08 11:13:07,623 - Logconfig.py - INFO - 删除后端所有文件
+2021-05-08 11:13:11,065 - Logconfig.py - INFO - 搜索：企业共享文件夹的文件夹
+2021-05-08 11:13:17,881 - Logconfig.py - INFO - 删除后端所有文件
+2021-05-08 11:13:25,486 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 11:13:48,673 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=90.0.4430.93)
+
+2021-05-08 11:13:48,673 - Logconfig.py - INFO - 新建文件夹:企业共享文件夹的文件夹
+2021-05-08 11:13:52,059 - Logconfig.py - INFO - 新建文件:ss,企业共享文件夹的文档,企业共享文件夹的文档的内容
+2021-05-08 11:14:05,352 - Logconfig.py - INFO - 编辑文件: ss, 企业共享文件夹的文档的内容
+2021-05-08 11:14:05,437 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=2949391816646285&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1620443633851
+2021-05-08 11:14:17,262 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 11:14:25,836 - Logconfig.py - INFO - 以下为进入企业控制台
+2021-05-08 11:14:31,452 - Logconfig.py - INFO - 搜索：企业共享文件夹的文档
+2021-05-08 11:14:39,516 - Logconfig.py - INFO - 获取文件的当前状态：企业共享文件夹的文档
+2021-05-08 11:14:39,558 - Logconfig.py - INFO - stop monitor
+2021-05-08 11:14:41,943 - Logconfig.py - INFO - -----------------------------------test_TestCompanyShareDocManage_02测试结束-------------------------------
+2021-05-08 11:18:20,785 - Logconfig.py - INFO - --------------------------test_TestCompanyShareDocManage_03测试开始----------------------------------------
+2021-05-08 11:18:23,451 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 11:18:23,555 - Logconfig.py - INFO - start monitor!
+2021-05-08 11:18:31,542 - Logconfig.py - INFO - 以下为进入企业控制台
+2021-05-08 11:18:37,225 - Logconfig.py - INFO - 搜索：企业共享文件夹的文档
+2021-05-08 11:18:40,625 - Logconfig.py - INFO - 删除后端所有文件
+2021-05-08 11:18:44,028 - Logconfig.py - INFO - 搜索：企业共享文件夹的文件夹
+2021-05-08 11:18:47,341 - Logconfig.py - INFO - 删除后端所有文件
+2021-05-08 11:18:54,850 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 11:19:17,997 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=90.0.4430.93)
+
+2021-05-08 11:19:17,998 - Logconfig.py - INFO - 新建文件夹:企业共享文件夹的文件夹
+2021-05-08 11:19:21,345 - Logconfig.py - INFO - 新建文件:ss,企业共享文件夹的文档,企业共享文件夹的文档的内容
+2021-05-08 11:19:37,678 - Logconfig.py - INFO - 编辑文件: ss, 企业共享文件夹的文档的内容
+2021-05-08 11:19:37,711 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=7216186338716264&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1620443962231
+2021-05-08 11:19:49,433 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 11:20:00,168 - Logconfig.py - INFO - 清空回收站
+2021-05-08 11:20:05,616 - Logconfig.py - INFO - 以下为进入企业控制台
+2021-05-08 11:20:11,273 - Logconfig.py - INFO - 搜索：企业共享文件夹的文档
+2021-05-08 11:20:19,068 - Logconfig.py - INFO - 获取文件的当前状态：企业共享文件夹的文档
+2021-05-08 11:20:27,041 - Logconfig.py - INFO - 搜索：企业共享文件夹的文件夹
+2021-05-08 11:20:34,952 - Logconfig.py - INFO - 获取文件的当前状态：企业共享文件夹的文件夹
+2021-05-08 11:20:35,004 - Logconfig.py - INFO - stop monitor
+2021-05-08 11:20:37,208 - Logconfig.py - INFO - -----------------------------------test_TestCompanyShareDocManage_03测试结束-------------------------------
+2021-05-08 11:21:23,286 - Logconfig.py - INFO - --------------------------test_TestGroupDocManage_01测试开始----------------------------------------
+2021-05-08 11:21:25,873 - Logconfig.py - INFO - 以下为登录操作:18870009000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 11:21:25,901 - Logconfig.py - INFO - start monitor!
+2021-05-08 11:21:36,725 - Logconfig.py - INFO - 清空创建的群组:陈丹丹
+2021-05-08 11:22:16,881 - Logconfig.py - INFO - 新建群组:自动化测试群组,群组描述
+2021-05-08 11:22:26,304 - Logconfig.py - INFO - 新建文件夹:群组文档管理的文件夹
+2021-05-08 11:22:29,650 - Logconfig.py - INFO - 新建文件:ss,群组文档管理的文档,群组文档管理的文档的内容
+2021-05-08 11:22:49,863 - Logconfig.py - INFO - 编辑文件: ss, 群组文档管理的文档的内容
+2021-05-08 11:22:49,982 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=2903101560411187&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1620444150172
+2021-05-08 11:22:59,679 - Logconfig.py - INFO - 以下为退出登录操作
+2021-05-08 11:23:01,443 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 11:23:07,617 - Logconfig.py - INFO - 以下为进入企业控制台
+2021-05-08 11:23:13,209 - Logconfig.py - INFO - 选择群组:自动化测试群组
+2021-05-08 11:23:16,408 - Logconfig.py - INFO - 获取文件的当前状态：群组文档管理的文档
+2021-05-08 11:23:17,433 - Logconfig.py - INFO - 获取文件的当前状态：群组文档管理的文件夹
+2021-05-08 11:23:17,561 - Logconfig.py - INFO - stop monitor
+2021-05-08 11:23:19,716 - Logconfig.py - INFO - -----------------------------------test_TestGroupDocManage_01测试结束-------------------------------
+2021-05-08 11:23:19,716 - Logconfig.py - INFO - --------------------------test_TestGroupDocManage_02测试开始----------------------------------------
+2021-05-08 11:23:22,391 - Logconfig.py - INFO - 以下为登录操作:18870009000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 11:23:22,405 - Logconfig.py - INFO - start monitor!
+2021-05-08 11:23:33,221 - Logconfig.py - INFO - 清空创建的群组:陈丹丹
+2021-05-08 11:23:35,444 - Logconfig.py - INFO - 删除群组
+2021-05-08 11:23:40,981 - Logconfig.py - INFO - 新建群组:自动化测试群组,群组描述
+2021-05-08 11:24:03,312 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 43, in element_input
+    self.find_element(loc).send_keys(value)    # 再输入
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 479, in send_keys
+    'value': keys_to_typing(value)})
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 43, in element_input
+    self.find_element(loc).send_keys(value)    # 再输入
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 479, in send_keys
+    'value': keys_to_typing(value)})
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=90.0.4430.93)
+
+2021-05-08 11:24:03,360 - Logconfig.py - INFO - stop monitor
+2021-05-08 11:24:05,701 - Logconfig.py - INFO - -----------------------------------test_TestGroupDocManage_02测试结束-------------------------------
+2021-05-08 11:24:05,701 - Logconfig.py - INFO - --------------------------test_TestGroupDocManage_03测试开始----------------------------------------
+2021-05-08 11:24:07,902 - Logconfig.py - INFO - 以下为登录操作:18870009000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 11:24:07,920 - Logconfig.py - INFO - start monitor!
+2021-05-08 11:24:19,157 - Logconfig.py - INFO - 清空创建的群组:陈丹丹
+2021-05-08 11:25:00,344 - Logconfig.py - INFO - 新建群组:自动化测试群组,群组描述
+2021-05-08 11:25:09,767 - Logconfig.py - INFO - 新建文件夹:群组文档管理的文件夹
+2021-05-08 11:25:13,093 - Logconfig.py - INFO - 新建文件:ss,群组文档管理的文档,群组文档管理的文档的内容
+2021-05-08 11:25:25,968 - Logconfig.py - INFO - 编辑文件: ss, 群组文档管理的文档的内容
+2021-05-08 11:25:26,013 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=1753870445113309&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1620444314345
+2021-05-08 11:25:35,671 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 11:25:58,850 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=90.0.4430.93)
+
+2021-05-08 11:26:01,240 - Logconfig.py - INFO - -----------------------------------test_TestGroupDocManage_03测试结束-------------------------------
+2021-05-08 13:07:20,940 - Logconfig.py - INFO - --------------------------test_TestGroupDocManage_01测试开始----------------------------------------
+2021-05-08 13:07:24,011 - Logconfig.py - INFO - 以下为登录操作:18870009000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 13:07:24,021 - Logconfig.py - INFO - start monitor!
+2021-05-08 13:07:35,518 - Logconfig.py - INFO - 清空创建的群组:陈丹丹
+2021-05-08 13:07:37,792 - Logconfig.py - INFO - 删除群组
+2021-05-08 13:07:43,982 - Logconfig.py - INFO - 新建群组:自动化测试群组,群组描述
+2021-05-08 13:08:06,477 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 43, in element_input
+    self.find_element(loc).send_keys(value)    # 再输入
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 479, in send_keys
+    'value': keys_to_typing(value)})
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 43, in element_input
+    self.find_element(loc).send_keys(value)    # 再输入
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 479, in send_keys
+    'value': keys_to_typing(value)})
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=90.0.4430.93)
+
+2021-05-08 13:08:06,518 - Logconfig.py - INFO - stop monitor
+2021-05-08 13:08:08,852 - Logconfig.py - INFO - -----------------------------------test_TestGroupDocManage_01测试结束-------------------------------
+2021-05-08 13:27:34,977 - Logconfig.py - INFO - --------------------------test_TestCooperate_01测试开始----------------------------------------
+2021-05-08 13:27:37,417 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 13:27:37,443 - Logconfig.py - INFO - start monitor!
+2021-05-08 13:27:45,334 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 13:27:48,622 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 13:27:51,853 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 13:28:00,470 - Logconfig.py - INFO - 新建文件:pg,pg协作文件,协作(查看权限)
+2021-05-08 13:28:12,852 - Logconfig.py - INFO - 编辑文件: pg, 协作(查看权限)
+2021-05-08 13:28:12,899 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/b/third.html?fileId=1937825603145182&version=-1&method=2&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E7%25A9%25BA%25E7%2599%25BD%25E7%25AE%2580%25E6%258A%25A5.pptx&uuid=HAJc8q0S
+2021-05-08 13:28:27,030 - Logconfig.py - INFO - 开启协作，并且选择权限:pg协作文件,单李冬, 查看
+2021-05-08 13:28:39,119 - Logconfig.py - INFO - 以下为退出登录操作
+2021-05-08 13:28:40,628 - Logconfig.py - INFO - 以下为登录操作:18870008000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 13:28:46,263 - Logconfig.py - INFO - 进入通知
+2021-05-08 13:28:46,351 - Logconfig.py - INFO - 进入通知里的协作
+2021-05-08 13:29:06,410 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='协作']"}
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='协作']"}
+  (Session info: chrome=90.0.4430.93)
+
+2021-05-08 13:29:06,410 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='协作']"}
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='协作']"}
+  (Session info: chrome=90.0.4430.93)
+
+2021-05-08 13:29:06,425 - Logconfig.py - INFO - stop monitor
+2021-05-08 13:29:08,859 - Logconfig.py - INFO - -----------------------------------test_TestCooperate_01测试结束-------------------------------
+2021-05-08 13:41:50,774 - Logconfig.py - INFO - --------------------------test_TestCooperate_01测试开始----------------------------------------
+2021-05-08 13:41:53,354 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 13:41:53,373 - Logconfig.py - INFO - start monitor!
+2021-05-08 13:42:01,239 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 13:42:04,666 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 13:42:07,872 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 13:42:16,423 - Logconfig.py - INFO - 新建文件:pg,pg协作文件,协作(查看权限)
+2021-05-08 13:42:26,089 - Logconfig.py - INFO - 编辑文件: pg, 协作(查看权限)
+2021-05-08 13:42:26,132 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/b/third.html?fileId=4827896148063235&version=-1&method=2&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E7%25A9%25BA%25E7%2599%25BD%25E7%25AE%2580%25E6%258A%25A5.pptx&uuid=ZxzHMPJw
+2021-05-08 13:42:40,204 - Logconfig.py - INFO - 开启协作，并且选择权限:pg协作文件,单李冬, 查看
+2021-05-08 13:42:52,223 - Logconfig.py - INFO - 以下为退出登录操作
+2021-05-08 13:42:54,028 - Logconfig.py - INFO - 以下为登录操作:18870008000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 13:43:00,062 - Logconfig.py - INFO - 进入通知
+2021-05-08 13:43:00,164 - Logconfig.py - INFO - 进入通知里的协作
+2021-05-08 13:43:01,441 - Logconfig.py - INFO - 获取邀请协作的通知
+2021-05-08 13:43:03,204 - Logconfig.py - INFO - stop monitor
+2021-05-08 13:43:05,602 - Logconfig.py - INFO - -----------------------------------test_TestCooperate_01测试结束-------------------------------
+2021-05-08 13:52:31,692 - Logconfig.py - INFO - --------------------------test_TestCooperate_01测试开始----------------------------------------
+2021-05-08 13:52:34,446 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 13:52:34,582 - Logconfig.py - INFO - start monitor!
+2021-05-08 13:52:42,342 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 13:52:45,556 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 13:52:48,830 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 13:52:57,387 - Logconfig.py - INFO - 新建文件:pg,pg协作文件,协作(查看权限)
+2021-05-08 13:53:06,535 - Logconfig.py - INFO - 编辑文件: pg, 协作(查看权限)
+2021-05-08 13:53:06,617 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/b/third.html?fileId=6056531431468679&version=-1&method=2&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E7%25A9%25BA%25E7%2599%25BD%25E7%25AE%2580%25E6%258A%25A5.pptx&uuid=hF5k2sxJ
+2021-05-08 13:53:20,715 - Logconfig.py - INFO - 开启协作，并且选择权限:pg协作文件,单李冬, 查看
+2021-05-08 13:53:32,891 - Logconfig.py - INFO - 以下为退出登录操作
+2021-05-08 13:53:34,471 - Logconfig.py - INFO - 以下为登录操作:18870008000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 13:53:40,514 - Logconfig.py - INFO - 进入通知
+2021-05-08 13:53:40,580 - Logconfig.py - INFO - 进入通知里的协作
+2021-05-08 13:53:41,327 - Logconfig.py - INFO - 获取邀请协作的通知
+2021-05-08 13:53:43,017 - Logconfig.py - INFO - stop monitor
+2021-05-08 13:53:45,430 - Logconfig.py - INFO - -----------------------------------test_TestCooperate_01测试结束-------------------------------
+2021-05-08 13:56:17,858 - Logconfig.py - INFO - --------------------------test_TestCooperate_01测试开始----------------------------------------
+2021-05-08 13:56:20,798 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 13:56:20,819 - Logconfig.py - INFO - start monitor!
+2021-05-08 13:56:30,169 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 13:56:33,482 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 13:56:36,720 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 13:56:45,226 - Logconfig.py - INFO - 新建文件:pg,pg协作文件,协作(查看权限)
+2021-05-08 13:56:54,821 - Logconfig.py - INFO - 编辑文件: pg, 协作(查看权限)
+2021-05-08 13:56:54,865 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/b/third.html?fileId=8838099462857569&version=-1&method=2&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E7%25A9%25BA%25E7%2599%25BD%25E7%25AE%2580%25E6%258A%25A5.pptx&uuid=L7CCFK5d
+2021-05-08 13:57:08,879 - Logconfig.py - INFO - 开启协作，并且选择权限:pg协作文件,单李冬, 查看
+2021-05-08 13:57:21,071 - Logconfig.py - INFO - 以下为退出登录操作
+2021-05-08 13:57:22,689 - Logconfig.py - INFO - 以下为登录操作:18870008000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 13:57:28,394 - Logconfig.py - INFO - 进入通知
+2021-05-08 13:57:28,483 - Logconfig.py - INFO - 进入通知里的协作
+2021-05-08 13:57:29,302 - Logconfig.py - INFO - 获取邀请协作的通知
+2021-05-08 13:57:30,272 - Logconfig.py - INFO - stop monitor
+2021-05-08 13:57:32,633 - Logconfig.py - INFO - -----------------------------------test_TestCooperate_01测试结束-------------------------------
+2021-05-08 14:13:39,784 - Logconfig.py - INFO - --------------------------test_TestCooperate_01测试开始----------------------------------------
+2021-05-08 14:13:44,275 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 14:13:44,299 - Logconfig.py - INFO - start monitor!
+2021-05-08 14:13:57,230 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 14:14:00,585 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 14:14:03,873 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 14:14:12,507 - Logconfig.py - INFO - 新建文件:pg,pg协作文件,协作(查看权限)
+2021-05-08 14:14:22,851 - Logconfig.py - INFO - 编辑文件: pg, 协作(查看权限)
+2021-05-08 14:14:22,887 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/b/third.html?fileId=6335485614221325&version=-1&method=2&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E7%25A9%25BA%25E7%2599%25BD%25E7%25AE%2580%25E6%258A%25A5.pptx&uuid=27itkFjY
+2021-05-08 14:14:36,925 - Logconfig.py - INFO - 开启协作，并且选择权限:pg协作文件,单李冬, 查看
+2021-05-08 14:14:58,437 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='input-view']/input"}
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='input-view']/input"}
+  (Session info: chrome=90.0.4430.93)
+
+2021-05-08 14:14:58,438 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 43, in element_input
+    self.find_element(loc).send_keys(value)    # 再输入
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='input-view']/input"}
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 43, in element_input
+    self.find_element(loc).send_keys(value)    # 再输入
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='input-view']/input"}
+  (Session info: chrome=90.0.4430.93)
+
+2021-05-08 14:14:58,455 - Logconfig.py - INFO - stop monitor
+2021-05-08 14:15:00,829 - Logconfig.py - INFO - -----------------------------------test_TestCooperate_01测试结束-------------------------------
+2021-05-08 14:16:42,186 - Logconfig.py - INFO - --------------------------test_TestCooperate_01测试开始----------------------------------------
+2021-05-08 14:16:44,770 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 14:16:44,794 - Logconfig.py - INFO - start monitor!
+2021-05-08 14:16:53,410 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 14:16:56,719 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 14:16:59,915 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 14:17:08,484 - Logconfig.py - INFO - 新建文件:pg,pg协作文件,协作(查看权限)
+2021-05-08 14:17:20,600 - Logconfig.py - INFO - 编辑文件: pg, 协作(查看权限)
+2021-05-08 14:17:20,641 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/b/third.html?fileId=5296063929796313&version=-1&method=2&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E7%25A9%25BA%25E7%2599%25BD%25E7%25AE%2580%25E6%258A%25A5.pptx&uuid=HMvgHojQ
+2021-05-08 14:17:34,754 - Logconfig.py - INFO - 开启协作，并且选择权限:pg协作文件,单李冬, 查看
+2021-05-08 14:17:46,689 - Logconfig.py - INFO - 以下为退出登录操作
+2021-05-08 14:17:48,399 - Logconfig.py - INFO - 以下为登录操作:18870008000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 14:17:54,330 - Logconfig.py - INFO - 进入通知
+2021-05-08 14:17:54,412 - Logconfig.py - INFO - 进入通知里的协作
+2021-05-08 14:17:55,143 - Logconfig.py - INFO - 获取邀请协作的通知
+2021-05-08 14:17:56,672 - Logconfig.py - INFO - stop monitor
+2021-05-08 14:17:59,106 - Logconfig.py - INFO - -----------------------------------test_TestCooperate_01测试结束-------------------------------
+2021-05-08 14:20:19,658 - Logconfig.py - INFO - --------------------------test_TestCooperate_01测试开始----------------------------------------
+2021-05-08 14:20:21,871 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 14:20:21,894 - Logconfig.py - INFO - start monitor!
+2021-05-08 14:20:29,541 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 14:20:32,901 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 14:20:36,089 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 14:20:44,679 - Logconfig.py - INFO - 新建文件:pg,pg协作文件,协作(查看权限)
+2021-05-08 14:20:55,074 - Logconfig.py - INFO - 编辑文件: pg, 协作(查看权限)
+2021-05-08 14:20:55,118 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/b/third.html?fileId=105763704543140&version=-1&method=2&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E7%25A9%25BA%25E7%2599%25BD%25E7%25AE%2580%25E6%258A%25A5.pptx&uuid=muYuwaqI
+2021-05-08 14:21:09,098 - Logconfig.py - INFO - 开启协作，并且选择权限:pg协作文件,单李冬, 查看
+2021-05-08 14:21:21,808 - Logconfig.py - INFO - 以下为退出登录操作
+2021-05-08 14:21:59,372 - Logconfig.py - INFO - 以下为登录操作:18870008000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 14:22:06,545 - Logconfig.py - INFO - 进入通知
+2021-05-08 14:22:06,629 - Logconfig.py - INFO - 进入通知里的协作
+2021-05-08 14:22:07,600 - Logconfig.py - INFO - 获取邀请协作的通知
+2021-05-08 14:22:08,620 - Logconfig.py - INFO - 关闭通知/公告界面
+2021-05-08 14:22:13,691 - Logconfig.py - INFO - stop monitor
+2021-05-08 14:22:15,837 - Logconfig.py - INFO - -----------------------------------test_TestCooperate_01测试结束-------------------------------
+2021-05-08 14:23:05,217 - Logconfig.py - INFO - --------------------------test_TestCooperate_02测试开始----------------------------------------
+2021-05-08 14:23:07,702 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 14:23:07,721 - Logconfig.py - INFO - start monitor!
+2021-05-08 14:23:15,530 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 14:23:18,879 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 14:23:22,157 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 14:23:30,699 - Logconfig.py - INFO - 新建文件:pg,pg协作文件,协作(查看权限)
+2021-05-08 14:23:40,344 - Logconfig.py - INFO - 编辑文件: pg, 协作(查看权限)
+2021-05-08 14:23:40,385 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/b/third.html?fileId=8522091206714119&version=-1&method=2&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E7%25A9%25BA%25E7%2599%25BD%25E7%25AE%2580%25E6%258A%25A5.pptx&uuid=jFSBb07j
+2021-05-08 14:23:54,484 - Logconfig.py - INFO - 开启协作，并且选择权限:pg协作文件,单李冬, 查看
+2021-05-08 14:24:15,959 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='input-view']/input"}
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='input-view']/input"}
+  (Session info: chrome=90.0.4430.93)
+
+2021-05-08 14:24:15,959 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 43, in element_input
+    self.find_element(loc).send_keys(value)    # 再输入
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='input-view']/input"}
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 43, in element_input
+    self.find_element(loc).send_keys(value)    # 再输入
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='input-view']/input"}
+  (Session info: chrome=90.0.4430.93)
+
+2021-05-08 14:24:15,978 - Logconfig.py - INFO - stop monitor
+2021-05-08 14:24:18,382 - Logconfig.py - INFO - -----------------------------------test_TestCooperate_02测试结束-------------------------------
+2021-05-08 14:24:50,017 - Logconfig.py - INFO - --------------------------test_TestCooperate_02测试开始----------------------------------------
+2021-05-08 14:24:52,370 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 14:24:52,389 - Logconfig.py - INFO - start monitor!
+2021-05-08 14:25:00,468 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 14:25:03,847 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 14:25:07,128 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 14:25:15,730 - Logconfig.py - INFO - 新建文件:pg,pg协作文件,协作(查看权限)
+2021-05-08 14:25:26,179 - Logconfig.py - INFO - 编辑文件: pg, 协作(查看权限)
+2021-05-08 14:25:26,255 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/b/third.html?fileId=1908286909160226&version=-1&method=2&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E7%25A9%25BA%25E7%2599%25BD%25E7%25AE%2580%25E6%258A%25A5.pptx&uuid=jnCZD5yI
+2021-05-08 14:25:40,373 - Logconfig.py - INFO - 开启协作，并且选择权限:pg协作文件,单李冬, 查看
+2021-05-08 14:25:52,381 - Logconfig.py - INFO - 以下为退出登录操作
+2021-05-08 14:25:53,998 - Logconfig.py - INFO - 以下为登录操作:18870008000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 14:25:59,977 - Logconfig.py - INFO - 进入通知
+2021-05-08 14:26:00,048 - Logconfig.py - INFO - 进入通知里的协作
+2021-05-08 14:26:01,126 - Logconfig.py - INFO - 获取邀请协作的通知
+2021-05-08 14:26:02,134 - Logconfig.py - INFO - 关闭通知/公告界面
+2021-05-08 14:26:07,085 - Logconfig.py - INFO - stop monitor
+2021-05-08 14:26:09,249 - Logconfig.py - INFO - -----------------------------------test_TestCooperate_02测试结束-------------------------------
+2021-05-08 14:26:15,438 - Logconfig.py - INFO - --------------------------test_TestCooperate_03测试开始----------------------------------------
+2021-05-08 14:26:17,957 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 14:26:17,976 - Logconfig.py - INFO - start monitor!
+2021-05-08 14:26:26,036 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 14:26:29,345 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 14:26:32,536 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 14:26:41,139 - Logconfig.py - INFO - 新建文件:wp,wp协作文件,协作(编辑权限)
+2021-05-08 14:26:51,685 - Logconfig.py - INFO - 编辑文件: wp, 协作(编辑权限)
+2021-05-08 14:26:51,731 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=4591472209833346&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E6%2596%2587%25E5%25AD%2597%25E6%2596%2587%25E6%25A1%25A3.docx&version=-1&method=2&uuid=ym1620455201864
+2021-05-08 14:27:01,437 - Logconfig.py - INFO - 开启协作，并且选择权限:wp协作文件,单李冬, 编辑
+2021-05-08 14:27:13,358 - Logconfig.py - INFO - 以下为退出登录操作
+2021-05-08 14:27:14,935 - Logconfig.py - INFO - 以下为登录操作:18870008000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 14:27:21,172 - Logconfig.py - INFO - 进入通知
+2021-05-08 14:27:21,274 - Logconfig.py - INFO - 进入通知里的协作
+2021-05-08 14:27:22,044 - Logconfig.py - INFO - 获取邀请协作的通知
+2021-05-08 14:27:22,921 - Logconfig.py - INFO - 关闭通知/公告界面
+2021-05-08 14:27:31,177 - Logconfig.py - INFO - stop monitor
+2021-05-08 14:27:33,285 - Logconfig.py - INFO - -----------------------------------test_TestCooperate_03测试结束-------------------------------
+2021-05-08 14:30:09,372 - Logconfig.py - INFO - --------------------------test_TestCooperate_04测试开始----------------------------------------
+2021-05-08 14:30:11,775 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 14:30:11,799 - Logconfig.py - INFO - start monitor!
+2021-05-08 14:30:19,659 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 14:30:23,043 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 14:30:26,294 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 14:30:34,815 - Logconfig.py - INFO - 新建文件:wp,wp协作文件,协作(编辑权限)
+2021-05-08 14:30:46,597 - Logconfig.py - INFO - 编辑文件: wp, 协作(编辑权限)
+2021-05-08 14:30:46,637 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=8503377784533794&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E6%2596%2587%25E5%25AD%2597%25E6%2596%2587%25E6%25A1%25A3.docx&version=-1&method=2&uuid=ym1620455435351
+2021-05-08 14:30:56,337 - Logconfig.py - INFO - 开启协作，并且选择权限:wp协作文件,单李冬, 编辑
+2021-05-08 14:31:08,691 - Logconfig.py - INFO - 以下为退出登录操作
+2021-05-08 14:31:10,295 - Logconfig.py - INFO - 以下为登录操作:18870008000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 14:31:16,599 - Logconfig.py - INFO - 进入通知
+2021-05-08 14:31:16,686 - Logconfig.py - INFO - 进入通知里的协作
+2021-05-08 14:31:17,462 - Logconfig.py - INFO - 获取邀请协作的通知
+2021-05-08 14:31:18,351 - Logconfig.py - INFO - 关闭通知/公告界面
+2021-05-08 14:31:26,647 - Logconfig.py - INFO - stop monitor
+2021-05-08 14:31:28,818 - Logconfig.py - INFO - -----------------------------------test_TestCooperate_04测试结束-------------------------------
+2021-05-08 14:35:05,249 - Logconfig.py - INFO - --------------------------test_TestDownload_01测试开始----------------------------------------
+2021-05-08 14:35:08,074 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 14:35:08,102 - Logconfig.py - INFO - start monitor!
+2021-05-08 14:35:16,112 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 14:35:19,434 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 14:35:22,655 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 14:35:31,186 - Logconfig.py - INFO - 新建文件:ss,ss下载的文件,下载
+2021-05-08 14:35:44,172 - Logconfig.py - INFO - 编辑文件: ss, 下载
+2021-05-08 14:35:44,220 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=3755720415077903&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1620455731748
+2021-05-08 14:35:53,894 - Logconfig.py - INFO - 下载文件ss下载的文件
+2021-05-08 14:36:04,494 - Logconfig.py - INFO - stop monitor
+2021-05-08 14:36:06,574 - Logconfig.py - INFO - -----------------------------------test_TestDownload_01测试结束-------------------------------
+2021-05-08 14:49:57,884 - Logconfig.py - INFO - --------------------------test_TestDownload_02测试开始----------------------------------------
+2021-05-08 14:50:00,391 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 14:50:00,414 - Logconfig.py - INFO - start monitor!
+2021-05-08 14:50:08,047 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 14:50:11,282 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 14:50:14,472 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 14:50:23,042 - Logconfig.py - INFO - 新建文件夹:被下载的文件夹
+2021-05-08 14:50:28,346 - Logconfig.py - INFO - 新建文件:ss,ss下载的文件,下载
+2021-05-08 14:50:40,326 - Logconfig.py - INFO - 编辑文件: ss, 下载
+2021-05-08 14:50:40,371 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=6591199504891646&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1620456629379
+2021-05-08 14:50:49,936 - Logconfig.py - INFO - 新建文件:wp,wp下载的文件,下载
+2021-05-08 14:50:59,564 - Logconfig.py - INFO - 编辑文件: wp, 下载
+2021-05-08 14:50:59,607 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=8237188611104336&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E6%2596%2587%25E5%25AD%2597%25E6%2596%2587%25E6%25A1%25A3.docx&version=-1&method=2&uuid=ym1620456650285
+2021-05-08 14:51:09,278 - Logconfig.py - INFO - 新建文件:pg,pg下载的文件,下载
+2021-05-08 14:51:19,677 - Logconfig.py - INFO - 编辑文件: pg, 下载
+2021-05-08 14:51:19,748 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/b/third.html?fileId=6311170002133726&version=-1&method=2&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E7%25A9%25BA%25E7%2599%25BD%25E7%25AE%2580%25E6%258A%25A5.pptx&uuid=LKLd9Gpv
+2021-05-08 14:51:33,888 - Logconfig.py - INFO - 下载文件被下载的文件夹
+2021-05-08 14:51:45,067 - Logconfig.py - INFO - stop monitor
+2021-05-08 14:51:47,481 - Logconfig.py - INFO - -----------------------------------test_TestDownload_02测试结束-------------------------------
+2021-05-08 15:03:53,630 - Logconfig.py - INFO - --------------------------test_TestDownload_02测试开始----------------------------------------
+2021-05-08 15:03:56,054 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 15:03:56,075 - Logconfig.py - INFO - start monitor!
+2021-05-08 15:04:03,838 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 15:04:07,165 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 15:04:10,444 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 15:04:19,024 - Logconfig.py - INFO - 新建文件夹:被下载的文件夹
+2021-05-08 15:04:24,363 - Logconfig.py - INFO - 新建文件:ss,ss下载的文件,下载
+2021-05-08 15:04:35,187 - Logconfig.py - INFO - 编辑文件: ss, 下载
+2021-05-08 15:04:35,234 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=5106680690106297&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1620457465413
+2021-05-08 15:04:44,806 - Logconfig.py - INFO - 新建文件:wp,wp下载的文件,下载
+2021-05-08 15:04:53,301 - Logconfig.py - INFO - 编辑文件: wp, 下载
+2021-05-08 15:04:53,374 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=8857149070780677&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E6%2596%2587%25E5%25AD%2597%25E6%2596%2587%25E6%25A1%25A3.docx&version=-1&method=2&uuid=ym1620457485100
+2021-05-08 15:05:03,077 - Logconfig.py - INFO - 新建文件:pg,pg下载的文件,下载
+2021-05-08 15:05:14,384 - Logconfig.py - INFO - 编辑文件: pg, 下载
+2021-05-08 15:05:14,458 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/b/third.html?fileId=6941102987212378&version=-1&method=2&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E7%25A9%25BA%25E7%2599%25BD%25E7%25AE%2580%25E6%258A%25A5.pptx&uuid=3mq2ZA8i
+2021-05-08 15:05:28,548 - Logconfig.py - INFO - 下载文件被下载的文件夹
+2021-05-08 15:05:39,092 - Logconfig.py - INFO - stop monitor
+2021-05-08 15:05:41,428 - Logconfig.py - INFO - -----------------------------------test_TestDownload_02测试结束-------------------------------
+2021-05-08 15:07:23,718 - Logconfig.py - INFO - --------------------------test_TestDownload_02测试开始----------------------------------------
+2021-05-08 15:07:26,268 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 15:07:26,291 - Logconfig.py - INFO - start monitor!
+2021-05-08 15:07:34,283 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 15:07:37,631 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 15:07:40,827 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 15:07:49,359 - Logconfig.py - INFO - 新建文件夹:被下载的文件夹
+2021-05-08 15:07:54,616 - Logconfig.py - INFO - 新建文件:ss,ss下载的文件,下载
+2021-05-08 15:08:10,516 - Logconfig.py - INFO - 编辑文件: ss, 下载
+2021-05-08 15:08:10,613 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=4247781035141512&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1620457675484
+2021-05-08 15:08:20,433 - Logconfig.py - INFO - 新建文件:wp,wp下载的文件,下载
+2021-05-08 15:08:29,249 - Logconfig.py - INFO - 编辑文件: wp, 下载
+2021-05-08 15:08:29,353 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=4127432897028437&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E6%2596%2587%25E5%25AD%2597%25E6%2596%2587%25E6%25A1%25A3.docx&version=-1&method=2&uuid=ym1620457700746
+2021-05-08 15:08:38,971 - Logconfig.py - INFO - 新建文件:pg,pg下载的文件,下载
+2021-05-08 15:08:48,312 - Logconfig.py - INFO - 编辑文件: pg, 下载
+2021-05-08 15:08:48,356 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/b/third.html?fileId=2847791428481535&version=-1&method=2&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E7%25A9%25BA%25E7%2599%25BD%25E7%25AE%2580%25E6%258A%25A5.pptx&uuid=lE6j7TDP
+2021-05-08 15:09:02,538 - Logconfig.py - INFO - 下载文件被下载的文件夹
+2021-05-08 15:09:13,494 - Logconfig.py - INFO - stop monitor
+2021-05-08 15:09:15,627 - Logconfig.py - INFO - -----------------------------------test_TestDownload_02测试结束-------------------------------
+2021-05-08 15:09:24,584 - Logconfig.py - INFO - --------------------------test_TestDownload_03测试开始----------------------------------------
+2021-05-08 15:09:26,833 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 15:09:26,856 - Logconfig.py - INFO - start monitor!
+2021-05-08 15:09:35,092 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 15:09:38,414 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 15:09:41,684 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 15:09:50,232 - Logconfig.py - INFO - 新建文件夹:被下载的文件夹
+2021-05-08 15:09:53,444 - Logconfig.py - INFO - 新建文件:ss,ss下载的文件,下载
+2021-05-08 15:10:07,175 - Logconfig.py - INFO - 编辑文件: ss, 下载
+2021-05-08 15:10:07,216 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=6935881523622429&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1620457794930
+2021-05-08 15:10:16,863 - Logconfig.py - INFO - 新建文件:wp,wp下载的文件,下载
+2021-05-08 15:10:24,993 - Logconfig.py - INFO - 编辑文件: wp, 下载
+2021-05-08 15:10:25,035 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=2595494562834468&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E6%2596%2587%25E5%25AD%2597%25E6%2596%2587%25E6%25A1%25A3.docx&version=-1&method=2&uuid=ym1620457817173
+2021-05-08 15:10:34,663 - Logconfig.py - INFO - 新建文件:pg,pg下载的文件,下载
+2021-05-08 15:10:44,726 - Logconfig.py - INFO - 编辑文件: pg, 下载
+2021-05-08 15:10:44,764 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/b/third.html?fileId=6046242305807987&version=-1&method=2&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E7%25A9%25BA%25E7%2599%25BD%25E7%25AE%2580%25E6%258A%25A5.pptx&uuid=AqiN85iD
+2021-05-08 15:11:00,804 - Logconfig.py - INFO - 新建文件:ss,ss文件夹内部的文件,下载
+2021-05-08 15:11:08,561 - Logconfig.py - INFO - 编辑文件: ss, 下载
+2021-05-08 15:11:08,644 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=7742171519918220&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1620457861091
+2021-05-08 15:11:37,753 - Logconfig.py - INFO - stop monitor
+2021-05-08 15:11:40,215 - Logconfig.py - INFO - -----------------------------------test_TestDownload_03测试结束-------------------------------
+2021-05-08 15:12:21,210 - Logconfig.py - INFO - --------------------------test_TestDownload_03测试开始----------------------------------------
+2021-05-08 15:12:23,854 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 15:12:23,872 - Logconfig.py - INFO - start monitor!
+2021-05-08 15:12:31,564 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 15:12:34,912 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 15:12:38,129 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 15:12:46,708 - Logconfig.py - INFO - 新建文件夹:被下载的文件夹
+2021-05-08 15:12:49,958 - Logconfig.py - INFO - 新建文件:ss,ss下载的文件,下载
+2021-05-08 15:13:01,601 - Logconfig.py - INFO - 编辑文件: ss, 下载
+2021-05-08 15:13:01,648 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=8337798004134423&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1620457971678
+2021-05-08 15:13:11,374 - Logconfig.py - INFO - 新建文件:wp,wp下载的文件,下载
+2021-05-08 15:13:19,018 - Logconfig.py - INFO - 编辑文件: wp, 下载
+2021-05-08 15:13:19,060 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=6579541172834962&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E6%2596%2587%25E5%25AD%2597%25E6%2596%2587%25E6%25A1%25A3.docx&version=-1&method=2&uuid=ym1620457991678
+2021-05-08 15:13:28,754 - Logconfig.py - INFO - 新建文件:pg,pg下载的文件,下载
+2021-05-08 15:13:38,202 - Logconfig.py - INFO - 编辑文件: pg, 下载
+2021-05-08 15:13:38,239 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/b/third.html?fileId=6414205824569105&version=-1&method=2&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E7%25A9%25BA%25E7%2599%25BD%25E7%25AE%2580%25E6%258A%25A5.pptx&uuid=zjPwgmWh
+2021-05-08 15:13:54,392 - Logconfig.py - INFO - 新建文件:ss,ss文件夹内部的文件,下载
+2021-05-08 15:14:02,433 - Logconfig.py - INFO - 编辑文件: ss, 下载
+2021-05-08 15:14:02,474 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=4824207909313075&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1620458034686
+2021-05-08 15:14:24,290 - Logconfig.py - INFO - stop monitor
+2021-05-08 15:14:26,703 - Logconfig.py - INFO - -----------------------------------test_TestDownload_03测试结束-------------------------------
+2021-05-08 15:16:11,751 - Logconfig.py - INFO - --------------------------test_TestDownload_03测试开始----------------------------------------
+2021-05-08 15:16:14,364 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 15:16:14,390 - Logconfig.py - INFO - start monitor!
+2021-05-08 15:16:22,190 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 15:16:25,507 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 15:16:28,802 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 15:16:37,344 - Logconfig.py - INFO - 新建文件夹:被下载的文件夹
+2021-05-08 15:16:40,549 - Logconfig.py - INFO - 新建文件:ss,ss下载的文件,下载
+2021-05-08 15:16:51,426 - Logconfig.py - INFO - 编辑文件: ss, 下载
+2021-05-08 15:16:51,470 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=1372732722780876&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1620458201393
+2021-05-08 15:17:01,163 - Logconfig.py - INFO - 新建文件:wp,wp下载的文件,下载
+2021-05-08 15:17:08,654 - Logconfig.py - INFO - 编辑文件: wp, 下载
+2021-05-08 15:17:08,694 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=5865720271257784&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E6%2596%2587%25E5%25AD%2597%25E6%2596%2587%25E6%25A1%25A3.docx&version=-1&method=2&uuid=ym1620458221457
+2021-05-08 15:17:18,329 - Logconfig.py - INFO - 新建文件:pg,pg下载的文件,下载
+2021-05-08 15:17:28,109 - Logconfig.py - INFO - 编辑文件: pg, 下载
+2021-05-08 15:17:28,150 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/b/third.html?fileId=1519082316453521&version=-1&method=2&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E7%25A9%25BA%25E7%2599%25BD%25E7%25AE%2580%25E6%258A%25A5.pptx&uuid=xE3qCLn7
+2021-05-08 15:17:44,348 - Logconfig.py - INFO - 新建文件:ss,ss文件夹内部的文件,下载
+2021-05-08 15:17:52,122 - Logconfig.py - INFO - 编辑文件: ss, 下载
+2021-05-08 15:17:52,162 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=5654997650903150&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1620458264712
+2021-05-08 15:18:14,016 - Logconfig.py - INFO - stop monitor
+2021-05-08 15:18:16,384 - Logconfig.py - INFO - -----------------------------------test_TestDownload_03测试结束-------------------------------
+2021-05-08 15:19:12,356 - Logconfig.py - INFO - --------------------------test_TestDownload_03测试开始----------------------------------------
+2021-05-08 15:19:15,037 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 15:19:15,060 - Logconfig.py - INFO - start monitor!
+2021-05-08 15:19:23,191 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 15:19:26,532 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 15:19:29,758 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 15:19:38,269 - Logconfig.py - INFO - 新建文件夹:被下载的文件夹
+2021-05-08 15:19:41,531 - Logconfig.py - INFO - 新建文件:ss,ss下载的文件,下载
+2021-05-08 15:19:52,327 - Logconfig.py - INFO - 编辑文件: ss, 下载
+2021-05-08 15:19:52,393 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=5542514743616536&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1620458382763
+2021-05-08 15:20:01,995 - Logconfig.py - INFO - 新建文件:wp,wp下载的文件,下载
+2021-05-08 15:20:09,774 - Logconfig.py - INFO - 编辑文件: wp, 下载
+2021-05-08 15:20:09,853 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=5393245167904079&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E6%2596%2587%25E5%25AD%2597%25E6%2596%2587%25E6%25A1%25A3.docx&version=-1&method=2&uuid=ym1620458402286
+2021-05-08 15:20:19,444 - Logconfig.py - INFO - 新建文件:pg,pg下载的文件,下载
+2021-05-08 15:20:28,557 - Logconfig.py - INFO - 编辑文件: pg, 下载
+2021-05-08 15:20:28,668 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/b/third.html?fileId=4922409088986717&version=-1&method=2&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E7%25A9%25BA%25E7%2599%25BD%25E7%25AE%2580%25E6%258A%25A5.pptx&uuid=XV889rtJ
+2021-05-08 15:20:44,780 - Logconfig.py - INFO - 新建文件:ss,ss文件夹内部的文件,下载
+2021-05-08 15:21:03,949 - Logconfig.py - INFO - 编辑文件: ss, 下载
+2021-05-08 15:21:03,989 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=8521729983088957&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1620458445069
+2021-05-08 15:21:26,116 - Logconfig.py - INFO - stop monitor
+2021-05-08 15:21:28,284 - Logconfig.py - INFO - -----------------------------------test_TestDownload_03测试结束-------------------------------
+2021-05-08 15:24:30,762 - Logconfig.py - INFO - --------------------------test_TestNew_00测试开始----------------------------------------
+2021-05-08 15:24:33,206 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 15:24:33,226 - Logconfig.py - INFO - start monitor!
+2021-05-08 15:24:41,516 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 15:24:44,819 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 15:24:48,049 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 15:24:56,679 - Logconfig.py - INFO - stop monitor
+2021-05-08 15:24:58,751 - Logconfig.py - INFO - -----------------------------------test_TestNew_00测试结束-------------------------------
+2021-05-08 15:30:10,247 - Logconfig.py - INFO - --------------------------test_TestNew_00测试开始----------------------------------------
+2021-05-08 15:30:13,524 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 15:30:13,548 - Logconfig.py - INFO - start monitor!
+2021-05-08 15:30:21,603 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 15:30:24,910 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 15:30:28,130 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 15:30:36,786 - Logconfig.py - INFO - stop monitor
+2021-05-08 15:30:38,874 - Logconfig.py - INFO - -----------------------------------test_TestNew_00测试结束-------------------------------
+2021-05-08 15:30:38,876 - Logconfig.py - INFO - --------------------------test_TestNew_01测试开始----------------------------------------
+2021-05-08 15:30:41,176 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 15:30:41,189 - Logconfig.py - INFO - start monitor!
+2021-05-08 15:30:53,887 - Logconfig.py - INFO - 新建文件:wp,新建的wp,wp的文本内容
+2021-05-08 15:31:07,032 - Logconfig.py - INFO - 编辑文件: wp, wp的文本内容
+2021-05-08 15:31:07,148 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=6543712532285183&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E6%2596%2587%25E5%25AD%2597%25E6%2596%2587%25E6%25A1%25A3.docx&version=-1&method=2&uuid=ym1620459055191
+2021-05-08 15:31:33,006 - Logconfig.py - INFO - 以下为通过文件内容搜索:wp的文本内容
+2021-05-08 15:31:54,507 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='文本内容']"}
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='文本内容']"}
+  (Session info: chrome=90.0.4430.93)
+
+2021-05-08 15:31:54,508 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='文本内容']"}
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='文本内容']"}
+  (Session info: chrome=90.0.4430.93)
+
+2021-05-08 15:31:54,546 - Logconfig.py - INFO - stop monitor
+2021-05-08 15:31:56,927 - Logconfig.py - INFO - -----------------------------------test_TestNew_01测试结束-------------------------------
+2021-05-08 15:31:56,935 - Logconfig.py - INFO - --------------------------test_TestNew_02测试开始----------------------------------------
+2021-05-08 15:31:59,360 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 15:31:59,373 - Logconfig.py - INFO - start monitor!
+2021-05-08 15:32:13,424 - Logconfig.py - INFO - 新建文件:ss,新建的ss,ss的文本内容
+2021-05-08 15:32:26,751 - Logconfig.py - INFO - 编辑文件: ss, ss的文本内容
+2021-05-08 15:32:26,789 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=4921900138748408&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1620459134461
+2021-05-08 15:32:52,624 - Logconfig.py - INFO - 以下为通过文件内容搜索:ss的文本内容
+2021-05-08 15:33:13,805 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='文本内容']"}
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='文本内容']"}
+  (Session info: chrome=90.0.4430.93)
+
+2021-05-08 15:33:13,805 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='文本内容']"}
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='文本内容']"}
+  (Session info: chrome=90.0.4430.93)
+
+2021-05-08 15:33:13,846 - Logconfig.py - INFO - stop monitor
+2021-05-08 15:33:16,206 - Logconfig.py - INFO - -----------------------------------test_TestNew_02测试结束-------------------------------
+2021-05-08 15:33:16,212 - Logconfig.py - INFO - --------------------------test_TestNew_03测试开始----------------------------------------
+2021-05-08 15:33:18,745 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 15:33:18,760 - Logconfig.py - INFO - start monitor!
+2021-05-08 15:33:31,513 - Logconfig.py - INFO - 新建文件:pg,新建的pg,pg的文本内容
+2021-05-08 15:33:42,021 - Logconfig.py - INFO - 编辑文件: pg, pg的文本内容
+2021-05-08 15:33:42,099 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/b/third.html?fileId=4056423412600882&version=-1&method=2&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E7%25A9%25BA%25E7%2599%25BD%25E7%25AE%2580%25E6%258A%25A5.pptx&uuid=qOkGO4rf
+2021-05-08 15:34:12,219 - Logconfig.py - INFO - 以下为通过文件内容搜索:pg的文本内容
+2021-05-08 15:34:33,781 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='文本内容']"}
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='文本内容']"}
+  (Session info: chrome=90.0.4430.93)
+
+2021-05-08 15:34:33,782 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='文本内容']"}
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='文本内容']"}
+  (Session info: chrome=90.0.4430.93)
+
+2021-05-08 15:34:33,823 - Logconfig.py - INFO - stop monitor
+2021-05-08 15:34:36,195 - Logconfig.py - INFO - -----------------------------------test_TestNew_03测试结束-------------------------------
+2021-05-08 15:34:36,200 - Logconfig.py - INFO - --------------------------test_TestNew_04测试开始----------------------------------------
+2021-05-08 15:34:39,841 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 15:34:39,854 - Logconfig.py - INFO - start monitor!
+2021-05-08 15:35:01,575 - Logconfig.py - INFO - 新建文件夹:新建的文件夹
+2021-05-08 15:35:11,015 - Logconfig.py - INFO - stop monitor
+2021-05-08 15:35:13,127 - Logconfig.py - INFO - -----------------------------------test_TestNew_04测试结束-------------------------------
+2021-05-08 15:48:55,305 - Logconfig.py - INFO - --------------------------test_TestNew_00测试开始----------------------------------------
+2021-05-08 15:48:57,584 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 15:48:57,605 - Logconfig.py - INFO - start monitor!
+2021-05-08 15:49:05,323 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 15:49:08,595 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 15:49:11,805 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 15:49:20,319 - Logconfig.py - INFO - stop monitor
+2021-05-08 15:49:22,664 - Logconfig.py - INFO - -----------------------------------test_TestNew_00测试结束-------------------------------
+2021-05-08 15:49:22,665 - Logconfig.py - INFO - --------------------------test_TestNew_01测试开始----------------------------------------
+2021-05-08 15:49:24,835 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 15:49:24,848 - Logconfig.py - INFO - start monitor!
+2021-05-08 15:49:37,483 - Logconfig.py - INFO - 新建文件:wp,新建的wp,wp的文本内容
+2021-05-08 15:49:50,429 - Logconfig.py - INFO - 编辑文件: wp, wp的文本内容
+2021-05-08 15:49:50,468 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=2185519036400777&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E6%2596%2587%25E5%25AD%2597%25E6%2596%2587%25E6%25A1%25A3.docx&version=-1&method=2&uuid=ym1620460179537
+2021-05-08 15:50:16,347 - Logconfig.py - INFO - 以下为通过文件内容搜索:wp的文本内容
+2021-05-08 15:50:18,963 - Logconfig.py - INFO - stop monitor
+2021-05-08 15:50:21,380 - Logconfig.py - INFO - -----------------------------------test_TestNew_01测试结束-------------------------------
+2021-05-08 15:50:21,381 - Logconfig.py - INFO - --------------------------test_TestNew_02测试开始----------------------------------------
+2021-05-08 15:50:23,852 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 15:50:23,864 - Logconfig.py - INFO - start monitor!
+2021-05-08 15:50:36,112 - Logconfig.py - INFO - 新建文件:ss,新建的ss,ss的文本内容
+2021-05-08 15:50:46,905 - Logconfig.py - INFO - 编辑文件: ss, ss的文本内容
+2021-05-08 15:50:46,945 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=5515342431390034&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1620460236997
+2021-05-08 15:51:12,862 - Logconfig.py - INFO - 以下为通过文件内容搜索:ss的文本内容
+2021-05-08 15:51:35,982 - Logconfig.py - INFO - stop monitor
+2021-05-08 15:51:38,347 - Logconfig.py - INFO - -----------------------------------test_TestNew_02测试结束-------------------------------
+2021-05-08 15:51:38,351 - Logconfig.py - INFO - --------------------------test_TestNew_03测试开始----------------------------------------
+2021-05-08 15:51:40,948 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 15:51:40,961 - Logconfig.py - INFO - start monitor!
+2021-05-08 15:51:54,565 - Logconfig.py - INFO - 新建文件:pg,新建的pg,pg的文本内容
+2021-05-08 15:52:04,976 - Logconfig.py - INFO - 编辑文件: pg, pg的文本内容
+2021-05-08 15:52:05,014 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/b/third.html?fileId=3760779954626098&version=-1&method=2&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E7%25A9%25BA%25E7%2599%25BD%25E7%25AE%2580%25E6%258A%25A5.pptx&uuid=Waoaxuh1
+2021-05-08 15:52:35,857 - Logconfig.py - INFO - 以下为通过文件内容搜索:pg的文本内容
+2021-05-08 15:52:39,276 - Logconfig.py - INFO - stop monitor
+2021-05-08 15:52:41,668 - Logconfig.py - INFO - -----------------------------------test_TestNew_03测试结束-------------------------------
+2021-05-08 15:52:41,668 - Logconfig.py - INFO - --------------------------test_TestNew_04测试开始----------------------------------------
+2021-05-08 15:52:44,224 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 15:52:44,240 - Logconfig.py - INFO - start monitor!
+2021-05-08 15:52:57,072 - Logconfig.py - INFO - 新建文件夹:新建的文件夹
+2021-05-08 15:53:06,441 - Logconfig.py - INFO - stop monitor
+2021-05-08 15:53:08,709 - Logconfig.py - INFO - -----------------------------------test_TestNew_04测试结束-------------------------------
+2021-05-08 15:56:14,225 - Logconfig.py - INFO - --------------------------test_TestNew_02测试开始----------------------------------------
+2021-05-08 15:56:16,571 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 15:56:16,678 - Logconfig.py - INFO - start monitor!
+2021-05-08 15:56:29,471 - Logconfig.py - INFO - 新建文件:ss,新建的ss,ss的文本内容
+2021-05-08 15:56:39,314 - Logconfig.py - INFO - 编辑文件: ss, ss的文本内容
+2021-05-08 15:56:39,378 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=2989326094036029&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1620460589995
+2021-05-08 15:57:05,086 - Logconfig.py - INFO - 以下为通过文件内容搜索:ss的文本内容
+2021-05-08 15:57:07,424 - Logconfig.py - INFO - stop monitor
+2021-05-08 15:57:09,867 - Logconfig.py - INFO - -----------------------------------test_TestNew_02测试结束-------------------------------
+2021-05-08 15:57:36,212 - Logconfig.py - INFO - --------------------------test_TestShare_01测试开始----------------------------------------
+2021-05-08 15:57:38,498 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 15:57:38,519 - Logconfig.py - INFO - start monitor!
+2021-05-08 15:57:46,095 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 15:57:49,400 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 15:57:52,600 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 15:58:01,097 - Logconfig.py - INFO - 新建文件:ss,ss共享文件,共享(查看权限)
+2021-05-08 15:58:13,931 - Logconfig.py - INFO - 编辑文件: ss, 共享(查看权限)
+2021-05-08 15:58:13,969 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=4837719180088664&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1620460682374
+2021-05-08 15:58:23,712 - Logconfig.py - INFO - 开启共享:ss共享文件,查看
+2021-05-08 15:58:31,048 - Logconfig.py - INFO - 获取共享链接
+2021-05-08 15:58:31,073 - Logconfig.py - INFO - 获取共享的密码
+2021-05-08 15:58:33,162 - Logconfig.py - INFO - 以下为退出登录操作
+2021-05-08 15:58:39,188 - Logconfig.py - INFO - 获取链接共享界面的文件列表
+2021-05-08 15:58:39,390 - Logconfig.py - INFO - 以下为登录操作:18870008000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 15:58:47,900 - Logconfig.py - INFO - 获取链接共享界面的文件列表
+2021-05-08 15:58:57,109 - Logconfig.py - INFO - stop monitor
+2021-05-08 15:58:59,599 - Logconfig.py - INFO - -----------------------------------test_TestShare_01测试结束-------------------------------
+2021-05-08 15:59:06,721 - Logconfig.py - INFO - --------------------------test_TestShare_02测试开始----------------------------------------
+2021-05-08 15:59:09,154 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 15:59:09,172 - Logconfig.py - INFO - start monitor!
+2021-05-08 15:59:17,016 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 15:59:20,434 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 15:59:23,677 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 15:59:32,283 - Logconfig.py - INFO - 新建文件:ss,ss共享文件,共享(编辑权限)
+2021-05-08 15:59:44,596 - Logconfig.py - INFO - 编辑文件: ss, 共享(编辑权限)
+2021-05-08 15:59:44,667 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=5879539777835512&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1620460773608
+2021-05-08 15:59:54,298 - Logconfig.py - INFO - 开启共享:ss共享文件,编辑
+2021-05-08 16:00:02,491 - Logconfig.py - INFO - 获取共享链接
+2021-05-08 16:00:04,599 - Logconfig.py - INFO - 以下为退出登录操作
+2021-05-08 16:00:10,010 - Logconfig.py - INFO - 获取链接共享界面的文件列表
+2021-05-08 16:00:10,588 - Logconfig.py - INFO - 以下为登录操作:18870008000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 16:00:16,059 - Logconfig.py - INFO - 获取链接共享界面的文件列表
+2021-05-08 16:00:25,634 - Logconfig.py - INFO - stop monitor
+2021-05-08 16:00:28,114 - Logconfig.py - INFO - -----------------------------------test_TestShare_02测试结束-------------------------------
+2021-05-08 16:00:33,939 - Logconfig.py - INFO - --------------------------test_TestShare_03测试开始----------------------------------------
+2021-05-08 16:00:37,362 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 16:00:37,386 - Logconfig.py - INFO - start monitor!
+2021-05-08 16:00:45,242 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 16:00:48,514 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 16:00:51,716 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 16:01:00,272 - Logconfig.py - INFO - 新建文件夹:仅上传权限文件夹
+2021-05-08 16:01:05,633 - Logconfig.py - INFO - 新建文件:wp,wp共享文件,共享(仅上传)
+2021-05-08 16:01:15,975 - Logconfig.py - INFO - 编辑文件: wp, 共享(仅上传)
+2021-05-08 16:01:16,073 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=2856535071953877&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E6%2596%2587%25E5%25AD%2597%25E6%2596%2587%25E6%25A1%25A3.docx&version=-1&method=2&uuid=ym1620460867406
+2021-05-08 16:01:25,932 - Logconfig.py - INFO - 开启共享:仅上传权限文件夹,仅上传
+2021-05-08 16:01:35,200 - Logconfig.py - INFO - 获取共享链接
+2021-05-08 16:01:37,288 - Logconfig.py - INFO - 以下为退出登录操作
+2021-05-08 16:01:38,943 - Logconfig.py - INFO - 以下为登录操作:18870008000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 16:01:49,719 - Logconfig.py - INFO - 获取链接共享界面的文件列表
+2021-05-08 16:02:41,798 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),"wp共享文件.docx")]"}
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),"wp共享文件.docx")]"}
+  (Session info: chrome=90.0.4430.93)
+
+2021-05-08 16:02:41,821 - Logconfig.py - INFO - stop monitor
+2021-05-08 16:02:44,314 - Logconfig.py - INFO - -----------------------------------test_TestShare_03测试结束-------------------------------
+2021-05-08 16:02:49,430 - Logconfig.py - INFO - --------------------------test_TestShare_04测试开始----------------------------------------
+2021-05-08 16:02:51,835 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 16:02:51,854 - Logconfig.py - INFO - start monitor!
+2021-05-08 16:03:00,491 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 16:03:03,796 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 16:03:06,996 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 16:03:15,535 - Logconfig.py - INFO - 新建文件夹:查看权限文件夹
+2021-05-08 16:03:20,893 - Logconfig.py - INFO - 新建文件:pg,pg共享文件,共享(查看)
+2021-05-08 16:03:35,173 - Logconfig.py - INFO - 编辑文件: pg, 共享(查看)
+2021-05-08 16:03:35,271 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/b/third.html?fileId=2980541075061020&version=-1&method=2&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E7%25A9%25BA%25E7%2599%25BD%25E7%25AE%2580%25E6%258A%25A5.pptx&uuid=tm9rGTBk
+2021-05-08 16:03:49,411 - Logconfig.py - INFO - 开启共享:查看权限文件夹,查看
+2021-05-08 16:04:09,466 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'查看权限文件夹')]"}
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'查看权限文件夹')]"}
+  (Session info: chrome=90.0.4430.93)
+
+2021-05-08 16:04:09,466 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 81, in right_click_filename
+    self.find_element("//span[contains(text(),'%s')]" % filename)).perform()
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'查看权限文件夹')]"}
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 81, in right_click_filename
+    self.find_element("//span[contains(text(),'%s')]" % filename)).perform()
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'查看权限文件夹')]"}
+  (Session info: chrome=90.0.4430.93)
+
+2021-05-08 16:04:09,486 - Logconfig.py - INFO - stop monitor
+2021-05-08 16:04:11,944 - Logconfig.py - INFO - -----------------------------------test_TestShare_04测试结束-------------------------------
+2021-05-08 16:37:15,798 - Logconfig.py - INFO - --------------------------test_TestShare_01测试开始----------------------------------------
+2021-05-08 16:37:18,241 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 16:37:18,265 - Logconfig.py - INFO - start monitor!
+2021-05-08 16:37:26,810 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 16:37:30,110 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 16:37:33,337 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 16:37:41,895 - Logconfig.py - INFO - 新建文件:ss,ss共享文件,共享(查看权限)
+2021-05-08 16:37:52,406 - Logconfig.py - INFO - 编辑文件: ss, 共享(查看权限)
+2021-05-08 16:37:52,452 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=4923117908167612&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1620463062993
+2021-05-08 16:38:02,694 - Logconfig.py - INFO - 开启共享:ss共享文件,查看
+2021-05-08 16:38:10,618 - Logconfig.py - INFO - 获取共享链接
+2021-05-08 16:38:10,645 - Logconfig.py - INFO - 获取共享的密码
+2021-05-08 16:38:12,770 - Logconfig.py - INFO - 以下为退出登录操作
+2021-05-08 16:38:19,141 - Logconfig.py - INFO - 获取链接共享界面的文件列表
+2021-05-08 16:38:19,339 - Logconfig.py - INFO - 以下为登录操作:18870008000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 16:38:28,017 - Logconfig.py - INFO - 获取链接共享界面的文件列表
+2021-05-08 16:38:37,918 - Logconfig.py - INFO - stop monitor
+2021-05-08 16:38:40,098 - Logconfig.py - INFO - -----------------------------------test_TestShare_01测试结束-------------------------------
+2021-05-08 16:38:56,325 - Logconfig.py - INFO - --------------------------test_TestUpload_00测试开始----------------------------------------
+2021-05-08 16:38:58,848 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 16:38:58,867 - Logconfig.py - INFO - start monitor!
+2021-05-08 16:39:07,050 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 16:39:10,357 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 16:39:13,610 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 16:39:22,265 - Logconfig.py - INFO - stop monitor
+2021-05-08 16:39:24,364 - Logconfig.py - INFO - -----------------------------------test_TestUpload_00测试结束-------------------------------
+2021-05-08 16:39:24,364 - Logconfig.py - INFO - --------------------------test_TestUpload_01测试开始----------------------------------------
+2021-05-08 16:39:26,736 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 16:39:26,748 - Logconfig.py - INFO - start monitor!
+2021-05-08 16:39:39,893 - Logconfig.py - INFO - 上传文件:全文检索文档.doc
+2021-05-08 16:40:01,616 - Logconfig.py - INFO - 以下为通过文件内容搜索:全文检索文档
+2021-05-08 16:40:04,240 - Logconfig.py - INFO - stop monitor
+2021-05-08 16:40:06,354 - Logconfig.py - INFO - -----------------------------------test_TestUpload_01测试结束-------------------------------
+2021-05-08 16:40:06,356 - Logconfig.py - INFO - --------------------------test_TestUpload_02测试开始----------------------------------------
+2021-05-08 16:40:08,794 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 16:40:08,808 - Logconfig.py - INFO - start monitor!
+2021-05-08 16:40:21,280 - Logconfig.py - INFO - 上传文件:全文检索表格.xls
+2021-05-08 16:40:42,983 - Logconfig.py - INFO - 以下为通过文件内容搜索:全文检索表格
+2021-05-08 16:40:45,954 - Logconfig.py - INFO - stop monitor
+2021-05-08 16:40:48,102 - Logconfig.py - INFO - -----------------------------------test_TestUpload_02测试结束-------------------------------
+2021-05-08 16:40:48,103 - Logconfig.py - INFO - --------------------------test_TestUpload_03测试开始----------------------------------------
+2021-05-08 16:40:50,726 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 16:40:50,741 - Logconfig.py - INFO - start monitor!
+2021-05-08 16:41:03,383 - Logconfig.py - INFO - 上传文件:全文检索简报.ppt
+2021-05-08 16:41:24,983 - Logconfig.py - INFO - 以下为通过文件内容搜索:全文检索简报
+2021-05-08 16:41:27,580 - Logconfig.py - INFO - stop monitor
+2021-05-08 16:41:29,677 - Logconfig.py - INFO - -----------------------------------test_TestUpload_03测试结束-------------------------------
+2021-05-08 16:42:08,322 - Logconfig.py - INFO - --------------------------test_TestMember_01测试开始----------------------------------------
+2021-05-08 16:42:11,027 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-08 16:42:11,048 - Logconfig.py - INFO - start monitor!
+2021-05-08 16:42:19,039 - Logconfig.py - INFO - 以下为进入企业控制台
+2021-05-08 16:42:24,701 - Logconfig.py - INFO - 进入部门:自动化部门
+2021-05-08 16:42:26,837 - Logconfig.py - INFO - 删除成员:自动化1号
+2021-05-08 16:42:46,851 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='自动化1号']/../..//input[@type='checkbox']"}
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='自动化1号']/../..//input[@type='checkbox']"}
+  (Session info: chrome=90.0.4430.93)
+
+2021-05-08 16:42:46,852 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='自动化1号']/../..//input[@type='checkbox']"}
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='自动化1号']/../..//input[@type='checkbox']"}
+  (Session info: chrome=90.0.4430.93)
+
+2021-05-08 16:42:49,021 - Logconfig.py - INFO - 添加成员
+2021-05-08 16:43:02,311 - Logconfig.py - INFO - 以下为退出登录操作
+2021-05-08 16:43:03,828 - Logconfig.py - INFO - 以下为登录操作:18870102020,psd123
+2021-05-08 16:43:08,404 - Logconfig.py - INFO - 以下为进入优云指导
+2021-05-08 16:43:21,053 - Logconfig.py - INFO - stop monitor
+2021-05-08 16:43:23,240 - Logconfig.py - INFO - -----------------------------------test_TestMember_01测试结束-------------------------------
+2021-05-08 16:43:57,083 - Logconfig.py - INFO - --------------------------test_Person_TestCooperate_01测试开始----------------------------------------
+2021-05-08 16:43:59,660 - Logconfig.py - INFO - 以下为登录操作:18262309512,1qa2ws
+2021-05-08 16:43:59,679 - Logconfig.py - INFO - start monitor!
+2021-05-08 16:44:06,194 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 16:44:09,480 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 16:44:12,673 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 16:44:21,192 - Logconfig.py - INFO - 新建文件:pg,pg协作文件,协作(查看权限)
+2021-05-08 16:44:29,728 - Logconfig.py - INFO - 编辑文件: pg, 协作(查看权限)
+2021-05-08 16:44:29,805 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=4737303843312923&version=-1&method=2&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E7%25A9%25BA%25E7%2599%25BD%25E7%25AE%2580%25E6%258A%25A5.pptx&uuid=0OWfyw8t
+2021-05-08 16:44:47,228 - Logconfig.py - INFO - 开启协作，并且选择权限:pg协作文件,18810002000, 查看
+2021-05-08 16:44:59,287 - Logconfig.py - INFO - 以下为退出登录操作
+2021-05-08 16:45:00,806 - Logconfig.py - INFO - 以下为登录操作:18810002000,zsy123
+2021-05-08 16:45:06,207 - Logconfig.py - INFO - 进入个人版消息
+2021-05-08 16:45:06,306 - Logconfig.py - INFO - 进入个人版邀请消息
+2021-05-08 16:45:06,934 - Logconfig.py - INFO - 个人版获取邀请消息里的内容
+2021-05-08 16:45:07,245 - Logconfig.py - INFO - stop monitor
+2021-05-08 16:45:09,615 - Logconfig.py - INFO - -----------------------------------test_Person_TestCooperate_01测试结束-------------------------------
+2021-05-08 16:45:09,621 - Logconfig.py - INFO - --------------------------test_Person_TestCooperate_02测试开始----------------------------------------
+2021-05-08 16:45:12,152 - Logconfig.py - INFO - 以下为登录操作:18262309512,1qa2ws
+2021-05-08 16:45:12,164 - Logconfig.py - INFO - start monitor!
+2021-05-08 16:45:17,862 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 16:45:21,223 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 16:45:24,458 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 16:45:33,051 - Logconfig.py - INFO - 新建文件:pg,pg协作文件,协作(查看权限)
+2021-05-08 16:45:43,314 - Logconfig.py - INFO - 编辑文件: pg, 协作(查看权限)
+2021-05-08 16:45:43,359 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=3247954075016329&version=-1&method=2&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E7%25A9%25BA%25E7%2599%25BD%25E7%25AE%2580%25E6%258A%25A5.pptx&uuid=ZfBGwxcy
+2021-05-08 16:46:01,177 - Logconfig.py - INFO - 开启协作，并且选择权限:pg协作文件,18810002000, 查看
+2021-05-08 16:46:13,099 - Logconfig.py - INFO - 以下为退出登录操作
+2021-05-08 16:46:14,603 - Logconfig.py - INFO - 以下为登录操作:18810002000,zsy123
+2021-05-08 16:46:19,120 - Logconfig.py - INFO - 进入个人版消息
+2021-05-08 16:46:19,207 - Logconfig.py - INFO - 进入个人版邀请消息
+2021-05-08 16:46:19,494 - Logconfig.py - INFO - 个人版获取邀请消息里的内容
+2021-05-08 16:46:19,899 - Logconfig.py - INFO - 关闭通知/公告界面
+2021-05-08 16:46:25,034 - Logconfig.py - INFO - stop monitor
+2021-05-08 16:46:27,197 - Logconfig.py - INFO - -----------------------------------test_Person_TestCooperate_02测试结束-------------------------------
+2021-05-08 16:46:27,197 - Logconfig.py - INFO - --------------------------test_Person_TestCooperate_03测试开始----------------------------------------
+2021-05-08 16:46:29,884 - Logconfig.py - INFO - 以下为登录操作:18262309512,1qa2ws
+2021-05-08 16:46:29,896 - Logconfig.py - INFO - start monitor!
+2021-05-08 16:46:35,708 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 16:46:39,069 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 16:46:42,274 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 16:46:50,852 - Logconfig.py - INFO - 新建文件:wp,wp协作文件,协作(编辑权限)
+2021-05-08 16:47:12,033 - Logconfig.py - INFO - 编辑文件: wp, 协作(编辑权限)
+2021-05-08 16:47:12,122 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=1664839194429365&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E6%2596%2587%25E5%25AD%2597%25E6%2596%2587%25E6%25A1%25A3.docx&version=-1&method=2&uuid=ym1620463611764
+2021-05-08 16:47:25,980 - Logconfig.py - INFO - 开启协作，并且选择权限:wp协作文件,18810002000, 编辑
+2021-05-08 16:47:38,018 - Logconfig.py - INFO - 以下为退出登录操作
+2021-05-08 16:47:58,635 - Logconfig.py - INFO - 以下为登录操作:18810002000,zsy123
+2021-05-08 16:48:03,548 - Logconfig.py - INFO - 进入个人版消息
+2021-05-08 16:48:03,613 - Logconfig.py - INFO - 进入个人版邀请消息
+2021-05-08 16:48:04,026 - Logconfig.py - INFO - 个人版获取邀请消息里的内容
+2021-05-08 16:48:04,424 - Logconfig.py - INFO - 关闭通知/公告界面
+2021-05-08 16:48:12,729 - Logconfig.py - INFO - stop monitor
+2021-05-08 16:48:14,830 - Logconfig.py - INFO - -----------------------------------test_Person_TestCooperate_03测试结束-------------------------------
+2021-05-08 16:48:14,832 - Logconfig.py - INFO - --------------------------test_Person_TestCooperate_04测试开始----------------------------------------
+2021-05-08 16:48:17,247 - Logconfig.py - INFO - 以下为登录操作:18262309512,1qa2ws
+2021-05-08 16:48:17,260 - Logconfig.py - INFO - start monitor!
+2021-05-08 16:48:22,962 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 16:48:26,392 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-08 16:48:29,582 - Logconfig.py - INFO - 删除所有文件
+2021-05-08 16:48:38,135 - Logconfig.py - INFO - 新建文件:wp,wp协作文件,协作(编辑权限)
+2021-05-08 16:49:01,372 - Logconfig.py - INFO - 编辑文件: wp, 协作(编辑权限)
+2021-05-08 16:49:01,464 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=175823990991373&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E6%2596%2587%25E5%25AD%2597%25E6%2596%2587%25E6%25A1%25A3.docx&version=-1&method=2&uuid=ym1620463729476
+2021-05-08 16:49:15,100 - Logconfig.py - INFO - 开启协作，并且选择权限:wp协作文件,18810002000, 编辑
+2021-05-08 16:49:27,359 - Logconfig.py - INFO - 以下为退出登录操作
+2021-05-08 16:49:28,862 - Logconfig.py - INFO - 以下为登录操作:18810002000,zsy123
+2021-05-08 16:49:33,266 - Logconfig.py - INFO - 进入个人版消息
+2021-05-08 16:49:33,357 - Logconfig.py - INFO - 进入个人版邀请消息
+2021-05-08 16:49:34,040 - Logconfig.py - INFO - 个人版获取邀请消息里的内容
+2021-05-08 16:49:34,360 - Logconfig.py - INFO - 关闭通知/公告界面
+2021-05-08 16:49:42,610 - Logconfig.py - INFO - stop monitor
+2021-05-08 16:49:44,767 - Logconfig.py - INFO - -----------------------------------test_Person_TestCooperate_04测试结束-------------------------------
+2021-05-10 16:57:19,681 - Logconfig.py - INFO - --------------------------test_Person_TestDownload_02测试开始----------------------------------------
+2021-05-10 16:57:22,817 - Logconfig.py - INFO - 以下为登录操作:18262309512,1qa2ws
+2021-05-10 16:57:23,035 - Logconfig.py - INFO - start monitor!
+2021-05-10 16:57:29,859 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-10 16:57:33,160 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-10 16:57:36,375 - Logconfig.py - INFO - 删除所有文件
+2021-05-10 16:57:44,961 - Logconfig.py - INFO - 新建文件夹:被下载的文件夹
+2021-05-10 16:57:50,313 - Logconfig.py - INFO - 新建文件:ss,ss下载的文件,下载
+2021-05-10 16:58:00,445 - Logconfig.py - INFO - 编辑文件: ss, 下载
+2021-05-10 16:58:00,513 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=3543631464720405&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1620637071511
+2021-05-10 16:58:14,133 - Logconfig.py - INFO - 新建文件:wp,wp下载的文件,下载
+2021-05-10 16:58:21,084 - Logconfig.py - INFO - 编辑文件: wp, 下载
+2021-05-10 16:58:21,163 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=8732262178311366&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E6%2596%2587%25E5%25AD%2597%25E6%2596%2587%25E6%25A1%25A3.docx&version=-1&method=2&uuid=ym1620637094429
+2021-05-10 16:58:34,172 - Logconfig.py - INFO - 新建文件:pg,pg下载的文件,下载
+2021-05-10 16:58:42,495 - Logconfig.py - INFO - 编辑文件: pg, 下载
+2021-05-10 16:58:42,566 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=3414573005495706&version=-1&method=2&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E7%25A9%25BA%25E7%2599%25BD%25E7%25AE%2580%25E6%258A%25A5.pptx&uuid=v0o7eTv6
+2021-05-10 16:59:00,212 - Logconfig.py - INFO - 下载文件被下载的文件夹
+2021-05-10 16:59:10,938 - Logconfig.py - INFO - stop monitor
+2021-05-10 16:59:13,341 - Logconfig.py - INFO - -----------------------------------test_Person_TestDownload_02测试结束-------------------------------
+2021-05-10 16:59:59,497 - Logconfig.py - INFO - --------------------------test_Person_TestDownload_02测试开始----------------------------------------
+2021-05-10 17:00:03,268 - Logconfig.py - INFO - 以下为登录操作:18262309512,1qa2ws
+2021-05-10 17:00:03,291 - Logconfig.py - INFO - start monitor!
+2021-05-10 17:00:15,792 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-10 17:00:19,102 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-10 17:00:22,325 - Logconfig.py - INFO - 删除所有文件
+2021-05-10 17:00:30,928 - Logconfig.py - INFO - 新建文件夹:被下载的文件夹
+2021-05-10 17:00:36,219 - Logconfig.py - INFO - 新建文件:ss,ss下载的文件,下载
+2021-05-10 17:00:49,497 - Logconfig.py - INFO - 编辑文件: ss, 下载
+2021-05-10 17:00:49,586 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=3028368523028381&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1620637236772
+2021-05-10 17:01:03,994 - Logconfig.py - INFO - 新建文件:wp,wp下载的文件,下载
+2021-05-10 17:01:17,105 - Logconfig.py - INFO - 编辑文件: wp, 下载
+2021-05-10 17:01:17,205 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=8328944441545734&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E6%2596%2587%25E5%25AD%2597%25E6%2596%2587%25E6%25A1%25A3.docx&version=-1&method=2&uuid=ym1620637264270
+2021-05-10 17:01:30,211 - Logconfig.py - INFO - 新建文件:pg,pg下载的文件,下载
+2021-05-10 17:01:51,087 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/div/div/div[2]/div/div[1]/div/div/img"}
+  (Session info: chrome=90.0.4430.93)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/div/div/div[2]/div/div[1]/div/div/img"}
+  (Session info: chrome=90.0.4430.93)
+
+2021-05-10 17:01:51,108 - Logconfig.py - INFO - stop monitor
+2021-05-10 17:01:53,535 - Logconfig.py - INFO - -----------------------------------test_Person_TestDownload_02测试结束-------------------------------
+2021-05-10 17:02:09,690 - Logconfig.py - INFO - --------------------------test_Person_TestDownload_02测试开始----------------------------------------
+2021-05-10 17:03:12,656 - Logconfig.py - INFO - --------------------------test_Person_TestDownload_02测试开始----------------------------------------
+2021-05-10 17:03:17,992 - Logconfig.py - INFO - 以下为登录操作:18262309512,1qa2ws
+2021-05-10 17:03:18,022 - Logconfig.py - INFO - start monitor!
+2021-05-10 17:03:38,993 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-10 17:03:42,316 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-10 17:03:45,531 - Logconfig.py - INFO - 删除所有文件
+2021-05-10 17:03:54,101 - Logconfig.py - INFO - 新建文件夹:被下载的文件夹
+2021-05-10 17:03:59,518 - Logconfig.py - INFO - 新建文件:ss,ss下载的文件,下载
+2021-05-10 17:04:18,264 - Logconfig.py - INFO - stop monitor
+2021-05-10 17:04:20,629 - Logconfig.py - INFO - -----------------------------------test_Person_TestDownload_02测试结束-------------------------------
+2021-05-10 17:06:19,790 - Logconfig.py - INFO - --------------------------test_Person_TestDownload_02测试开始----------------------------------------
+2021-05-10 17:06:22,662 - Logconfig.py - INFO - 以下为登录操作:18262309512,1qa2ws
+2021-05-10 17:06:22,684 - Logconfig.py - INFO - start monitor!
+2021-05-10 17:06:28,216 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-10 17:06:31,571 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-10 17:06:34,812 - Logconfig.py - INFO - 删除所有文件
+2021-05-10 17:06:43,359 - Logconfig.py - INFO - 新建文件夹:被下载的文件夹
+2021-05-10 17:06:48,775 - Logconfig.py - INFO - 新建文件:ss,ss下载的文件,下载
+2021-05-10 17:07:01,137 - Logconfig.py - INFO - 编辑文件: ss, 下载
+2021-05-10 17:07:01,179 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=2535624083302415&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1620637609429
+2021-05-10 17:07:14,076 - Logconfig.py - INFO - 新建文件:wp,wp下载的文件,下载
+2021-05-10 17:07:26,250 - Logconfig.py - INFO - stop monitor
+2021-05-10 17:07:28,625 - Logconfig.py - INFO - -----------------------------------test_Person_TestDownload_02测试结束-------------------------------
+2021-05-10 17:10:09,693 - Logconfig.py - INFO - --------------------------test_Person_TestDownload_02测试开始----------------------------------------
+2021-05-10 17:10:13,235 - Logconfig.py - INFO - 以下为登录操作:18262309512,1qa2ws
+2021-05-10 17:10:13,254 - Logconfig.py - INFO - start monitor!
+2021-05-10 17:10:19,822 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-10 17:10:23,167 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-10 17:10:26,394 - Logconfig.py - INFO - 删除所有文件
+2021-05-10 17:10:34,977 - Logconfig.py - INFO - 新建文件夹:被下载的文件夹
+2021-05-10 17:10:40,316 - Logconfig.py - INFO - 新建文件:ss,ss下载的文件,下载
+2021-05-10 17:10:51,800 - Logconfig.py - INFO - 编辑文件: ss, 下载
+2021-05-10 17:10:51,880 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=1096969742762374&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1620637840805
+2021-05-10 17:11:06,023 - Logconfig.py - INFO - 新建文件:wp,wp下载的文件,下载
+2021-05-10 17:11:19,869 - Logconfig.py - INFO - 编辑文件: wp, 下载
+2021-05-10 17:11:19,913 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=6903593634589252&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E6%2596%2587%25E5%25AD%2597%25E6%2596%2587%25E6%25A1%25A3.docx&version=-1&method=2&uuid=ym1620637866308
+2021-05-10 17:11:33,330 - Logconfig.py - INFO - 新建文件:pg,pg下载的文件,下载
+2021-05-10 17:11:41,738 - Logconfig.py - INFO - 编辑文件: pg, 下载
+2021-05-10 17:11:41,820 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=4901222933697793&version=-1&method=2&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E7%25A9%25BA%25E7%2599%25BD%25E7%25AE%2580%25E6%258A%25A5.pptx&uuid=QaukpXIX
+2021-05-10 17:11:59,407 - Logconfig.py - INFO - 下载文件被下载的文件夹
+2021-05-10 17:12:10,102 - Logconfig.py - INFO - stop monitor
+2021-05-10 17:12:12,253 - Logconfig.py - INFO - -----------------------------------test_Person_TestDownload_02测试结束-------------------------------
+2021-05-10 17:12:33,387 - Logconfig.py - INFO - --------------------------test_Person_TestDownload_03测试开始----------------------------------------
+2021-05-10 17:12:36,065 - Logconfig.py - INFO - 以下为登录操作:18262309512,1qa2ws
+2021-05-10 17:12:36,083 - Logconfig.py - INFO - start monitor!
+2021-05-10 17:12:41,676 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-10 17:12:45,034 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-10 17:12:48,276 - Logconfig.py - INFO - 删除所有文件
+2021-05-10 17:12:56,844 - Logconfig.py - INFO - 新建文件夹:被下载的文件夹
+2021-05-10 17:13:00,031 - Logconfig.py - INFO - 新建文件:ss,ss下载的文件,下载
+2021-05-10 17:13:11,393 - Logconfig.py - INFO - 编辑文件: ss, 下载
+2021-05-10 17:13:11,444 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=7620332248011018&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1620637981659
+2021-05-10 17:13:24,485 - Logconfig.py - INFO - 新建文件:wp,wp下载的文件,下载
+2021-05-10 17:13:31,177 - Logconfig.py - INFO - 编辑文件: wp, 下载
+2021-05-10 17:13:31,221 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=7830373510802588&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E6%2596%2587%25E5%25AD%2597%25E6%2596%2587%25E6%25A1%25A3.docx&version=-1&method=2&uuid=ym1620638004781
+2021-05-10 17:13:44,867 - Logconfig.py - INFO - 新建文件:pg,pg下载的文件,下载
+2021-05-10 17:13:54,118 - Logconfig.py - INFO - 编辑文件: pg, 下载
+2021-05-10 17:13:54,200 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=1409904910319151&version=-1&method=2&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E7%25A9%25BA%25E7%2599%25BD%25E7%25AE%2580%25E6%258A%25A5.pptx&uuid=1PfYdiEZ
+2021-05-10 17:14:14,364 - Logconfig.py - INFO - 新建文件:ss,ss文件夹内部的文件,下载
+2021-05-10 17:14:21,918 - Logconfig.py - INFO - 编辑文件: ss, 下载
+2021-05-10 17:14:21,958 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=4809551884896424&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1620638054648
+2021-05-10 17:14:47,562 - Logconfig.py - INFO - stop monitor
+2021-05-10 17:14:49,938 - Logconfig.py - INFO - -----------------------------------test_Person_TestDownload_03测试结束-------------------------------
+2021-05-10 17:16:31,819 - Logconfig.py - INFO - --------------------------test_Person_TestDownload_03测试开始----------------------------------------
+2021-05-10 17:16:34,450 - Logconfig.py - INFO - 以下为登录操作:18262309512,1qa2ws
+2021-05-10 17:16:34,472 - Logconfig.py - INFO - start monitor!
+2021-05-10 17:16:40,236 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-10 17:16:43,578 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-10 17:16:46,873 - Logconfig.py - INFO - 删除所有文件
+2021-05-10 17:16:55,524 - Logconfig.py - INFO - 新建文件夹:被下载的文件夹
+2021-05-10 17:16:58,743 - Logconfig.py - INFO - 新建文件:ss,ss下载的文件,下载
+2021-05-10 17:17:19,999 - Logconfig.py - INFO - 编辑文件: ss, 下载
+2021-05-10 17:17:20,043 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=3003590915605914&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1620638219258
+2021-05-10 17:17:33,089 - Logconfig.py - INFO - 新建文件:wp,wp下载的文件,下载
+2021-05-10 17:17:41,230 - Logconfig.py - INFO - 编辑文件: wp, 下载
+2021-05-10 17:17:41,273 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=5282825796574697&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E6%2596%2587%25E5%25AD%2597%25E6%2596%2587%25E6%25A1%25A3.docx&version=-1&method=2&uuid=ym1620638253380
+2021-05-10 17:17:54,121 - Logconfig.py - INFO - 新建文件:pg,pg下载的文件,下载
+2021-05-10 17:18:01,920 - Logconfig.py - INFO - 编辑文件: pg, 下载
+2021-05-10 17:18:02,018 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=6539720975478975&version=-1&method=2&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E7%25A9%25BA%25E7%2599%25BD%25E7%25AE%2580%25E6%258A%25A5.pptx&uuid=Z2FnT6Ph
+2021-05-10 17:18:21,862 - Logconfig.py - INFO - 新建文件:ss,ss文件夹内部的文件,下载
+2021-05-10 17:18:39,315 - Logconfig.py - INFO - 编辑文件: ss, 下载
+2021-05-10 17:18:39,359 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=4139984092155440&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1620638302150
+2021-05-10 17:19:04,896 - Logconfig.py - INFO - stop monitor
+2021-05-10 17:19:07,244 - Logconfig.py - INFO - -----------------------------------test_Person_TestDownload_03测试结束-------------------------------
+2021-05-10 17:20:26,755 - Logconfig.py - INFO - --------------------------test_Person_TestShare_05测试开始----------------------------------------
+2021-05-10 17:20:29,280 - Logconfig.py - INFO - 以下为登录操作:18262309512,1qa2ws
+2021-05-10 17:20:29,299 - Logconfig.py - INFO - start monitor!
+2021-05-10 17:20:34,881 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-10 17:20:38,172 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-10 17:20:41,382 - Logconfig.py - INFO - 删除所有文件
+2021-05-10 17:20:49,969 - Logconfig.py - INFO - 新建文件夹:编辑权限文件夹
+2021-05-10 17:20:55,276 - Logconfig.py - INFO - 新建文件:pg,pg共享文件,共享(编辑)
+2021-05-10 17:21:04,829 - Logconfig.py - INFO - 编辑文件: pg, 共享(编辑)
+2021-05-10 17:21:04,906 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=8873030785501238&version=-1&method=2&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E7%25A9%25BA%25E7%2599%25BD%25E7%25AE%2580%25E6%258A%25A5.pptx&uuid=JG3XgN9c
+2021-05-10 17:21:23,134 - Logconfig.py - INFO - 开启共享:编辑权限文件夹,编辑
+2021-05-10 17:21:30,484 - Logconfig.py - INFO - 获取共享链接
+2021-05-10 17:21:32,586 - Logconfig.py - INFO - 以下为退出登录操作
+2021-05-10 17:21:34,046 - Logconfig.py - INFO - 以下为登录操作:18810002000,zsy123
+2021-05-10 17:21:50,770 - Logconfig.py - INFO - 获取链接共享界面的文件列表
+2021-05-10 17:22:03,663 - Logconfig.py - INFO - stop monitor
+2021-05-10 17:22:05,813 - Logconfig.py - INFO - -----------------------------------test_Person_TestShare_05测试结束-------------------------------
+2021-05-10 17:22:21,097 - Logconfig.py - INFO - --------------------------test_Person_TestSearch_01测试开始----------------------------------------
+2021-05-10 17:22:23,535 - Logconfig.py - INFO - 以下为登录操作:18262309512,1qa2ws
+2021-05-10 17:22:23,553 - Logconfig.py - INFO - start monitor!
+2021-05-10 17:22:29,025 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-10 17:22:32,324 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-10 17:22:35,610 - Logconfig.py - INFO - 删除所有文件
+2021-05-10 17:22:44,163 - Logconfig.py - INFO - 新建文件:wp,搜索专用wp,wp的文本内容
+2021-05-10 17:22:58,966 - Logconfig.py - INFO - 编辑文件: wp, wp的文本内容
+2021-05-10 17:22:59,007 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=4940730590831770&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E6%2596%2587%25E5%25AD%2597%25E6%2596%2587%25E6%25A1%25A3.docx&version=-1&method=2&uuid=ym1620638564946
+2021-05-10 17:23:13,585 - Logconfig.py - INFO - 新建文件:ss,搜索专用ss,ss的文本内容
+2021-05-10 17:23:20,929 - Logconfig.py - INFO - 编辑文件: ss, ss的文本内容
+2021-05-10 17:23:20,972 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=2390124975371463&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1620638593906
+2021-05-10 17:23:34,819 - Logconfig.py - INFO - 新建文件:pg,搜索专用pg,pg的文本内容
+2021-05-10 17:23:42,872 - Logconfig.py - INFO - 编辑文件: pg, pg的文本内容
+2021-05-10 17:23:42,966 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=4946300889592685&version=-1&method=2&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E7%25A9%25BA%25E7%2599%25BD%25E7%25AE%2580%25E6%258A%25A5.pptx&uuid=HGpJftv9
+2021-05-10 17:24:01,409 - Logconfig.py - INFO - 新建文件夹:搜索专用的文件夹
+2021-05-10 17:24:19,875 - Logconfig.py - INFO - 以下为通过文件名搜索：搜索专用
+2021-05-10 17:24:27,280 - Logconfig.py - INFO - stop monitor
+2021-05-10 17:24:29,403 - Logconfig.py - INFO - -----------------------------------test_Person_TestSearch_01测试结束-------------------------------
+2021-05-10 17:25:45,764 - Logconfig.py - INFO - --------------------------test_Person_TestSearch_03测试开始----------------------------------------
+2021-05-10 17:25:48,251 - Logconfig.py - INFO - 以下为登录操作:18262309512,1qa2ws
+2021-05-10 17:25:48,269 - Logconfig.py - INFO - start monitor!
+2021-05-10 17:25:53,777 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-10 17:25:57,121 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-10 17:26:00,390 - Logconfig.py - INFO - 删除所有文件
+2021-05-10 17:26:08,930 - Logconfig.py - INFO - 新建文件:wp,搜索专用wp,wp的搜索专用文本内容
+2021-05-10 17:26:22,257 - Logconfig.py - INFO - 编辑文件: wp, wp的搜索专用文本内容
+2021-05-10 17:26:22,330 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=3537908778927792&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E6%2596%2587%25E5%25AD%2597%25E6%2596%2587%25E6%25A1%25A3.docx&version=-1&method=2&uuid=ym1620638769849
+2021-05-10 17:26:36,426 - Logconfig.py - INFO - 新建文件:ss,搜索专用ss,ss的搜索专用文本内容
+2021-05-10 17:26:54,424 - Logconfig.py - INFO - 编辑文件: ss, ss的搜索专用文本内容
+2021-05-10 17:26:54,505 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=1888529278532543&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1620638796700
+2021-05-10 17:27:08,467 - Logconfig.py - INFO - 新建文件:pg,搜索专用pg,pg的搜索专用文本内容
+2021-05-10 17:27:17,559 - Logconfig.py - INFO - 编辑文件: pg, pg的搜索专用文本内容
+2021-05-10 17:27:17,597 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=3585256797591859&version=-1&method=2&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E7%25A9%25BA%25E7%2599%25BD%25E7%25AE%2580%25E6%258A%25A5.pptx&uuid=FCucXlSx
+2021-05-10 17:27:35,935 - Logconfig.py - INFO - 新建文件夹:搜索专用的文件夹
+2021-05-10 17:27:54,272 - Logconfig.py - INFO - 以下为按照文件类型筛选:搜索专用, 1
+2021-05-10 17:28:02,830 - Logconfig.py - INFO - 以下为按照文件类型筛选:搜索专用, 3
+2021-05-10 17:28:10,413 - Logconfig.py - INFO - 以下为按照文件类型筛选:搜索专用, 2
+2021-05-10 17:28:17,903 - Logconfig.py - INFO - 以下为按照文件类型筛选:搜索专用, 4
+2021-05-10 17:28:23,573 - Logconfig.py - INFO - stop monitor
+2021-05-10 17:28:25,730 - Logconfig.py - INFO - -----------------------------------test_Person_TestSearch_03测试结束-------------------------------
+2021-05-10 18:17:06,391 - Logconfig.py - INFO - --------------------------test_Person_TestCooperate_01测试开始----------------------------------------
+2021-05-10 18:17:08,646 - Logconfig.py - INFO - 以下为登录操作:18262309512,1qa2ws
+2021-05-10 18:17:08,667 - Logconfig.py - INFO - start monitor!
+2021-05-10 18:17:14,937 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-10 18:17:18,281 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-10 18:17:21,567 - Logconfig.py - INFO - 删除所有文件
+2021-05-10 18:17:30,081 - Logconfig.py - INFO - 新建文件:pg,pg协作文件,协作(查看权限)
+2021-05-10 18:17:41,711 - Logconfig.py - INFO - 编辑文件: pg, 协作(查看权限)
+2021-05-10 18:17:41,791 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=6191595123499097&version=-1&method=2&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E7%25A9%25BA%25E7%2599%25BD%25E7%25AE%2580%25E6%258A%25A5.pptx&uuid=pzO5e3Cv
+2021-05-10 18:18:00,357 - Logconfig.py - INFO - 开启协作，并且选择权限:pg协作文件,18810002000, 查看
+2021-05-10 18:18:12,283 - Logconfig.py - INFO - 以下为退出登录操作
+2021-05-10 18:18:13,716 - Logconfig.py - INFO - 以下为登录操作:18810002000,zsy123
+2021-05-10 18:18:18,055 - Logconfig.py - INFO - 进入个人版消息
+2021-05-10 18:18:18,122 - Logconfig.py - INFO - 进入个人版邀请消息
+2021-05-10 18:18:18,357 - Logconfig.py - INFO - 个人版获取邀请消息里的内容
+2021-05-10 18:18:18,781 - Logconfig.py - INFO - 关闭通知/公告界面
+2021-05-10 18:18:24,017 - Logconfig.py - INFO - stop monitor
+2021-05-10 18:18:26,155 - Logconfig.py - INFO - -----------------------------------test_Person_TestCooperate_01测试结束-------------------------------
+2021-05-10 18:18:30,954 - Logconfig.py - INFO - --------------------------test_Person_TestCooperate_02测试开始----------------------------------------
+2021-05-10 18:18:33,225 - Logconfig.py - INFO - 以下为登录操作:18262309512,1qa2ws
+2021-05-10 18:18:33,245 - Logconfig.py - INFO - start monitor!
+2021-05-10 18:18:38,688 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-10 18:18:42,002 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-10 18:18:45,247 - Logconfig.py - INFO - 删除所有文件
+2021-05-10 18:18:53,768 - Logconfig.py - INFO - 新建文件:pg,pg协作文件,协作(查看权限)
+2021-05-10 18:19:02,790 - Logconfig.py - INFO - 编辑文件: pg, 协作(查看权限)
+2021-05-10 18:19:02,827 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=2561285526903214&version=-1&method=2&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E7%25A9%25BA%25E7%2599%25BD%25E7%25AE%2580%25E6%258A%25A5.pptx&uuid=uVsaN4xT
+2021-05-10 18:19:20,370 - Logconfig.py - INFO - 开启协作，并且选择权限:pg协作文件,18810002000, 查看
+2021-05-10 18:19:32,485 - Logconfig.py - INFO - 以下为退出登录操作
+2021-05-10 18:19:33,980 - Logconfig.py - INFO - 以下为登录操作:18810002000,zsy123
+2021-05-10 18:19:38,485 - Logconfig.py - INFO - 进入个人版消息
+2021-05-10 18:19:38,543 - Logconfig.py - INFO - 进入个人版邀请消息
+2021-05-10 18:19:38,789 - Logconfig.py - INFO - 个人版获取邀请消息里的内容
+2021-05-10 18:19:39,312 - Logconfig.py - INFO - 关闭通知/公告界面
+2021-05-10 18:19:44,387 - Logconfig.py - INFO - stop monitor
+2021-05-10 18:19:46,529 - Logconfig.py - INFO - -----------------------------------test_Person_TestCooperate_02测试结束-------------------------------
+2021-05-10 18:19:55,618 - Logconfig.py - INFO - --------------------------test_Person_TestCooperate_03测试开始----------------------------------------
+2021-05-10 18:19:58,212 - Logconfig.py - INFO - 以下为登录操作:18262309512,1qa2ws
+2021-05-10 18:19:58,233 - Logconfig.py - INFO - start monitor!
+2021-05-10 18:20:03,768 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-10 18:20:07,115 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-10 18:20:10,351 - Logconfig.py - INFO - 删除所有文件
+2021-05-10 18:20:18,920 - Logconfig.py - INFO - 新建文件:wp,wp协作文件,协作(编辑权限)
+2021-05-10 18:20:28,938 - Logconfig.py - INFO - 编辑文件: wp, 协作(编辑权限)
+2021-05-10 18:20:29,017 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=8334281787053879&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E6%2596%2587%25E5%25AD%2597%25E6%2596%2587%25E6%25A1%25A3.docx&version=-1&method=2&uuid=ym1620642020021
+2021-05-10 18:20:42,222 - Logconfig.py - INFO - 开启协作，并且选择权限:wp协作文件,18810002000, 编辑
+2021-05-10 18:20:54,072 - Logconfig.py - INFO - 以下为退出登录操作
+2021-05-10 18:20:55,458 - Logconfig.py - INFO - 以下为登录操作:18810002000,zsy123
+2021-05-10 18:21:00,048 - Logconfig.py - INFO - 进入个人版消息
+2021-05-10 18:21:00,128 - Logconfig.py - INFO - 进入个人版邀请消息
+2021-05-10 18:21:01,037 - Logconfig.py - INFO - 个人版获取邀请消息里的内容
+2021-05-10 18:21:01,451 - Logconfig.py - INFO - 关闭通知/公告界面
+2021-05-10 18:21:09,636 - Logconfig.py - INFO - stop monitor
+2021-05-10 18:21:11,796 - Logconfig.py - INFO - -----------------------------------test_Person_TestCooperate_03测试结束-------------------------------
+2021-05-10 18:21:20,340 - Logconfig.py - INFO - --------------------------test_Person_TestCooperate_04测试开始----------------------------------------
+2021-05-10 18:21:23,003 - Logconfig.py - INFO - 以下为登录操作:18262309512,1qa2ws
+2021-05-10 18:21:23,025 - Logconfig.py - INFO - start monitor!
+2021-05-10 18:21:28,486 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-10 18:21:31,818 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-10 18:21:35,025 - Logconfig.py - INFO - 删除所有文件
+2021-05-10 18:21:43,548 - Logconfig.py - INFO - 新建文件:wp,wp协作文件,协作(编辑权限)
+2021-05-10 18:21:53,378 - Logconfig.py - INFO - 编辑文件: wp, 协作(编辑权限)
+2021-05-10 18:21:53,418 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=3217233384511563&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E6%2596%2587%25E5%25AD%2597%25E6%2596%2587%25E6%25A1%25A3.docx&version=-1&method=2&uuid=ym1620642104236
+2021-05-10 18:22:06,983 - Logconfig.py - INFO - 开启协作，并且选择权限:wp协作文件,18810002000, 编辑
+2021-05-10 18:22:18,958 - Logconfig.py - INFO - 以下为退出登录操作
+2021-05-10 18:22:20,373 - Logconfig.py - INFO - 以下为登录操作:18810002000,zsy123
+2021-05-10 18:22:24,893 - Logconfig.py - INFO - 进入个人版消息
+2021-05-10 18:22:24,985 - Logconfig.py - INFO - 进入个人版邀请消息
+2021-05-10 18:22:25,668 - Logconfig.py - INFO - 个人版获取邀请消息里的内容
+2021-05-10 18:22:26,071 - Logconfig.py - INFO - 关闭通知/公告界面
+2021-05-10 18:22:34,385 - Logconfig.py - INFO - stop monitor
+2021-05-10 18:22:36,525 - Logconfig.py - INFO - -----------------------------------test_Person_TestCooperate_04测试结束-------------------------------
+2021-05-10 18:26:44,648 - Logconfig.py - INFO - --------------------------test_Person_TestCooperate_04测试开始----------------------------------------
+2021-05-10 18:26:47,298 - Logconfig.py - INFO - 以下为登录操作:18262309512,1qa2ws
+2021-05-10 18:26:47,318 - Logconfig.py - INFO - start monitor!
+2021-05-10 18:26:53,349 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-10 18:26:56,666 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-10 18:26:59,884 - Logconfig.py - INFO - 删除所有文件
+2021-05-10 18:27:08,411 - Logconfig.py - INFO - 新建文件:wp,wp协作文件,协作(编辑权限)
+2021-05-10 18:27:21,606 - Logconfig.py - INFO - 编辑文件: wp, 协作(编辑权限)
+2021-05-10 18:27:21,648 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=5293438012372625&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E6%2596%2587%25E5%25AD%2597%25E6%2596%2587%25E6%25A1%25A3.docx&version=-1&method=2&uuid=ym1620642429795
+2021-05-10 18:27:34,796 - Logconfig.py - INFO - 开启协作，并且选择权限:wp协作文件,18810002000, 编辑
+2021-05-10 18:27:46,829 - Logconfig.py - INFO - 以下为退出登录操作
+2021-05-10 18:27:48,210 - Logconfig.py - INFO - 以下为登录操作:18810002000,zsy123
+2021-05-10 18:27:52,636 - Logconfig.py - INFO - 进入个人版消息
+2021-05-10 18:27:52,701 - Logconfig.py - INFO - 进入个人版邀请消息
+2021-05-10 18:27:53,020 - Logconfig.py - INFO - 个人版获取邀请消息里的内容
+2021-05-10 18:27:53,415 - Logconfig.py - INFO - 关闭通知/公告界面
+2021-05-10 18:28:01,566 - Logconfig.py - INFO - stop monitor
+2021-05-10 18:28:03,731 - Logconfig.py - INFO - -----------------------------------test_Person_TestCooperate_04测试结束-------------------------------

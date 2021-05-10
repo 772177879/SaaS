@@ -91,6 +91,7 @@ class TestCompanyShareDocManage(MyTest, Login, PartDocumentManage, New):
             pass
         self.new_folder(company_share_folder)  # 新建配置的文件夹
         self.new_file('ss', company_share_doc['share_doc_name'], company_share_doc['share_doc_content'])  # 新建配置的文件
+        time.sleep(2)
         Delete(self.driver).delete_all()  # 删除所有文件
         """后端再进入查看是否有文件，且是否是正常状态"""
         self.into_console()  # 进入控制台
@@ -139,6 +140,7 @@ class TestCompanyShareDocManage(MyTest, Login, PartDocumentManage, New):
             pass
         self.new_folder(company_share_folder)  # 新建配置的文件夹
         self.new_file('ss', company_share_doc['share_doc_name'], company_share_doc['share_doc_content'])  # 新建配置的文件
+        time.sleep(2)
         Delete(self.driver).delete_all()  # 删除所有文件
         self.element_click(self.recycle_loc)  # 点击回收站
         self.element_click(self.part_recycle_loc)   # 点击部门回收站

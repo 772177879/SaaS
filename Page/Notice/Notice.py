@@ -45,7 +45,9 @@ class Notice(Action, Loc):
 
     def invite_cooperate(self):     # 邀请协作
         log.info('获取邀请协作的通知')
-        text = self.find_element(self.cooperate_message_loc).get_attribute('innerText')
+        text1 = self.find_element(self.cooperate_message_name_loc).get_attribute('innerText')
+        text2 = self.find_element(self.cooperate_message_txt_loc).get_attribute('innerText')
+        text = text1 + text2
         return text
 
     def person_invite(self):    # 个人版里邀请消息里的内容

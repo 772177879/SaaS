@@ -48,7 +48,3 @@ class Calendar(Action, Loc):
             self.cancel_date(date_name)
         except:
             self.delete_date(date_name)
-
-    def new_date_tag(self, tag_name):
-        log.info('创建日程标签:%s' % tag_name)
-        sleep(2)
