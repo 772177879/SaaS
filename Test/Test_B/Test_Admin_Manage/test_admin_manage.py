@@ -2,7 +2,6 @@ from Object.myunit import MyTest
 from Page.login import Login
 from Page.AdminManage.admin import Admin
 from Object.static import get_config
-import time
 admin = get_config('zsy')  # 读取注册管理员账号
 wdgly = get_config('wdgly')  # 读取文档管理员账号
 ptgly = get_config('ptgly')  # 读取普通管理员账号
@@ -62,12 +61,3 @@ class TestAdminManage(MyTest, Login, Admin):
         self.verify_file_none_exist(self.console_loc)   # 没有进入企业控制台
         self.element_click(self.my_file_loc)    # 点击我的文件
         self.logout()   # 退出
-
-
-
-
-
-
-
-
-

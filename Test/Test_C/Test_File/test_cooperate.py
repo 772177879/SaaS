@@ -182,5 +182,3 @@ class TestCooperate(MyTest, Login, New, Delete, Cooperate, Notice):
         self.element_click(self.cooperate_loc)  # 点击协作
         time.sleep(3)
         self.assertFalse(self.find_element(self.cooperate_search_loc).is_displayed())
-
-

@@ -1,5 +1,3 @@
-from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.common.keys import Keys
 from Object.myunit import MyTest
 from Page.login import Login
 from Page.File.upload_file import Upload
@@ -90,7 +88,3 @@ class TestUpload(MyTest, Login, Upload, New, Delete, Search):
     #
     #
     #     self.verify_file_exist('上传文件夹')  # 验证文件存在
-
-
-
-

@@ -293,3 +293,43 @@ class Loc:
     wd_admin_loc = "//div[@title='文档管理员']"  # 文档管理员
     pt_admin_loc = "//div[@title='普通管理员']"  # 普通管理员
     admin_sure_loc = "//span[text()='确 定']"     # 确定
+    """文档审阅相关"""
+    approval_loc = "//span[text()='审阅']"  # 首页审阅
+    approval_frame_loc = "//iframe[@id='review-iframe']"  # 审批的frame
+    approval_submit_loc = "//iframe[@id='review-submit-iframe']"  # 提交审批的frame
+    approval_open_loc = "//button[text()='发起审阅']"  # 发起审批按钮
+    approval_open_logo_loc = "//span[text()='发起审阅']"  # 审阅弹窗title
+    approval_open_title_loc = "//input[@placeholder='请输入标题（最多可30个字符）']"  # 发起审批标题
+    approval_open_file_loc = "//a[@class='add-file']"  # 添加审阅文件
+    approval_file_search_loc = "//div[@class='searech_dv']/input"  # 搜索文件
+    approval_file_submit_loc = "//button[text()='选择 (1)']"  # 确定选择
+    approval_flow_loc = "//div[@class='form-items process']/select"  # 选择流程
+    approval_add_reviewer_loc = "//a[@class='add_user_btn add_1']"  # 添加审阅人
+    approval_search_reviewer_loc = "//div[@class='reviewers user_group_win user_group_win_review']/div/div/div/input"
+    # 审阅人搜索输入框
+    approval_search_cc_loc = "//div[@class='reviewers user_group_win user_group_win_cc']/div/div/div/input"  # 抄送人搜索输入框
+    approval_add_cc_loc = "//a[@class='add_user_btn add_2']"  # 添加抄送人
+    approval_reviewer_submit_loc = "//div[@class='reviewers user_group_win user_group_win_review']" \
+                                   "/div/footer/a[@id='but-done']"  # 审阅人处确定
+    approval_cc_submit_loc = "//div[@class='reviewers user_group_win user_group_win_cc']/div/footer/a[@id='but-done']"
+    # 审阅人处确定
+    approval_open_area_loc = "//textarea[@placeholder='最多可输入100个字符']"  # 备注
+    approval_open_button_loc = "//button[text()='下一步']"  # 下一步
+    approval_add_submit_loc = "//button[@class='el-button send-btn el-button--default']/span"  # 提交
+    approval_add_success_loc = "//span[text()='提交成功']"  # 提交成功
+    approval_add_submit_close_loc = "//header/button[@class='icon closeBtn']"  # 关闭发起弹窗按钮
+    approval_todo_loc = "//span[text()='待处理']"  # 待处理
+    approval_done_loc = "//span[text()='已处理']"  # 已处理
+    approval_my_open_loc = "//span[text()='我发起的']"  # 我发起的
+    approval_my_check_loc = "//span[text()='抄送给我的']"  # 抄送给我的
+    approval_search_title_loc = "//input[@placeholder='输入审批标题、编号、发起人搜索']"  # 审批标题搜索
+    approval_begin_time_loc = "//div[@class='el-form-item search-upTime-item']/div/div/input[@placeholder='开始日期']"
+    # 开始日期
+    approval_end_time_loc = "//div[@class='el-form-item search-upTime-item']/div/div/input[@placeholder='结束日期']"
+    # 结束日期
+    approval_search_btn_loc = "//div[@class='el-col el-col-6']/button[2]/span"  # 查询按钮
+    approval_reviewer_check_loc = "//div[text()='查看详情']"  # 查看详情
+    approval_reviewer_agree_loc = "//span[text()='同意']"  # 同意
+    approval_reviewer_disagree_loc = "//span[text()='拒绝']"  # 拒绝
+    approval_reviewer_commit_loc = "//div[@class='el-dialog__body']/div[@class='el-textarea']/textarea"  # 审批意见
+    approval_reviewer_btn_loc = "//button[@class='el-button el-button--primary']/span[text()='确 定']"  # 确定

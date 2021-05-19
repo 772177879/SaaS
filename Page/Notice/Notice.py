@@ -54,8 +54,3 @@ class Notice(Action, Loc):
         log.info('个人版获取邀请消息里的内容')
         text = self.find_element(self.person_notice_invite_message_loc).get_attribute('innerText')
         return text
-
-
-
-
-

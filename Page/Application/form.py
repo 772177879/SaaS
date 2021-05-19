@@ -26,7 +26,7 @@ class Form(Action, Loc):
         self.element_input(self.new_form_question_loc, form_question)   # 输入问题
         self.element_click(self.new_form_submit_loc)    # 点击发布
 
-    def answer_form(self, form_answer): # 填写表单
+    def answer_form(self, form_answer):  # 填写表单
         log.info('填写表单：答案是：%s' % form_answer)
         self.element_input(self.answer_loc, form_answer)     # 填写答案
         self.element_click(self.answer_submit_loc)  # 点击提交
