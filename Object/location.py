@@ -271,6 +271,16 @@ class Loc:
     answer_submit_success_loc = "//span[text()='提交成功']"     # 提交成功
     first_form_loc = "//pre"    # 点击第一个表单
     collect_answer_loc = "//div[text()='收集结果' and @aria-selected='true']"   # 收集结果
+    """待办应用相关"""
+    todo_loc = "//label[@title='待办']/i"  # 待办按钮
+    new_todo_loc = "//span[text()='新建待办']"  # 新建待办
+    new_todo_title_loc = "//div[text()='新建待办']"  # 新建待办title
+    new_todo_item_loc = "//*[@id='title']"  # 待办内容
+    new_todo_submit_loc = "//span[text()='完 成']"  # 完成
+    todo_delete_loc = "//*[@id='root']/section/section/div[1]/div/div[2]/div/div/div/div[1]/div[2]/div[3]/span/span"
+    # 删除按钮
+    todo_submit_loc = "//span[text()='完成待办']"  # 完成待办
+    todo_double_loc = "//span[text()='确 定']"  # 确定
     """通知公告相关"""
     public_loc = "//i[@title='公告']"     # 公告按钮
     notice_loc = "//i[@title='通知']"     # 通知按钮
