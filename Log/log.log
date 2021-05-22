@@ -383,3 +383,476 @@ selenium.common.exceptions.NoSuchElementException: Message: no such element: Una
 
 2021-05-19 18:58:08,448 - Logconfig.py - INFO - stop monitor
 2021-05-19 18:58:11,018 - Logconfig.py - INFO - -----------------------------------test_TestTodo_01测试结束-------------------------------
+2021-05-22 09:44:20,007 - Logconfig.py - INFO - --------------------------test_TestApproval_03测试开始----------------------------------------
+2021-05-22 09:44:23,716 - Logconfig.py - INFO - 以下为登录操作:18870008000@0U7TX93.yozocloud.cn,zsy123
+2021-05-22 09:44:23,890 - Logconfig.py - INFO - start monitor!
+2021-05-22 09:44:31,458 - Logconfig.py - INFO - 新建文件:wp,审阅驳回的文件,审阅驳回
+2021-05-22 09:44:41,724 - Logconfig.py - INFO - 编辑文件: wp, 审阅驳回
+2021-05-22 09:44:41,823 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=7472578648795055&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E6%2596%2587%25E5%25AD%2597%25E6%2596%2587%25E6%25A1%25A3.docx&version=-1&method=2&uuid=ym1621647872527
+2021-05-22 09:44:53,179 - Logconfig.py - INFO - 新建审阅输入标题,备注:发起审阅驳回的标题,发起审阅驳回的备注
+2021-05-22 09:44:58,465 - Logconfig.py - INFO - 选择的审阅文件是：审阅驳回的文件
+2021-05-22 09:45:28,409 - Logconfig.py - INFO - 以下为退出登录操作
+2021-05-22 09:45:30,544 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-22 09:45:37,039 - Logconfig.py - INFO - 搜索：发起审阅驳回的标题
+2021-05-22 09:45:38,152 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <input type="text" autocomplete="off" placeholder="输入审批标题、编号、发起人搜索" class="el-input__inner"> is not clickable at point (643, 191). Other element would receive the click: <div class="el-loading-mask el-loading-fade-leave-active el-loading-fade-leave-to" style="">...</div>
+  (Session info: chrome=90.0.4430.212)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <input type="text" autocomplete="off" placeholder="输入审批标题、编号、发起人搜索" class="el-input__inner"> is not clickable at point (643, 191). Other element would receive the click: <div class="el-loading-mask el-loading-fade-leave-active el-loading-fade-leave-to" style="">...</div>
+  (Session info: chrome=90.0.4430.212)
+
+2021-05-22 09:45:38,153 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 40, in element_input
+    self.element_click(loc)
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <input type="text" autocomplete="off" placeholder="输入审批标题、编号、发起人搜索" class="el-input__inner"> is not clickable at point (643, 191). Other element would receive the click: <div class="el-loading-mask el-loading-fade-leave-active el-loading-fade-leave-to" style="">...</div>
+  (Session info: chrome=90.0.4430.212)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 40, in element_input
+    self.element_click(loc)
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <input type="text" autocomplete="off" placeholder="输入审批标题、编号、发起人搜索" class="el-input__inner"> is not clickable at point (643, 191). Other element would receive the click: <div class="el-loading-mask el-loading-fade-leave-active el-loading-fade-leave-to" style="">...</div>
+  (Session info: chrome=90.0.4430.212)
+
+2021-05-22 09:45:38,204 - Logconfig.py - INFO - stop monitor
+2021-05-22 09:45:40,688 - Logconfig.py - INFO - -----------------------------------test_TestApproval_03测试结束-------------------------------
+2021-05-22 09:46:38,318 - Logconfig.py - INFO - --------------------------test_TestApproval_02测试开始----------------------------------------
+2021-05-22 09:46:41,584 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-22 09:46:41,605 - Logconfig.py - INFO - start monitor!
+2021-05-22 09:46:50,416 - Logconfig.py - INFO - 清空所有审阅中数据
+2021-05-22 09:46:53,546 - Logconfig.py - INFO - 进行的审阅操作是：通过
+2021-05-22 09:47:07,901 - Logconfig.py - INFO - 以下为退出登录操作
+2021-05-22 09:47:09,904 - Logconfig.py - INFO - 以下为登录操作:18870008000@0U7TX93.yozocloud.cn,zsy123
+2021-05-22 09:47:16,267 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-22 09:47:19,678 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-22 09:47:22,914 - Logconfig.py - INFO - 删除所有文件
+2021-05-22 09:47:31,586 - Logconfig.py - INFO - stop monitor
+2021-05-22 09:47:33,693 - Logconfig.py - INFO - -----------------------------------test_TestApproval_02测试结束-------------------------------
+2021-05-22 09:48:55,557 - Logconfig.py - INFO - --------------------------test_TestGroupDocManage_01测试开始----------------------------------------
+2021-05-22 09:48:58,976 - Logconfig.py - INFO - 以下为登录操作:18870009000@0U7TX93.yozocloud.cn,zsy123
+2021-05-22 09:48:58,997 - Logconfig.py - INFO - start monitor!
+2021-05-22 09:49:09,986 - Logconfig.py - INFO - 清空创建的群组:陈丹丹
+2021-05-22 09:49:12,279 - Logconfig.py - INFO - 删除群组
+2021-05-22 09:49:17,707 - Logconfig.py - INFO - 新建群组:自动化测试群组,群组描述
+2021-05-22 09:49:27,133 - Logconfig.py - INFO - 新建文件夹:群组文档管理的文件夹
+2021-05-22 09:49:30,493 - Logconfig.py - INFO - 新建文件:ss,群组文档管理的文档,群组文档管理的文档的内容
+2021-05-22 09:49:41,017 - Logconfig.py - INFO - 编辑文件: ss, 群组文档管理的文档的内容
+2021-05-22 09:49:41,057 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=3693293319505346&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1621648171485
+2021-05-22 09:49:50,757 - Logconfig.py - INFO - 以下为退出登录操作
+2021-05-22 09:49:53,096 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-22 09:49:59,126 - Logconfig.py - INFO - 以下为进入企业控制台
+2021-05-22 09:50:04,864 - Logconfig.py - INFO - 选择群组:自动化测试群组
+2021-05-22 09:50:08,083 - Logconfig.py - INFO - 获取文件的当前状态：群组文档管理的文档
+2021-05-22 09:50:09,152 - Logconfig.py - INFO - 获取文件的当前状态：群组文档管理的文件夹
+2021-05-22 09:50:09,199 - Logconfig.py - INFO - stop monitor
+2021-05-22 09:50:11,411 - Logconfig.py - INFO - -----------------------------------test_TestGroupDocManage_01测试结束-------------------------------
+2021-05-22 09:50:11,412 - Logconfig.py - INFO - --------------------------test_TestGroupDocManage_02测试开始----------------------------------------
+2021-05-22 09:50:14,678 - Logconfig.py - INFO - 以下为登录操作:18870009000@0U7TX93.yozocloud.cn,zsy123
+2021-05-22 09:50:14,690 - Logconfig.py - INFO - start monitor!
+2021-05-22 09:50:25,381 - Logconfig.py - INFO - 清空创建的群组:陈丹丹
+2021-05-22 09:50:27,658 - Logconfig.py - INFO - 删除群组
+2021-05-22 09:50:33,162 - Logconfig.py - INFO - 新建群组:自动化测试群组,群组描述
+2021-05-22 09:50:42,779 - Logconfig.py - INFO - 新建文件夹:群组文档管理的文件夹
+2021-05-22 09:50:46,055 - Logconfig.py - INFO - 新建文件:ss,群组文档管理的文档,群组文档管理的文档的内容
+2021-05-22 09:50:58,652 - Logconfig.py - INFO - 编辑文件: ss, 群组文档管理的文档的内容
+2021-05-22 09:50:58,742 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=7625229118298086&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1621648248060
+2021-05-22 09:51:08,548 - Logconfig.py - INFO - 删除所有文件
+2021-05-22 09:51:17,092 - Logconfig.py - INFO - 以下为退出登录操作
+2021-05-22 09:51:19,161 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-22 09:51:25,097 - Logconfig.py - INFO - 以下为进入企业控制台
+2021-05-22 09:51:30,777 - Logconfig.py - INFO - 选择群组:自动化测试群组
+2021-05-22 09:51:33,949 - Logconfig.py - INFO - 获取文件的当前状态：群组文档管理的文档
+2021-05-22 09:51:33,995 - Logconfig.py - INFO - stop monitor
+2021-05-22 09:51:36,374 - Logconfig.py - INFO - -----------------------------------test_TestGroupDocManage_02测试结束-------------------------------
+2021-05-22 09:51:36,379 - Logconfig.py - INFO - --------------------------test_TestGroupDocManage_03测试开始----------------------------------------
+2021-05-22 09:51:39,499 - Logconfig.py - INFO - 以下为登录操作:18870009000@0U7TX93.yozocloud.cn,zsy123
+2021-05-22 09:51:39,512 - Logconfig.py - INFO - start monitor!
+2021-05-22 09:51:50,238 - Logconfig.py - INFO - 清空创建的群组:陈丹丹
+2021-05-22 09:51:52,510 - Logconfig.py - INFO - 删除群组
+2021-05-22 09:51:58,962 - Logconfig.py - INFO - 新建群组:自动化测试群组,群组描述
+2021-05-22 09:52:08,700 - Logconfig.py - INFO - 新建文件夹:群组文档管理的文件夹
+2021-05-22 09:52:12,037 - Logconfig.py - INFO - 新建文件:ss,群组文档管理的文档,群组文档管理的文档的内容
+2021-05-22 09:52:25,041 - Logconfig.py - INFO - 编辑文件: ss, 群组文档管理的文档的内容
+2021-05-22 09:52:25,085 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=363218160903394&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1621648333150
+2021-05-22 09:52:34,715 - Logconfig.py - INFO - 删除所有文件
+2021-05-22 09:52:57,844 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=90.0.4430.212)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=90.0.4430.212)
+
+2021-05-22 09:52:57,865 - Logconfig.py - INFO - stop monitor
+2021-05-22 09:53:00,263 - Logconfig.py - INFO - -----------------------------------test_TestGroupDocManage_03测试结束-------------------------------
+2021-05-22 09:54:29,354 - Logconfig.py - INFO - --------------------------test_TestGroupDocManage_03测试开始----------------------------------------
+2021-05-22 09:54:33,657 - Logconfig.py - INFO - 以下为登录操作:18870009000@0U7TX93.yozocloud.cn,zsy123
+2021-05-22 09:54:33,676 - Logconfig.py - INFO - start monitor!
+2021-05-22 09:54:44,700 - Logconfig.py - INFO - 清空创建的群组:陈丹丹
+2021-05-22 09:54:46,956 - Logconfig.py - INFO - 删除群组
+2021-05-22 09:54:53,435 - Logconfig.py - INFO - 新建群组:自动化测试群组,群组描述
+2021-05-22 09:55:03,077 - Logconfig.py - INFO - 新建文件夹:群组文档管理的文件夹
+2021-05-22 09:55:06,413 - Logconfig.py - INFO - 新建文件:ss,群组文档管理的文档,群组文档管理的文档的内容
+2021-05-22 09:55:18,189 - Logconfig.py - INFO - 编辑文件: ss, 群组文档管理的文档的内容
+2021-05-22 09:55:18,229 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=7296637630186709&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1621648506900
+2021-05-22 09:55:27,931 - Logconfig.py - INFO - 删除所有文件
+2021-05-22 09:55:40,725 - Logconfig.py - INFO - 清空回收站
+2021-05-22 09:55:46,165 - Logconfig.py - INFO - 以下为退出登录操作
+2021-05-22 09:55:48,298 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-22 09:55:54,369 - Logconfig.py - INFO - 以下为进入企业控制台
+2021-05-22 09:56:00,091 - Logconfig.py - INFO - 选择群组:自动化测试群组
+2021-05-22 09:56:03,301 - Logconfig.py - INFO - 获取文件的当前状态：群组文档管理的文档
+2021-05-22 09:56:04,363 - Logconfig.py - INFO - 获取文件的当前状态：群组文档管理的文件夹
+2021-05-22 09:56:04,409 - Logconfig.py - INFO - stop monitor
+2021-05-22 09:56:06,595 - Logconfig.py - INFO - -----------------------------------test_TestGroupDocManage_03测试结束-------------------------------
+2021-05-22 09:57:20,233 - Logconfig.py - INFO - --------------------------test_TestCreateGroup_02测试开始----------------------------------------
+2021-05-22 09:57:24,200 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-22 09:57:24,219 - Logconfig.py - INFO - start monitor!
+2021-05-22 09:57:37,503 - Logconfig.py - INFO - 新建群组:自动化测试群组,群组描述
+2021-05-22 09:57:48,566 - Logconfig.py - INFO - 添加成员:单李冬
+2021-05-22 09:57:55,886 - Logconfig.py - INFO - 以下为退出登录操作
+2021-05-22 09:57:58,355 - Logconfig.py - INFO - 以下为登录操作:18870008000@0U7TX93.yozocloud.cn,zsy123
+2021-05-22 09:58:05,244 - Logconfig.py - INFO - 进入通知
+2021-05-22 09:58:05,332 - Logconfig.py - INFO - 进入通知里的通知
+2021-05-22 09:58:25,379 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='协作']"}
+  (Session info: chrome=90.0.4430.212)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='协作']"}
+  (Session info: chrome=90.0.4430.212)
+
+2021-05-22 09:58:25,379 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='协作']"}
+  (Session info: chrome=90.0.4430.212)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='协作']"}
+  (Session info: chrome=90.0.4430.212)
+
+2021-05-22 09:58:25,400 - Logconfig.py - INFO - stop monitor
+2021-05-22 09:58:27,765 - Logconfig.py - INFO - -----------------------------------test_TestCreateGroup_02测试结束-------------------------------
+2021-05-22 10:01:37,738 - Logconfig.py - INFO - --------------------------test_TestCreateGroup_01测试开始----------------------------------------
+2021-05-22 10:01:41,398 - Logconfig.py - INFO - 以下为登录操作:18870008000@0U7TX93.yozocloud.cn,zsy123
+2021-05-22 10:01:41,425 - Logconfig.py - INFO - start monitor!
+2021-05-22 10:01:52,267 - Logconfig.py - INFO - 清空创建的群组:单李冬
+2021-05-22 10:01:54,651 - Logconfig.py - INFO - 删除群组:单李冬
+2021-05-22 10:01:59,698 - Logconfig.py - INFO - 删除群组
+2021-05-22 10:02:05,208 - Logconfig.py - INFO - stop monitor
+2021-05-22 10:02:07,324 - Logconfig.py - INFO - -----------------------------------test_TestCreateGroup_01测试结束-------------------------------
+2021-05-22 10:02:14,617 - Logconfig.py - INFO - --------------------------test_TestCreateGroup_00测试开始----------------------------------------
+2021-05-22 10:02:18,005 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-22 10:02:18,030 - Logconfig.py - INFO - start monitor!
+2021-05-22 10:02:28,764 - Logconfig.py - INFO - 清空创建的群组:张绍阳
+2021-05-22 10:02:31,020 - Logconfig.py - INFO - 删除群组
+2021-05-22 10:02:38,690 - Logconfig.py - INFO - 删除群组
+2021-05-22 10:02:43,984 - Logconfig.py - INFO - stop monitor
+2021-05-22 10:02:46,101 - Logconfig.py - INFO - -----------------------------------test_TestCreateGroup_00测试结束-------------------------------
+2021-05-22 10:02:54,284 - Logconfig.py - INFO - --------------------------test_TestCreateGroup_02测试开始----------------------------------------
+2021-05-22 10:02:58,027 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-22 10:02:58,043 - Logconfig.py - INFO - start monitor!
+2021-05-22 10:03:05,751 - Logconfig.py - INFO - 新建群组:自动化测试群组,群组描述
+2021-05-22 10:03:16,634 - Logconfig.py - INFO - 添加成员:单李冬
+2021-05-22 10:03:23,995 - Logconfig.py - INFO - 以下为退出登录操作
+2021-05-22 10:03:26,004 - Logconfig.py - INFO - 以下为登录操作:18870008000@0U7TX93.yozocloud.cn,zsy123
+2021-05-22 10:03:34,465 - Logconfig.py - INFO - 进入通知
+2021-05-22 10:03:34,549 - Logconfig.py - INFO - 进入通知里的通知
+2021-05-22 10:03:35,438 - Logconfig.py - INFO - 获取邀请加入群组的通知
+2021-05-22 10:03:36,558 - Logconfig.py - INFO - 关闭通知/公告界面
+2021-05-22 10:03:37,058 - Logconfig.py - INFO - stop monitor
+2021-05-22 10:03:39,266 - Logconfig.py - INFO - -----------------------------------test_TestCreateGroup_02测试结束-------------------------------
+2021-05-22 10:03:53,707 - Logconfig.py - INFO - --------------------------test_TestCreateGroup_03测试开始----------------------------------------
+2021-05-22 10:03:57,271 - Logconfig.py - INFO - 以下为登录操作:18810002000@0U7TX93.yozocloud.cn,zsy123
+2021-05-22 10:03:57,294 - Logconfig.py - INFO - start monitor!
+2021-05-22 10:04:10,154 - Logconfig.py - INFO - 删除群组
+2021-05-22 10:04:14,517 - Logconfig.py - INFO - 进入通知
+2021-05-22 10:04:14,584 - Logconfig.py - INFO - 进入通知里的通知
+2021-05-22 10:04:16,043 - Logconfig.py - INFO - 获取群组被解散的通知
+2021-05-22 10:04:16,896 - Logconfig.py - INFO - 关闭通知/公告界面
+2021-05-22 10:04:16,911 - Logconfig.py - INFO - 以下为退出登录操作
+2021-05-22 10:04:19,132 - Logconfig.py - INFO - 以下为登录操作:18870008000@0U7TX93.yozocloud.cn,zsy123
+2021-05-22 10:04:24,956 - Logconfig.py - INFO - 进入通知
+2021-05-22 10:04:25,001 - Logconfig.py - INFO - 进入通知里的通知
+2021-05-22 10:04:25,938 - Logconfig.py - INFO - 获取群组被解散的通知
+2021-05-22 10:04:26,989 - Logconfig.py - INFO - 关闭通知/公告界面
+2021-05-22 10:04:27,052 - Logconfig.py - INFO - stop monitor
+2021-05-22 10:04:29,208 - Logconfig.py - INFO - -----------------------------------test_TestCreateGroup_03测试结束-------------------------------
+2021-05-22 10:05:26,797 - Logconfig.py - INFO - --------------------------test_Person_TestCooperate_04测试开始----------------------------------------
+2021-05-22 10:05:30,038 - Logconfig.py - INFO - 以下为登录操作:18262309512,1qa2ws
+2021-05-22 10:05:30,053 - Logconfig.py - INFO - start monitor!
+2021-05-22 10:05:36,322 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-22 10:05:39,652 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-22 10:05:42,882 - Logconfig.py - INFO - 删除所有文件
+2021-05-22 10:06:08,043 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=90.0.4430.212)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=90.0.4430.212)
+
+2021-05-22 10:06:08,092 - Logconfig.py - INFO - stop monitor
+2021-05-22 10:06:10,410 - Logconfig.py - INFO - -----------------------------------test_Person_TestCooperate_04测试结束-------------------------------
+2021-05-22 10:06:48,477 - Logconfig.py - INFO - --------------------------test_Person_TestCooperate_04测试开始----------------------------------------
+2021-05-22 10:06:51,530 - Logconfig.py - INFO - 以下为登录操作:18262309512,1qa2ws
+2021-05-22 10:06:51,536 - Logconfig.py - INFO - start monitor!
+2021-05-22 10:06:56,927 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-22 10:07:00,208 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-22 10:07:03,459 - Logconfig.py - INFO - 删除所有文件
+2021-05-22 10:07:14,006 - Logconfig.py - INFO - 新建文件:wp,wp协作文件,协作(编辑权限)
+2021-05-22 10:07:26,083 - Logconfig.py - INFO - 编辑文件: wp, 协作(编辑权限)
+2021-05-22 10:07:26,157 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=5947614477695454&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E6%2596%2587%25E5%25AD%2597%25E6%2596%2587%25E6%25A1%25A3.docx&version=-1&method=2&uuid=ym1621649235836
+2021-05-22 10:07:39,758 - Logconfig.py - INFO - 开启协作，并且选择权限:wp协作文件,18810002000, 编辑
+2021-05-22 10:07:52,049 - Logconfig.py - INFO - 以下为退出登录操作
+2021-05-22 10:07:54,003 - Logconfig.py - INFO - 以下为登录操作:18810002000,zsy123
+2021-05-22 10:07:59,700 - Logconfig.py - INFO - 进入个人版消息
+2021-05-22 10:07:59,791 - Logconfig.py - INFO - 进入个人版邀请消息
+2021-05-22 10:08:00,182 - Logconfig.py - INFO - 个人版获取邀请消息里的内容
+2021-05-22 10:08:00,673 - Logconfig.py - INFO - 关闭通知/公告界面
+2021-05-22 10:08:08,939 - Logconfig.py - INFO - stop monitor
+2021-05-22 10:08:11,127 - Logconfig.py - INFO - -----------------------------------test_Person_TestCooperate_04测试结束-------------------------------
+2021-05-22 10:08:34,260 - Logconfig.py - INFO - --------------------------test_Person_TestCopy_01测试开始----------------------------------------
+2021-05-22 10:08:37,419 - Logconfig.py - INFO - 以下为登录操作:18262309512,1qa2ws
+2021-05-22 10:08:37,438 - Logconfig.py - INFO - start monitor!
+2021-05-22 10:08:43,267 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-22 10:08:46,639 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-22 10:08:49,858 - Logconfig.py - INFO - 删除所有文件
+2021-05-22 10:09:00,401 - Logconfig.py - INFO - 新建文件:pg,pg复制到我的文件,复制
+2021-05-22 10:09:11,315 - Logconfig.py - INFO - 编辑文件: pg, 复制
+2021-05-22 10:09:11,363 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=6295192087427239&version=-1&method=2&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E7%25A9%25BA%25E7%2599%25BD%25E7%25AE%2580%25E6%258A%25A5.pptx&uuid=TrT7w1nH
+2021-05-22 10:09:28,887 - Logconfig.py - INFO - 复制文件:pg复制到我的文件,我的文件,None
+2021-05-22 10:09:49,242 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='复制到']"}
+  (Session info: chrome=90.0.4430.212)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='复制到']"}
+  (Session info: chrome=90.0.4430.212)
+
+2021-05-22 10:09:49,242 - Logconfig.py - ERROR - Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='复制到']"}
+  (Session info: chrome=90.0.4430.212)
+
+Traceback (most recent call last):
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 50, in element_click
+    self.find_element(loc).click()
+  File "D:\YZ_cloud\SaaS\Object\base.py", line 32, in find_element
+    return self.driver.find_element_by_xpath(loc)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DZPC1911362\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='复制到']"}
+  (Session info: chrome=90.0.4430.212)
+
+2021-05-22 10:09:54,646 - Logconfig.py - INFO - stop monitor
+2021-05-22 10:09:56,750 - Logconfig.py - INFO - -----------------------------------test_Person_TestCopy_01测试结束-------------------------------
+2021-05-22 10:10:26,168 - Logconfig.py - INFO - --------------------------test_Person_TestGroupNotice_00测试开始----------------------------------------
+2021-05-22 10:10:29,790 - Logconfig.py - INFO - 以下为登录操作:18262309512,1qa2ws
+2021-05-22 10:10:29,809 - Logconfig.py - INFO - start monitor!
+2021-05-22 10:10:38,141 - Logconfig.py - INFO - 清空创建的群组:自动化A
+2021-05-22 10:11:18,293 - Logconfig.py - INFO - stop monitor
+2021-05-22 10:11:20,398 - Logconfig.py - INFO - -----------------------------------test_Person_TestGroupNotice_00测试结束-------------------------------
+2021-05-22 10:11:20,398 - Logconfig.py - INFO - --------------------------test_Person_TestGroupNotice_01测试开始----------------------------------------
+2021-05-22 10:11:25,492 - Logconfig.py - INFO - 以下为登录操作:18810002000,zsy123
+2021-05-22 10:11:25,505 - Logconfig.py - INFO - start monitor!
+2021-05-22 10:11:34,062 - Logconfig.py - INFO - 清空创建的群组:自动化B
+2021-05-22 10:12:14,215 - Logconfig.py - INFO - stop monitor
+2021-05-22 10:12:16,298 - Logconfig.py - INFO - -----------------------------------test_Person_TestGroupNotice_01测试结束-------------------------------
+2021-05-22 10:12:16,298 - Logconfig.py - INFO - --------------------------test_Person_TestGroupNotice_02测试开始----------------------------------------
+2021-05-22 10:12:19,609 - Logconfig.py - INFO - 以下为登录操作:18262309512,1qa2ws
+2021-05-22 10:12:19,625 - Logconfig.py - INFO - start monitor!
+2021-05-22 10:12:25,006 - Logconfig.py - INFO - 新建团队:自动化测试群组,None,None
+2021-05-22 10:12:32,944 - Logconfig.py - INFO - 添加成员:18810002000
+2021-05-22 10:12:40,417 - Logconfig.py - INFO - 发布群组公告:发布群组公告,群组公告内容
+2021-05-22 10:12:57,129 - Logconfig.py - INFO - 查看群组公告
+2021-05-22 10:13:02,367 - Logconfig.py - INFO - 以下为退出登录操作
+2021-05-22 10:13:04,411 - Logconfig.py - INFO - 以下为登录操作:18810002000,zsy123
+2021-05-22 10:13:08,971 - Logconfig.py - INFO - 进入个人版消息
+2021-05-22 10:13:09,061 - Logconfig.py - INFO - 进入个人版邀请消息
+2021-05-22 10:13:15,008 - Logconfig.py - INFO - 关闭通知/公告界面
+2021-05-22 10:13:17,565 - Logconfig.py - INFO - 查看群组公告
+2021-05-22 10:13:20,619 - Logconfig.py - INFO - stop monitor
+2021-05-22 10:13:22,766 - Logconfig.py - INFO - -----------------------------------test_Person_TestGroupNotice_02测试结束-------------------------------
+2021-05-22 10:15:54,551 - Logconfig.py - INFO - --------------------------test_Person_TestSearch_03测试开始----------------------------------------
+2021-05-22 10:15:58,002 - Logconfig.py - INFO - 以下为登录操作:18262309512,1qa2ws
+2021-05-22 10:15:58,011 - Logconfig.py - INFO - start monitor!
+2021-05-22 10:16:03,759 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-22 10:16:07,151 - Logconfig.py - INFO - 新建文件夹:清空专用
+2021-05-22 10:16:10,358 - Logconfig.py - INFO - 删除所有文件
+2021-05-22 10:16:20,951 - Logconfig.py - INFO - 新建文件:wp,搜索专用wp,wp的搜索专用文本内容
+2021-05-22 10:16:34,330 - Logconfig.py - INFO - 编辑文件: wp, wp的搜索专用文本内容
+2021-05-22 10:16:34,432 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=1204119363169533&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E6%2596%2587%25E5%25AD%2597%25E6%2596%2587%25E6%25A1%25A3.docx&version=-1&method=2&uuid=ym1621649782019
+2021-05-22 10:16:48,293 - Logconfig.py - INFO - 新建文件:ss,搜索专用ss,ss的搜索专用文本内容
+2021-05-22 10:16:56,387 - Logconfig.py - INFO - 编辑文件: ss, ss的搜索专用文本内容
+2021-05-22 10:16:56,462 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=4810155243624830&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E8%25A1%25A8%25E6%25A0%25BC%25E6%2596%2587%25E6%25A1%25A3.xlsx&version=-1&method=2&uuid=ym1621649808598
+2021-05-22 10:17:10,508 - Logconfig.py - INFO - 新建文件:pg,搜索专用pg,pg的搜索专用文本内容
+2021-05-22 10:17:18,321 - Logconfig.py - INFO - 编辑文件: pg, pg的搜索专用文本内容
+2021-05-22 10:17:18,395 - Logconfig.py - INFO - 编辑地址：https://www.yozocloud.cn/third.html?fileId=1267359369424351&version=-1&method=2&fileName=%25E6%2596%25B0%25E5%25BB%25BA%25E7%25A9%25BA%25E7%2599%25BD%25E7%25AE%2580%25E6%258A%25A5.pptx&uuid=c9jN7879
+2021-05-22 10:17:36,960 - Logconfig.py - INFO - 新建文件夹:搜索专用的文件夹
+2021-05-22 10:17:55,417 - Logconfig.py - INFO - 以下为按照文件类型筛选:搜索专用, 1
+2021-05-22 10:18:03,834 - Logconfig.py - INFO - 以下为按照文件类型筛选:搜索专用, 3
+2021-05-22 10:18:11,438 - Logconfig.py - INFO - 以下为按照文件类型筛选:搜索专用, 2
+2021-05-22 10:18:19,107 - Logconfig.py - INFO - 以下为按照文件类型筛选:搜索专用, 4
+2021-05-22 10:18:24,774 - Logconfig.py - INFO - stop monitor
+2021-05-22 10:18:26,955 - Logconfig.py - INFO - -----------------------------------test_Person_TestSearch_03测试结束-------------------------------

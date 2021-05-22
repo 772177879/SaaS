@@ -290,7 +290,7 @@ class Loc:
     person_agree_loc = "//span[contains(text(),'同意')]"  # 个人版点同意
     person_refuse_loc = "//span[contains(text(),'拒绝')]"     # 个人版点拒绝
     notice_cooperation_loc = "//span[text()='邀请']"      # 企业版邀请通知
-    notice_notice_loc = "//span[text()='协作']"  # 通知的通知
+    notice_notice_loc = "//span[text()='通知']"  # 通知的通知
     notice_message_loc = "//section/div/div[2]/div/div[2]/div[1]/div[2]/div/div[2]/div"    # 通知的文本固定内容
     cooperate_message_name_loc = "//div[@class='activity-name']/span[@class='name']"     # 协作的发起者昵称
     cooperate_message_txt_loc = "//div[@class='activity-message']/div"  # 协作的文本内容

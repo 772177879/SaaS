@@ -9,7 +9,7 @@ class Delete(Action, Loc):
     def delete_all(self, delete_type=0):
         log.info('删除所有文件')
         # 删除全部文件
-        time.sleep(2)
+        time.sleep(4)
         self.element_click(self.select_all_loc)     # 全选
         time.sleep(1)
         if delete_type == 1:
