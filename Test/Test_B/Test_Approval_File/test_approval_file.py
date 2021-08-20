@@ -15,9 +15,10 @@ class TestCopy(MyTest, Login, Approval, New, Delete, ):
     def test_TestApproval_00(self):
         """发起文档审阅前，先清空未审阅记录"""
         self.login(account['username'], account['password'])  # 登录
+        self.element_click(self.file_loc)  # 点击文件模块
         self.element_click(self.approval_loc)  # 进入审阅模块
         self.into_approval()  # 进入审阅frame
-        self.element_click(self.approval_todo_loc)  # 进入待处理
+        # self.element_click(self.approval_todo_loc)  # 进入待处理
         self.delete_approval('通过', '清空审阅中的待处理')
         time.sleep(2)
         self.back_home()  # 切出frame

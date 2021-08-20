@@ -35,14 +35,14 @@ class Approval(Action, Loc):
         self.element_click(self.approval_search_btn_loc)      # 点击搜索
         time.sleep(2)
 
-    def select_option(self, select_type, reviewer, cc):  # 流程选择及人员添加
-        option = self.find_element(self.approval_flow_loc)  # 定位下拉框
-        if select_type == '模板审批':
-            Select(option).select_by_value("2")  # 选择下拉框 模板审阅流程
-        elif select_type == '自定义审阅流程':
-            Select(option).select_by_value("1")  # 选择下拉框 自定义审阅流程
-            # 添加审阅人
-            time.sleep(1)
+    def select_option(self, reviewer, cc):  # 流程选择及人员添加
+        # option = self.find_element(self.approval_flow_loc)  # 定位下拉框
+        # if select_type == '模板审批':
+        #     Select(option).select_by_value("2")  # 选择下拉框 模板审阅流程
+        # elif select_type == '自定义审阅流程':
+        #     Select(option).select_by_value("1")  # 选择下拉框 自定义审阅流程
+        #     # 添加审阅人
+        #     time.sleep(1)
             self.element_click(self.approval_add_reviewer_loc)
             time.sleep(1)
             self.element_input(self.approval_search_reviewer_loc, reviewer)  # 添加审阅人

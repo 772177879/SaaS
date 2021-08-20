@@ -204,7 +204,7 @@ class Loc:
     add_account_loc = "//input[@id='account']"  # 账号输入
     add_password_loc = "//input[@id='password']"  # 密码输入
     add_name_loc = "//div[@class='ant-modal-body']//input[@id='name']"  # 真实姓名输入
-    add_sex_man_loc = "//span[text()='男']/preceding-sibling::span"  # 性别男
+    add_sex_man_loc = "//span[text()='男']/preceding-sibling::span"  # 性别男 兄弟定位
     add_sex_women_loc = "//span[text()='女']/preceding-sibling::span"  # 性别女
     add_tel_loc = "//div[@class='ant-modal-body']//input[@id='phone']"  # 手机号输入
     add_email_loc = "//div[@class='ant-modal-body']//input[@id='email']"  # 邮箱输入
@@ -304,7 +304,7 @@ class Loc:
     pt_admin_loc = "//div[@title='普通管理员']"  # 普通管理员
     admin_sure_loc = "//span[text()='确 定']"     # 确定
     """文档审阅相关"""
-    approval_loc = "//span[text()='审阅']"  # 首页审阅
+    approval_loc = "//span[text()='文件审阅']"  # 首页审阅
     approval_frame_loc = "//iframe[@id='review-iframe']"  # 审批的frame
     approval_submit_loc = "//iframe[@id='review-submit-iframe']"  # 提交审批的frame
     approval_open_loc = "//button[text()='发起审阅']"  # 发起审批按钮

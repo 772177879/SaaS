@@ -21,8 +21,8 @@ class TestMember(MyTest, Login, Organization, Upload):
         self.login(account['username'], account['password'])    # 登录
         self.wait_element(self.my_file_loc)
         self.into_console()     # 进入控制台
-        self.element_click(self.console_department_loc)     # 点击通讯录
-        self.element_click(self.organization_loc)   # 点击组织架构
+        self.element_click(self.console_department_loc)  # 点击部门管理
+        self.element_click(self.organization_loc)  # 点击组织架构
         time.sleep(2)
         self.into_partment(part_name)  # 点击部门
         time.sleep(2)
@@ -141,6 +141,9 @@ class TestMember(MyTest, Login, Organization, Upload):
         self.element_click(self.add_step_loc)  # 点击下一步
         self.element_click(self.member_bulk_loc)  # 点击执行导入
         time.sleep(2)
+        self.driver.refresh()
+        time.sleep(2)
+        self.driver.refresh()
         self.verify_file_exist('测试部', file_type=1)  # 验证部门导入成功
         self.close_page()   # 关闭后台，进入前端
         self.logout()  # 退出登录
