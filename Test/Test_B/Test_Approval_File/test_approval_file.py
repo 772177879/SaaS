@@ -6,8 +6,8 @@ from Page.File.new_file import New
 from Page.File.delete_file import Delete
 import time
 account = get_config('zsy')  # 读取账号
-account2 = get_config('sld')  # 读取账号
-account3 = get_config('cdd')  # 读取账号
+account2 = get_config('sld')  # 读取账号2
+account3 = get_config('cdd')  # 读取账号3
 
 
 class TestCopy(MyTest, Login, Approval, New, Delete, ):
